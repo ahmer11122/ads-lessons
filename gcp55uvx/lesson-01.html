@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Day 1 · Your business home base on Meta</title>
+<meta name="description" content="Smart Solutions ads course: lesson notes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!--
+  Ads Teacher lesson template v3 (27 Oct 2026). Built ONCE; the bot only writes lesson JSON.
+  Smart Solutions brand (light): ink #0D0D0D / #1A1A1A, lime #C4F236 as fills only, rules #B8B8B8.
+  Visual types: steps (tap to expand), tree (decision tree, tap answers), flow, table, toggle (before/after),
+  calc (slider calculator), sort (tap-to-sort), path (click breadcrumb), shot (annotated REAL screenshot only).
+  Modes: ?mode=student or the Teacher/Student buttons. Everything is inline: works as one downloaded file
+  (Inter loads from Google Fonts when online, system font otherwise).
+-->
+<!-- CORE-CSS:START -->
+<style id="core-css">
+/* Smart Solutions brand, light mode. Lime is a FILL (dark text on it), never text on white. */
+:root{
+  --background:#F7F7F5;--surface:#F0F0EC;--card:#FFFFFF;
+  --ink:#0D0D0D;--primary:#1A1A1A;--primary-fg:#FFFFFF;
+  --muted:#EDEDEA;--muted-fg:#575757;
+  --lime:#C4F236;--lime-soft:#EEFBC9;--lime-ink:#0D0D0D;
+  --accent:var(--lime);--accent-fg:var(--lime-ink);
+  --rule:#B8B8B8;--hair:rgba(184,184,184,.55);--border:#B8B8B8;
+  --ok:#1D7A46;--ok-soft:#E5F4EA;--bad:#B3261E;--bad-soft:#FBEAE8;
+  --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --bg:var(--background);--line:var(--hair);--mute:var(--muted-fg);--faint:#6B6B6B;--r:14px;--shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--background);color:var(--ink);font:400 16px/1.65 var(--font);-webkit-font-smoothing:antialiased;overflow-wrap:anywhere}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:#8FB51A;text-decoration-thickness:2px;text-underline-offset:3px}
+b,strong{font-weight:700}
+[hidden]{display:none!important}
+::selection{background:var(--lime)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.card{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:18px 20px;margin:12px 0}
+ul.tight{margin:4px 0 0;padding-left:18px}ul.tight li{margin:4px 0}
+
+/* slim sticky header: logo · counter · language */
+.topbar{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--hair)}
+.topbar .in{max-width:46rem;margin:0 auto;display:flex;align-items:center;gap:10px;height:52px;padding:0 16px}
+.logo{display:inline-flex;align-items:center;gap:8px;flex:none;text-decoration:none;color:var(--ink)}
+.logo svg{width:26px;height:26px;display:block}
+.logo b{font-size:13px;font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+.ctr{flex:none;font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted-fg);white-space:nowrap}
+.ctr strong{color:var(--ink)}
+.grow{flex:1;min-width:0}
+.progress-track{height:3px;width:100%;background:#E6E6E2}
+.progress-fill{height:3px;width:0;background:var(--ink);transition:width .15s ease-out}
+@media(max-width:379px){.logo b{display:none}}
+
+/* compact language segmented control */
+.lang{flex:none;display:inline-flex;border:1px solid var(--rule);border-radius:999px;background:var(--card);padding:2px}
+.lang button{font-size:11px;font-weight:700;letter-spacing:.04em;border:0;background:none;color:var(--muted-fg);border-radius:999px;padding:0 10px;min-height:28px;min-width:36px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.lang.sm button{min-height:26px;padding:0 8px;min-width:32px}
+
+/* page */
+.wrap{max-width:46rem;margin:0 auto;padding:0 18px 72px}
+@media(min-width:640px){.wrap{padding:0 32px 88px}}
+.hero{padding-top:28px}
+@media(min-width:640px){.hero{padding-top:48px}}
+.eyebrow{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:var(--lime);border-radius:6px;padding:3px 8px}
+h1{margin:14px 0 0;font-size:30px;line-height:1.15;letter-spacing:-.025em;font-weight:800;color:var(--ink)}
+@media(min-width:640px){h1{font-size:44px}}
+.meta{margin-top:10px;font-size:13.5px;color:var(--muted-fg);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.statpill{display:inline-flex;gap:8px;font-size:12px;font-weight:600;color:var(--ink);border:1px solid var(--rule);border-radius:999px;padding:2px 10px}
+.hero-rule{margin-top:24px;height:1px;background:var(--hair)}
+/* mode + print bar */
+.modebar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
+.mbtn{font-size:12.5px;font-weight:600;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:0 14px;min-height:34px;cursor:pointer;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.mbtn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.hname{display:none;justify-content:space-between;gap:16px;font-size:14px;margin-top:18px;color:var(--muted-fg)}
+
+/* sections */
+.section{padding-top:36px;margin-top:36px;border-top:1px solid var(--hair)}
+@media(min-width:640px){.section{padding-top:48px;margin-top:48px}}
+.section.first{border-top:0;margin-top:0;padding-top:32px}
+.sec-head{display:flex;align-items:center;gap:12px}
+.sec-num{flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:26px;padding:0 8px;border-radius:7px;background:var(--lime);font-size:11px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:.06em;color:var(--ink)}
+.sec-head h3{margin:0;font-size:20px;font-weight:700;line-height:1.3;letter-spacing:-.015em;color:var(--ink);min-width:0}
+.sec-head h3.sm{font-size:17px}
+@media(min-width:640px){.sec-head h3{font-size:24px}.sec-head h3.sm{font-size:19px}}
+.sec-head .tail{flex:1;height:1px;min-width:16px;background:var(--hair)}
+.sec-body{margin-top:16px;font-size:16px;line-height:1.7;color:#1F1F1F}
+@media(min-width:640px){.sec-body{font-size:17px;line-height:1.75}}
+.sec-body ul{margin:10px 0 0;padding-left:20px}.sec-body li{margin:6px 0}
+.microlabel{display:block;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-fg)}
+
+/* key point + plain words */
+.keypoint{border-left:4px solid var(--lime);background:var(--card);border-radius:0 12px 12px 0;padding:18px 20px;margin-top:28px;box-shadow:inset 0 0 0 1px var(--hair)}
+.keypoint p{margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:600;color:var(--ink)}
+.keypoint.simple{border-left-color:var(--ink);background:var(--surface);box-shadow:none;margin-top:12px}
+.keypoint.simple p{font-weight:500;font-size:16px}
+ol.take{margin:8px 0 0;padding-left:22px;color:var(--ink);font-weight:500}ol.take li{margin:6px 0}
+
+/* example */
+.example{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:18px 20px;margin-top:18px}
+.example p{margin:0;font-size:16px;line-height:1.7;color:#1F1F1F}
+.priv{display:inline-flex;align-items:center;font-size:10.5px;font-weight:700;letter-spacing:0;text-transform:none;color:var(--ink);background:var(--surface);border:1px dashed #7A7A7A;border-radius:999px;padding:1px 8px;margin-left:8px;vertical-align:middle;white-space:nowrap}
+
+/* breadcrumb click path: one wrapping row; each separator travels with the chip after it */
+.path{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px;max-width:100%}
+.crumb{display:inline-flex;align-items:center;gap:6px;max-width:100%;min-width:0}
+.crumb .sep{flex:none;width:7px;height:7px;border-top:2px solid #6B6B6B;border-right:2px solid #6B6B6B;transform:rotate(45deg);margin:0 3px 0 0}
+.seg{display:inline-block;min-width:0;max-width:100%;font-size:13px;font-weight:600;line-height:1.3;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:5px 9px}
+.crumb:last-child .seg{background:var(--lime);border-color:var(--lime)}
+.path-label{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-fg);margin-top:14px}
+.chev{display:inline-block;width:7px;height:7px;border-top:2px solid #6B6B6B;border-right:2px solid #6B6B6B;transform:rotate(45deg);margin:0 7px 1px 4px}
+
+/* tasks: grid row = number | text | checkbox (never overlap) */
+.tasks{list-style:none;margin:16px 0 0;padding:0;counter-reset:tk}
+.tasks>li{counter-increment:tk;border-top:1px solid var(--hair)}
+.tasks>li:first-child{border-top:0}
+.task{display:grid;grid-template-columns:28px minmax(0,1fr) 24px;gap:12px;align-items:start;padding:14px 0;cursor:pointer}
+.task::before{content:counter(tk);width:28px;height:28px;border-radius:50%;background:var(--surface);border:1px solid var(--rule);color:var(--ink);font-size:12.5px;font-weight:700;display:grid;place-items:center}
+.task.done::before{content:"✓";background:var(--lime);border-color:var(--lime)}
+.task .tx{min-width:0;font-size:16px;line-height:1.55;color:#1F1F1F;padding-top:2px}
+.task input{width:22px;height:22px;margin:3px 0 0;accent-color:#1A1A1A}
+.task.done .tx>span:first-child{color:var(--muted-fg);text-decoration:line-through}
+.note{font-size:13px;color:var(--muted-fg);margin-top:8px}
+
+/* ===== teaching visuals ===== */
+.vis-wrap{margin-top:16px}
+.caption{font-size:13px;color:var(--muted-fg);margin-top:12px}
+.vhint{font-size:12px;color:var(--muted-fg);margin:0 0 10px}
+/* flow boxes */
+.node{background:var(--card);border:1.5px solid var(--ink);border-radius:10px;padding:9px 12px;font-weight:600;font-size:14.5px;line-height:1.35;color:var(--ink);text-align:left}
+.node small{display:block;font-weight:400;color:var(--muted-fg);font-size:12.5px;margin-top:2px}
+.fc{display:flex;flex-direction:column;align-items:stretch}
+.fc .link{position:relative;align-self:flex-start;margin-left:20px;width:2px;height:22px;background:var(--ink)}
+.fc .link::after{content:"";position:absolute;left:50%;bottom:-1px;transform:translateX(-50%);border:5px solid transparent;border-top:6px solid var(--ink);border-bottom:0}
+.fc .link em{position:absolute;left:12px;top:50%;transform:translateY(-50%);white-space:nowrap;font-style:normal;font-size:11.5px;color:var(--muted-fg)}
+/* (a) numbered steps, tap to expand */
+.stepper{list-style:none;margin:0;padding:0;counter-reset:st}
+.stepper>li{counter-increment:st;border:1px solid var(--hair);border-radius:12px;background:var(--card);margin:8px 0}
+.st-h{display:grid;grid-template-columns:30px minmax(0,1fr) 16px;gap:12px;align-items:center;width:100%;text-align:left;background:none;border:0;padding:12px 14px;cursor:pointer;color:var(--ink)}
+.st-h::before{content:counter(st);width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;font-weight:700;display:grid;place-items:center}
+.st-h .st-t{font-weight:600;line-height:1.4}
+.st-h .pm{width:10px;height:10px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(45deg);margin-top:-4px;transition:transform .15s}
+.stepper li.open .st-h .pm{transform:rotate(-135deg);margin-top:4px}
+.stepper li.open .st-h::before{background:var(--lime);color:var(--ink)}
+.st-b{display:none;padding:0 14px 14px 56px;font-size:15px;line-height:1.6;color:#1F1F1F}
+.stepper li.open .st-b{display:block}
+.stepper.static .st-h{cursor:default}.stepper.static .st-h .pm{display:none}
+/* (b) decision tree, tap a node to reveal */
+.dt{list-style:none;margin:0;padding:0}
+.dt ul{list-style:none;margin:0 0 0 14px;padding:0 0 0 18px;border-left:2px solid var(--ink)}
+.dt li{position:relative;padding-top:10px}
+.dt ul>li::before{content:"";position:absolute;left:-18px;top:30px;width:14px;height:2px;background:var(--ink)}
+.dt ul>li:last-child::after{content:"";position:absolute;left:-20px;top:31px;bottom:0;width:4px;background:var(--background)}
+.chbody .dt ul>li:last-child::after{background:var(--background)}
+.elabel{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:var(--lime);border-radius:5px;padding:1px 6px;margin:0 0 6px}
+.dnode{display:block;width:100%;max-width:440px;text-align:left;background:var(--card);border:1.5px solid var(--ink);border-radius:10px;padding:10px 12px;font-weight:600;font-size:14.5px;line-height:1.4;cursor:default}
+.dnode.q{background:var(--ink);color:#fff;padding:10px 12px;border-top:1.5px solid var(--ink)}
+.dnode.q:first-of-type{padding-top:10px}
+.dnode.a{border-style:dashed;cursor:pointer}
+.dnode.a .tapme{display:block;font-size:11.5px;font-weight:600;color:var(--muted-fg);margin-top:3px}
+.dnode .rev{display:none;font-weight:400;font-size:14px;margin-top:8px;padding-top:8px;border-top:1px solid var(--hair);color:#1F1F1F}
+.dnode.open{border-style:solid;background:var(--lime-soft)}
+.dnode.open .rev{display:block}.dnode.open .tapme{display:none}
+/* labelled compare table */
+.ctable{width:100%;border-collapse:separate;border-spacing:0;font-size:14.5px;line-height:1.45;background:var(--card);border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+.ctable th,.ctable td{padding:10px 12px;text-align:left;vertical-align:top;border-top:1px solid var(--hair)}
+.ctable thead th{border-top:0;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;background:var(--surface)}
+.ctable thead th.good{background:var(--lime)}
+.ctable tbody th{font-weight:700;width:30%}
+/* (c) before/after toggle */
+.tog .seg2{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:2px;background:var(--card);margin-bottom:12px}
+.tog .seg2 button{border:0;background:none;border-radius:999px;padding:0 14px;min-height:32px;font-size:13px;font-weight:600;cursor:pointer;color:var(--muted-fg)}
+.tog .seg2 button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.tog .pane{border:1px solid var(--rule);border-radius:12px;padding:14px 16px;background:var(--card)}
+.tog .pane.after{border-color:var(--ink);box-shadow:inset 4px 0 0 var(--lime)}
+.tog .pane ul{margin:0;padding-left:18px}.tog .pane li{margin:5px 0}
+.tog .pane .plab{display:none}
+/* (c) slider calculator + number line */
+.calc{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:16px}
+.calc label{display:block;font-size:13.5px;font-weight:600;margin:10px 0 2px}
+.calc label span{float:right;font-variant-numeric:tabular-nums}
+.calc input[type=range]{width:100%;accent-color:#1A1A1A;height:28px}
+.calc .out{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px solid var(--hair)}
+.calc .out b{font-size:30px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.calc .out span{font-size:13.5px;color:var(--muted-fg)}
+.nline{position:relative;height:48px;margin:24px 12px 12px}
+.nline .ax{position:absolute;left:0;right:0;top:14px;height:4px;background:#E2E2DE;border-radius:4px}
+.nline .band{position:absolute;top:10px;height:12px;background:var(--lime);border-radius:3px}
+.nline .mk{position:absolute;top:4px;width:3px;height:24px;background:var(--ink);border-radius:2px;transform:translateX(-50%);transition:left .12s}
+.nline .tk{position:absolute;top:30px;white-space:nowrap;line-height:1.4;font-size:11px;color:var(--muted-fg);transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.nline .bl{position:absolute;top:-14px;font-size:11px;font-weight:700;transform:translateX(-50%);white-space:nowrap}
+/* (c) tap-to-sort */
+.sort .it{border:1px solid var(--rule);border-radius:12px;background:var(--card);padding:12px 14px;margin:8px 0}
+.sort .it p{margin:0 0 10px;font-weight:600}
+.sort .bins{display:flex;flex-wrap:wrap;gap:8px}
+.sort .bins button{border:1.5px solid var(--rule);background:var(--background);border-radius:999px;padding:0 14px;min-height:36px;font-size:13.5px;font-weight:600;cursor:pointer}
+.sort .bins button.right{background:var(--ok-soft);border-color:var(--ok)}
+.sort .bins button.wrong{background:var(--bad-soft);border-color:var(--bad)}
+.sort .bins button[disabled]{cursor:default}
+.sort .why{display:none;font-size:14px;margin-top:8px;color:#1F1F1F}
+.sort .it.done .why{display:block}
+.sort .tally{font-weight:700;margin-top:10px}
+/* (d) annotated real screenshot */
+.shot{position:relative;border:1px solid var(--rule);border-radius:12px;overflow:hidden;background:var(--card)}
+.shot img{display:block;width:100%;height:auto}
+.pin{position:absolute;width:24px;height:24px;border-radius:50%;background:var(--lime);color:var(--ink);border:2px solid var(--ink);font-size:12px;font-weight:800;display:grid;place-items:center;transform:translate(-50%,-50%)}
+.pins{margin:10px 0 0;padding-left:0;list-style:none}.pins li{display:flex;gap:10px;margin:6px 0;font-size:14.5px}
+.pins li b{flex:none;width:22px;height:22px;border-radius:50%;background:var(--lime);display:grid;place-items:center;font-size:11.5px}
+.vis img{max-width:100%;height:auto;border-radius:12px;display:block}
+
+/* mistakes, activity, teacher notes */
+.mistakes{list-style:none;margin:14px 0 0;padding:0}
+.mistakes li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;padding:10px 0;border-top:1px solid var(--hair);font-size:15.5px;line-height:1.55}
+.mistakes li:first-child{border-top:0}
+.mistakes li::before{content:"✕";width:22px;height:22px;border-radius:50%;background:var(--ink);color:#fff;font-size:11px;font-weight:700;display:grid;place-items:center;margin-top:1px}
+.activity{border-left:4px solid var(--lime)}
+.activity ol{margin:10px 0 0;padding-left:20px}.activity li{margin:6px 0}
+.key{margin-top:14px;font-size:14.5px;line-height:1.6;padding:12px 14px;border-radius:10px;background:var(--surface)}
+.tnotes{border:1.5px dashed #7A7A7A;background:var(--card);border-radius:14px;padding:16px 18px;margin-top:18px}
+.tnotes h4{margin:14px 0 4px;font-size:15px}.tnotes h4:first-child{margin-top:0}
+
+/* solo self-check + live test */
+.selfcheck{border:1.5px solid var(--ink);border-radius:14px;padding:4px 16px 12px;background:var(--card);margin-top:16px}
+.lt h4{margin:16px 0 6px;font-size:15px}
+.lt ol,.lt ul{margin:0;padding-left:20px}.lt li{margin:5px 0}
+.rules{display:grid;grid-template-columns:1fr;gap:8px;margin-top:8px}
+@media(min-width:640px){.rules{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.rule{border:1px solid var(--rule);border-radius:12px;padding:10px 12px;background:var(--card);font-size:14.5px;line-height:1.5}
+.rule b{display:inline-block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;border-radius:5px;padding:1px 7px;margin-bottom:6px}
+.rule.kill b{background:var(--ink);color:#fff}.rule.keep b{background:var(--surface);border:1px solid var(--rule)}.rule.scale b{background:var(--lime);color:var(--ink)}
+.safe{font-size:13px;color:var(--muted-fg);margin-top:10px}
+
+/* deep dive */
+details.deep>summary{cursor:pointer;font-weight:600;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+details.deep>summary::-webkit-details-marker{display:none}
+details.deep>summary::after{content:"+";font-size:22px;color:var(--muted-fg);line-height:1}
+details.deep[open]>summary::after{content:"–"}
+details.deep .body{margin-top:12px}
+details.deep h4{margin:14px 0 4px;font-size:15.5px}
+details.deep p{margin:0 0 8px;font-size:15.5px;line-height:1.65;color:#1F1F1F}
+
+/* quiz */
+.q{padding:20px 0;border-top:1px solid var(--hair)}
+.q:first-of-type{border-top:0;padding-top:6px}
+.q-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.q-top .qn{font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-fg)}
+.qimg{margin:0 0 14px;border-radius:12px;overflow:hidden}.qimg img{width:100%;display:block}
+.q .qt{font-weight:600;font-size:16.5px;margin:0 0 10px;color:var(--ink)}
+.opt{display:block;width:100%;text-align:left;font-size:15px;background:var(--card);border:1.5px solid var(--rule);border-radius:12px;padding:11px 14px;margin:8px 0;cursor:pointer;color:var(--ink);transition:border-color .15s,background .15s;min-height:44px}
+.opt:hover{border-color:var(--ink)}
+.opt.right{background:var(--ok-soft);border-color:var(--ok)}
+.opt.wrong{background:var(--bad-soft);border-color:var(--bad)}
+.opt[disabled]{cursor:default}
+.why{display:none;font-size:14px;line-height:1.6;border-radius:12px;padding:12px 14px;margin-top:8px}
+.why.show{display:block}.why.ok{background:var(--ok-soft)}.why.no{background:var(--bad-soft)}
+.score{display:none;margin-top:16px;font-weight:700;padding:14px 18px;border-radius:14px;background:var(--lime);color:var(--ink)}
+.score.show{display:block}.score small{display:block;font-weight:500;margin-top:4px}
+
+/* terms */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{font-size:13px;font-weight:600;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:0 14px;min-height:36px;cursor:pointer;color:var(--ink)}
+.chip:hover{border-color:var(--ink)}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.def{font-size:14.5px;line-height:1.6;margin-top:12px;padding:12px 14px;border-radius:10px;background:var(--lime-soft);display:none}
+.def.show{display:block}
+.glossary{display:grid;grid-template-columns:1fr;gap:8px;font-size:14.5px;margin-top:14px}
+.glossary div{padding:10px 12px;background:var(--surface);border-radius:10px}
+@media(min-width:640px){.glossary{grid-template-columns:1fr 1fr}}
+.printonly{display:none}
+
+/* sources + next */
+.src{margin:12px 0 0;padding:0;list-style:none}
+.src li{border-top:1px solid var(--hair)}.src li:first-child{border-top:0}
+.src a{display:block;padding:11px 0;font-size:14.5px;color:#333}
+.next{margin-top:48px;border-top:1px solid var(--hair);padding-top:28px}
+.next p{margin:8px 0 0;font-size:18px;font-weight:700}
+
+@media print{
+  body{background:#fff}
+  .topbar{position:static;background:none}
+  .progress-track,.lang,.noprint,.modebar,.score,.vhint,.tog .seg2,.sort .tally{display:none!important}
+  .printonly{display:block}
+  .section,.example,.keypoint,.q,.stepper>li,.sort .it,.calc,.ctable{break-inside:avoid}
+  .opt{border-width:1px}
+  .st-b,.dnode .rev{display:block!important}
+  .dnode .tapme,.st-h .pm{display:none!important}
+  .tog .pane{display:block!important;margin-bottom:8px}.tog .pane .plab{display:block;font-weight:700;margin-bottom:6px}
+  .sort .why{display:none}
+  .mode-teacher .sort .why{display:block}
+  .mode-teacher .sort .bins button.ans{background:var(--ok-soft);border-color:var(--ok)}
+  .mode-student .why,.mode-student .tnotes{display:none!important}
+  .mode-student .opt.right,.mode-student .opt.wrong{background:none;border-color:var(--rule)}
+  .mode-student .hname{display:flex}
+  .mode-teacher .opt.right::after{content:"  ✓ answer";font-weight:700;color:var(--ok)}
+  a{text-decoration:none}
+}
+</style>
+
+<!-- CORE-CSS:END -->
+</head>
+<body>
+<template id="ss-logo"><svg xmlns="http://www.w3.org/2000/svg" width="121" height="120" viewBox="0 0 121 120" fill="none">
+  <g clip-path="url(#clip0_118_6541)">
+    <path d="M109.565 0.25V34.5734H39.4537C37.6085 34.5734 36.6844 36.8044 37.9892 38.1091L49.3828 49.5027C55.2229 55.3429 55.2229 64.8116 49.3828 70.6518C41.5793 78.4552 28.9275 78.4552 21.124 70.6518L16.3843 65.912L10.5195 60.0473C4.32481 53.8525 0.534987 45.5729 0.264999 36.8183C0.255 36.4433 0.25 36.0684 0.25 35.6934C0.25 35.3184 0.255 34.9434 0.264999 34.5734C0.549986 25.2789 4.34981 16.8542 10.4095 10.5295C10.6695 10.2595 10.9295 9.99455 11.1945 9.73456C17.4742 3.54985 26.0388 0.25 34.8484 0.25H109.565Z" fill="url(#paint0_linear_118_6541)"/>
+    <path d="M10.5146 119.719V85.3959H80.6259C82.4712 85.3959 83.3953 83.165 82.0905 81.8602L70.6969 70.4666C64.8567 64.6265 64.8567 55.1577 70.6969 49.3176C78.5003 41.5142 91.1522 41.5142 98.9556 49.3176L103.695 54.0574L109.56 59.9221C115.755 66.1168 119.545 74.3964 119.81 83.151C119.82 83.526 119.825 83.901 119.825 84.276C119.825 84.651 119.82 85.026 119.81 85.3959C119.525 94.6905 115.725 103.115 109.665 109.44C109.405 109.71 109.145 109.975 108.88 110.235C102.6 116.415 94.0358 119.719 85.2262 119.719H10.5146Z" fill="url(#paint1_linear_118_6541)"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_118_6541" x1="54.9075" y1="0.25" x2="69.9826" y2="51.3745" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8FF00"/>
+      <stop offset="0.5" stop-color="#9ECA00"/>
+      <stop offset="1" stop-color="#789900"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_118_6541" x1="106.984" y1="96.9415" x2="57.1707" y2="62.6942" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8FF00"/>
+      <stop offset="0.576923" stop-color="#A5D300"/>
+      <stop offset="1" stop-color="#789900"/>
+    </linearGradient>
+    <clipPath id="clip0_118_6541">
+      <rect width="120.08" height="119.969" fill="white"/>
+    </clipPath>
+  </defs>
+</svg></template>
+<div id="app"></div>
+<script id="lesson-data" type="application/json">{"n":1,"date":"2026-10-27","minutes":6,"track":"Foundations","title":"Your business home base on Meta","title_ur":"Meta par aap ke business ka ghar","idea":"Before your first ad, build a safe **business portfolio** so nobody can lock you out.","idea_ur":"Pehla ad chalane se pehle ek mehfooz **business portfolio** banayein, taa ke koi aap ko bahar lock na kar sake.","blocks":[{"h":"What a business portfolio is","h_ur":"Business portfolio kya hai","p":"It used to be called **Business Manager**. It's one folder that holds your Page, Instagram, ad account, payment method and the people who can touch them. You manage it in Meta Business Suite.","p_ur":"Pehle iska naam **Business Manager** tha. Yeh ek folder hai jis mein aap ka Page, Instagram, ad account, payment method aur woh log hote hain jo in par kaam kar sakte hain. Isay aap Meta Business Suite mein chalate hain."},{"h":"Full vs partial access","p":"**Full control** can do everything, including adding people. **Partial access** can only do the tasks you give. Give each person only what they need."},{"h":"Clients add you as a partner","p":"A client never sends a password. They add your **business portfolio ID** as a partner and share their Page and ad account. They stay the owner."},{"h":"Two locks, two admins","p":"Turn on **2FA** (an extra login code). Keep at least **2 people with full control**, so one lost login doesn't kill the account."}],"visual":{"type":"steps","label":"Add an agency as a partner","steps":[{"t":"The agency sends its business portfolio ID","d":"It's a number, not a password. The agency finds it here:","path":["Settings","Business portfolio info"]},{"t":"The client opens Partners","d":"In the client's own portfolio:","path":["Settings","Users","Partners"]},{"t":"The client taps Add and pastes the ID","d":"Choose **Give a partner access to your assets**, then paste the agency's ID."},{"t":"The client picks what to share","d":"Usually the Page and the ad account. Give **partial access** unless more is truly needed."},{"t":"The agency gives its own team access","d":"Each team member gets only the assets they work on. The client can remove the partner any time.","d_ur":"Har shakhs ko sirf apne kaam ke assets milte hain. Client jab chahe partner hata sakta hai."}],"caption":"No password changes hands. The client stays the owner."},"example":{"label":"Example · local clinic","text":"A clinic owner in Sargodha wants you to run his ads. You send your agency's portfolio ID. He adds you as a partner and shares his Page and ad account. He can remove you any time."},"tasks":[{"t":"Copy your **portfolio ID** into your notes","path":["Settings","Business portfolio info"]},{"t":"Count how many people have full control","path":["Settings","Security Center"]},{"t":"Make sure 2FA is on for your own account","path":["Accounts Center","Password and security"]}],"task_minutes":10,"quiz":[{"q":"A clinic owner wants you to run his ads. Safest way?","q_ur":"Ek clinic owner chahta hai ke aap uske ads chalayein. Sab se mehfooz tareeqa kya hai?","options":["He sends his Facebook password","He adds your agency as a partner with your portfolio ID","You make a new profile in his name"],"options_ur":["Woh apna Facebook password bhej de","Woh aap ki portfolio ID se aap ki agency ko partner add kare","Aap uske naam se nayi profile bana lein"],"answer":1,"why":"Partner access keeps him the owner, and no password changes hands.","why_ur":"Partner access mein malik wohi rehta hai, aur password kisi ko dena nahi parta."},{"q":"Why keep 2 people with full control?","q_ur":"Full control wale 2 log kyun rakhne chahiye?","options":["Ads get cheaper","Backup if one login is lost or hacked","Meta requires 5 admins"],"options_ur":["Ads sastay ho jate hain","Agar ek login gum ya hack ho jaye to backup mojood ho","Meta 5 admin lazmi karta hai"],"answer":1,"why":"One lost login shouldn't lock the whole business out.","why_ur":"Ek login gum hone se poora business lock nahi hona chahiye."},{"q":"How many business portfolios can own one ad account?","q_ur":"Ek ad account kitne business portfolios ka ho sakta hai?","options":["One","Two","Unlimited"],"options_ur":["Sirf ek","Do","Jitne marzi"],"answer":0,"why":"Each ad account belongs to only one portfolio.","why_ur":"Har ad account sirf ek hi portfolio ka hota hai."}],"terms":[{"t":"Business portfolio","d":"Meta's folder for your business assets and people (old name: Business Manager)."},{"t":"2FA","d":"Two-factor authentication: an extra code when you log in on a new device."},{"t":"Partner","d":"Another business (agency or client) you share assets with by portfolio ID."}],"sources":[{"label":"Meta: Create a business portfolio","url":"https://www.facebook.com/business/help/1710077379203657"},{"label":"Meta: Give a partner access","url":"https://www.facebook.com/business/help/1717412048538897"},{"label":"Meta: About two-factor authentication","url":"https://www.facebook.com/business/help/865384580786591"}],"next":"Tomorrow: how Meta's AI decides who sees your ad.","simple":"Make one safe folder for your business on Meta, lock it with 2FA, and never hand out passwords.","simple_ur":"Meta par apne business ka ek mehfooz folder banayein, 2FA se lock karein, aur kabhi password na dein.","teach":["Business portfolio = the folder that holds Page, Instagram, ad account and people.","Give people only the access they need.","Clients add you as a partner. They never send passwords.","2FA on + 2 full-control admins = nobody gets locked out."],"mistakes":["Asking a client for his Facebook password","Only one admin, so one lost login locks everyone out","Running ads from a personal ad account instead of a portfolio"],"activity":{"title":"Role-play: onboard a client safely","minutes":12,"steps":["In pairs: one is a bakery owner, one is the ad agency","The owner offers a password. The agency explains the partner way","Both write the clicks the owner makes to add a partner"],"answer":"Refuse the password. Clicks: Settings, Users, Partners, Add by portfolio ID, then share Page + ad account."},"discuss":["Why is a password worse than partner access, for the client and for you?","Who in a small business should have full control, and who only partial?"],"selfcheck":[{"t":"Check that 2FA is on for every admin","path":["Settings","Security Center"]}],"kind":"lesson","week":1,"level":1,"level_name":"Level 1 · Foundations + safety","progress":{"done":1,"total":64,"level_left":15}}</script>
+<!-- CORE-JS:START -->
+<script id="core-js">
+(function(){
+  const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  // inline markup: **bold**; a leftover "A → B" arrow is drawn as a small chevron (build --check warns about it)
+  const md=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/\s*(→|-&gt;)\s*/g,'<span class="chev" aria-label="then"></span>');
+  const h=(html)=>{const t=document.createElement("template");t.innerHTML=html.trim();return t.content.firstElementChild};
+  const store={get:k=>{try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+  const logo=()=>{const t=document.getElementById("ss-logo");return t?t.innerHTML.trim():""};
+
+  // ---- bilingual: English + Roman Urdu side by side, one hidden ----
+  const L=(en,ur)=>ur==null||ur===""?en:'<span class="l-en">'+en+'</span><span class="l-ur" hidden>'+ur+'</span>';
+  const tx=(o,k)=>o==null?"":L(md(o[k]),o[k+"_ur"]!=null?md(o[k+"_ur"]):null);
+  const lst=(arr,ur)=>(arr||[]).map((x,i)=>L(md(x),ur&&ur[i]!=null?md(ur[i]):null));
+  const UI={
+    key:["Key point","Asal baat"],take:["5 things to remember","Yaad rakhne wali 5 baatein"],
+    doit:["Do this now","Abhi yeh karein"],note:["Draft only. Don't publish or spend.","Sirf draft. Publish ya paisa kharch na karein."],
+    deep:["Go deeper","Mazeed gehrai"],deep2:["Optional · tap to open","Optional · kholne ke liye tap karein"],
+    quiz:["Quick test","Chhota sa test"],tap:["Tap an answer","Jawab par tap karein"],mixed:["Mixed review","Mix review"],
+    terms:["Key terms","Aham alfaaz"],tapt:["Tap a term","Kisi lafz par tap karein"],cheat:["Cheat sheet","Cheat sheet"],
+    src:["Sources","Hawale"],next:["Next up","Agla sabaq"],see:["See it","Dekh kar samjhein"],ex:["Example","Misaal"],
+    right:["Correct. ","Sahi jawab! "],wrong:["Not quite. ","Ghalat. "],
+    click:["Click path","Click ka rasta"],min:["min","min"],
+    self:["Self-check · do it alone","Self-check · khud karein"],selfnote:["Use your own account. Look and check only; change nothing live.","Apna account use karein. Sirf dekhein aur check karein; live kuch na badlein."],
+    live:["Live test","Live test"],plan:["Plan","Plan"],measure:["What to measure","Kya naapna hai"],kill:["Kill","Band karein"],keepr:["Keep","Chalne dein"],scale:["Scale","Barhayein"],
+    livesafe:["You launch it yourself on your own account, at a budget you choose. Send the numbers back to be graded.","Aap khud apne account par, apni marzi ke budget se launch karein. Numbers wapas bhejein taa ke grade ho sakein."],
+    simple:["In plain words","Aasan alfaaz mein"],mist:["Common beginner mistakes","Naye logon ki aam ghaltiyan"],
+    act:["Class activity","Class activity"],tkey:["Teacher key","Teacher key"],tnotes:["Teacher notes · not shown to students","Teacher notes · students ko nahi dikhte"],
+    say:["Say this (talking points)","Yeh samjhayein"],ask:["Ask the class","Class se poochein"],talk:["Talk about it","Is par baat karein"],
+    tapstep:["Tap a step to open it","Step kholne ke liye tap karein"],tapnode:["Tap a dashed box to see the answer","Jawab dekhne ke liye dashed box par tap karein"],
+    tapans:["Tap to see what to do","Kya karna hai, tap karein"],slide:["Move the sliders","Sliders ko move karein"],
+    sorthint:["Tap where each one belongs","Har ek ko sahi jagah tap karein"],before:["Before","Pehle"],after:["After","Baad mein"]
+  };
+  const U=k=>L(UI[k][0],UI[k][1]);
+  const getLang=()=>store.get("at-lang")==="ur"?"ur":"en";
+  function applyLang(scope,lang){
+    scope.querySelectorAll(".l-en").forEach(e=>e.hidden=lang!=="en");
+    scope.querySelectorAll(".l-ur").forEach(e=>e.hidden=lang!=="ur");
+    scope.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.l===lang)));
+    if(scope.classList&&scope.classList.contains("q"))scope.dataset.lang=lang;
+    scope.querySelectorAll(".q").forEach(q=>q.dataset.lang=lang);
+  }
+  const langToggle=(cls,scope)=>'<div class="lang'+(cls?" "+cls:"")+'" role="group" aria-label="Language" data-scope="'+scope+'"><button type="button" data-l="en" aria-pressed="true" title="English">EN</button><button type="button" data-l="ur" aria-pressed="false" title="Roman Urdu">UR</button></div>';
+
+  // ---- teaching visuals (picked by visual.type) ----
+  const nodeHTML=o=>{o=typeof o==="string"?{t:o}:o;return '<div class="node">'+tx(o,"t")+(o.sub?'<small>'+tx(o,"sub")+'</small>':"")+'</div>'};
+  function pathHTML(p){
+    if(!p||!p.length)return "";
+    return '<div class="path">'+p.map((s,i)=>{s=typeof s==="string"?{t:s}:s;return '<span class="crumb">'+(i?'<span class="sep" aria-hidden="true"></span>':"")+'<span class="seg">'+tx(s,"t")+'</span></span>'}).join("")+'</div>';
+  }
+  // (a) numbered steps, tap to expand ("d" = detail shown on tap)
+  function stepsHTML(steps,interactive){
+    return '<ol class="stepper'+(interactive?"":" static")+'">'+steps.map(s=>{s=typeof s==="string"?{t:s}:s;const body=(s.d?'<div>'+tx(s,"d")+'</div>':s.sub?'<div>'+tx(s,"sub")+'</div>':"")+(s.path?pathHTML(s.path):"");
+      return '<li'+(interactive?"":' class="open"')+'><button type="button" class="st-h" aria-expanded="'+(!interactive)+'"><span class="st-t">'+tx(s,"t")+'</span><span class="pm" aria-hidden="true"></span></button>'+(body?'<div class="st-b">'+body+'</div>':"")+'</li>'}).join("")+'</ol>';
+  }
+  // (b) decision tree: nodes {id,t,kind:"q"|"a",reveal}, edges [from,to,label]
+  function treeHTML(v){
+    const nodes={};(v.nodes||[]).forEach(n=>nodes[n.id]=n);
+    const kids={},hasParent={};
+    (v.edges||[]).forEach(e=>{const [a,b,lab]=Array.isArray(e)?e:[e.from,e.to,e.label];(kids[a]=kids[a]||[]).push({id:b,label:lab});hasParent[b]=1});
+    const seen={};
+    const li=(id,lab)=>{if(seen[id]||!nodes[id])return "";seen[id]=1;const n=nodes[id];const k=kids[id]||[];
+      const isA=!!n.reveal;const cls=isA?"a":(k.length?"q":"");
+      const box=isA?'<button type="button" class="dnode a" aria-expanded="false">'+tx(n,"t")+'<span class="tapme">'+U("tapans")+'</span><span class="rev">'+tx(n,"reveal")+'</span></button>'
+                   :'<div class="dnode '+cls+'">'+tx(n,"t")+(n.sub?'<small style="display:block;font-weight:400;opacity:.8">'+tx(n,"sub")+'</small>':"")+'</div>';
+      return '<li>'+(lab?'<span class="elabel">'+(typeof lab==="string"?md(lab):tx(lab,"t"))+'</span>':"")+box+(k.length?'<ul>'+k.map(c=>li(c.id,c.label)).join("")+'</ul>':"")+'</li>'};
+    return '<ul class="dt">'+(v.nodes||[]).filter(n=>!hasParent[n.id]).map(r=>li(r.id)).join("")+'</ul>';
+  }
+  function flowHTML(v){
+    const steps=v.steps||v.nodes||[];
+    return '<div class="fc">'+steps.map((s,i)=>{s=typeof s==="string"?{t:s}:s;return (i?'<span class="link" aria-hidden="true">'+(s.via?'<em>'+md(s.via)+'</em>':"")+'</span>':"")+nodeHTML(s)}).join("")+'</div>';
+  }
+  // labelled compare table: cols [corner, A, B], rows [[label, a, b], ...]; "good" = index of the better column
+  function tableHTML(v){
+    const cols=v.cols||["",(v.left||{}).title,(v.right||{}).title];
+    let rows=v.rows;
+    if(!rows&&v.left){const n=Math.max(v.left.items.length,v.right.items.length);rows=[];for(let i=0;i<n;i++)rows.push(["",v.left.items[i]||"",v.right.items[i]||""])}
+    const good=v.good!=null?v.good:2;const hasLab=rows.some(r=>r[0]);
+    return '<table class="ctable"><thead><tr>'+cols.map((c,i)=>(i||hasLab)?'<th'+(i===good?' class="good"':"")+'>'+L(md(c),v.cols_ur?md(v.cols_ur[i]):null)+'</th>':"").join("")+'</tr></thead><tbody>'+
+      rows.map((r,ri)=>'<tr>'+r.map((c,i)=>(i||hasLab)?(i===0?'<th scope="row">':'<td>')+L(md(c),v.rows_ur?md(v.rows_ur[ri][i]):null)+(i===0?'</th>':'</td>'):"").join("")+'</tr>').join("")+'</tbody></table>';
+  }
+  // (c) before/after toggle: before/after {label, text | items[]}
+  function toggleHTML(v){
+    const pane=(p,cls,on)=>'<div class="pane '+cls+'"'+(on?"":" hidden")+'><span class="plab">'+(p.label?tx(p,"label"):U(cls))+'</span>'+(p.text?'<div>'+tx(p,"text")+'</div>':"")+(p.items?'<ul>'+lst(p.items,p.items_ur).map(x=>'<li>'+x+'</li>').join("")+'</ul>':"")+'</div>';
+    return '<div class="tog"><div class="seg2" role="group"><button type="button" data-p="before" aria-pressed="true">'+(v.before.label?tx(v.before,"label"):U("before"))+'</button><button type="button" data-p="after" aria-pressed="false">'+(v.after.label?tx(v.after,"label"):U("after"))+'</button></div>'+
+      pane(v.before,"before",true)+pane(v.after,"after",false)+'</div>';
+  }
+  // (c) slider calculator: fixed formula library (no eval)
+  const FORMULAS={
+    hook_rate:{f:x=>x.impressions?100*x.plays/x.impressions:0,unit:"%",dp:1},
+    hold_rate:{f:x=>x.plays?100*x.thruplays/x.plays:0,unit:"%",dp:1},
+    breakeven_roas:{f:x=>x.price>x.cost?x.price/(x.price-x.cost):0,unit:"x",dp:2},
+    cpa:{f:x=>x.results?x.spend/x.results:0,unit:"",dp:0},
+    ctr:{f:x=>x.impressions?100*x.clicks/x.impressions:0,unit:"%",dp:2}
+  };
+  function calcHTML(v){
+    const F=FORMULAS[v.formula]||{f:()=>0,unit:""};const sc=v.scale||{min:0,max:100};
+    const pct=x=>Math.max(0,Math.min(100,100*(x-sc.min)/(sc.max-sc.min)));
+    const ticks=(sc.ticks||[sc.min,sc.max]).map(t=>'<span class="tk" style="left:'+pct(t)+'%">'+esc(t)+(F.unit==="%"?"%":"")+'</span>').join("");
+    const band=v.band?'<span class="band" style="left:'+pct(v.band.from)+'%;width:'+(pct(v.band.to)-pct(v.band.from))+'%"></span><span class="bl" style="left:'+((pct(v.band.from)+pct(v.band.to))/2)+'%">'+tx(v.band,"label")+'</span>':"";
+    return '<div class="calc" data-formula="'+esc(v.formula)+'">'+(v.inputs||[]).map(i=>'<label>'+tx(i,"label")+' <span data-show="'+esc(i.id)+'"></span><input type="range" data-id="'+esc(i.id)+'" min="'+i.min+'" max="'+i.max+'" step="'+(i.step||1)+'" value="'+i.value+'" aria-label="'+esc(i.label)+'"></label>').join("")+
+      '<div class="out"><b data-out></b><span>'+tx(v,"result")+'</span></div>'+(v.scale?'<div class="nline"><span class="ax"></span>'+band+ticks+'<span class="mk"></span></div>':"")+
+      (v.verdicts?'<div class="note" data-verdict></div>':"")+'</div>';
+  }
+  // (c) tap-to-sort: bins [..], items [{t, bin, why}]
+  function sortHTML(v){
+    return '<div class="sort">'+(v.items||[]).map((it,i)=>'<div class="it" data-bin="'+it.bin+'"><p>'+tx(it,"t")+'</p><div class="bins">'+
+      (v.bins||[]).map((b,bi)=>'<button type="button" data-b="'+bi+'"'+(bi===it.bin?' class="ans"':"")+'>'+L(md(b),v.bins_ur?md(v.bins_ur[bi]):null)+'</button>').join("")+'</div>'+(it.why?'<div class="why">'+tx(it,"why")+'</div>':"")+'</div>').join("")+'<div class="tally" aria-live="polite"></div></div>';
+  }
+  // (d) annotated real screenshot: only rendered when build.py embedded a real file (data URI)
+  function shotHTML(v){
+    const src=v.data||(String(v.src||"").startsWith("data:")?v.src:null);if(!src)return "";
+    return '<figure class="shot" style="margin:0"><img src="'+esc(src)+'" alt="'+esc(v.alt||"")+'">'+(v.marks||[]).map((m,i)=>'<span class="pin" style="left:'+(+m.x)+'%;top:'+(+m.y)+'%">'+(i+1)+'</span>').join("")+'</figure>'+
+      ((v.marks||[]).length?'<ol class="pins">'+v.marks.map((m,i)=>'<li><b>'+(i+1)+'</b><span>'+tx(m,"label")+'</span></li>').join("")+'</ol>':"");
+  }
+  const HINT={steps:"tapstep",tree:"tapnode",calc:"slide",sort:"sorthint"};
+  function visualInner(v){
+    switch(v.type){
+      case "steps":return stepsHTML(v.steps||[],true);
+      case "tree":return treeHTML(v);
+      case "flow":return flowHTML(v);
+      case "path":return pathHTML(v.path);
+      case "table":case "compare":return tableHTML(v);
+      case "toggle":return toggleHTML(v);
+      case "calc":return calcHTML(v);
+      case "sort":return sortHTML(v);
+      case "shot":return shotHTML(v);
+      case "img":return (v.data||v.src)?'<div class="vis"><img loading="lazy" src="'+esc(v.data||v.src)+'" alt="'+esc(v.alt||v.caption||"")+'"></div>':"";
+    }
+    return "";
+  }
+  function visual(v){
+    if(!v)return "";const inner=visualInner(v);if(!inner)return "";
+    return '<section class="section">'+secHead("Fig",(v.label?tx(v,"label"):U("see")),true)+
+      '<div class="vis-wrap">'+(HINT[v.type]?'<p class="vhint noprint">'+U(HINT[v.type])+'</p>':"")+inner+'</div>'+(v.caption?'<div class="caption">'+tx(v,"caption")+'</div>':"")+'</section>';
+  }
+
+  function quizHTML(qs,uid,isRecap){
+    if(!qs||!qs.length)return "";
+    return '<section class="section" data-quiz data-uid="'+uid+'" data-total="'+qs.length+'">'+secHead("Q",isRecap?U("mixed"):U("quiz"))+
+      '<span class="microlabel noprint" style="margin-top:12px">'+U("tap")+'</span>'+
+      qs.map((q,qi)=>{
+        const hasUr=q.q_ur!=null;const im=q.image||null;const src=im&&(im.data||(String(im.src||"").startsWith("data:")?im.src:null));
+        return '<div class="q" data-a="'+q.answer+'"><div class="q-top"><span class="qn">'+L("Question "+(qi+1),"Sawal "+(qi+1))+'</span>'+(hasUr?langToggle("sm","q"):"")+'</div>'+
+        (src?'<figure class="qimg"><img loading="lazy" src="'+esc(src)+'" alt="'+esc(im.alt||"")+'"></figure>':"")+
+        '<p class="qt">'+tx(q,"q")+'</p>'+
+        q.options.map((o,oi)=>'<button type="button" class="opt" data-i="'+oi+'">'+L(md(o),q.options_ur&&q.options_ur[oi]!=null?md(q.options_ur[oi]):null)+'</button>').join("")+
+        '<div class="why"><b class="verdict"></b>'+tx(q,"why")+'</div></div>'}).join("")+
+      '<div class="score"></div></section>';
+  }
+  function secHead(num,inner,small){return '<div class="sec-head"><span class="sec-num">'+num+'</span><h3'+(small?' class="sm"':"")+'>'+inner+'</h3><span class="tail"></span></div>'}
+
+  // ---- modes: "teacher" (default: everything + teacher notes) / "student" (clean handout) ----
+  function getMode(){let m=null;try{m=new URLSearchParams(location.search).get("mode")}catch(e){}
+    if(m==="student"||m==="teacher"){store.set("at-mode",m);return m}return store.get("at-mode")==="student"?"student":"teacher"}
+  function modeLink(m){return location.pathname.split("/").pop()+"?mode="+m+location.hash}
+  function modeBar(mode,locked){
+    if(locked)return '<div class="modebar noprint"><span class="mbtn on">Student handout</span><button type="button" class="mbtn" onclick="window.print()">Save PDF</button></div>';
+    return '<div class="modebar noprint"><a class="mbtn'+(mode==="teacher"?" on":"")+'" href="'+esc(modeLink("teacher"))+'">Teacher</a><a class="mbtn'+(mode==="student"?" on":"")+'" href="'+esc(modeLink("student"))+'">Student</a><button type="button" class="mbtn" onclick="window.print()">Save PDF</button></div>';
+  }
+  const PRIV='<span class="priv">Private · hidden for students</span>';
+
+  function render(d,opts){
+    opts=opts||{};
+    const mode=opts.mode==="student"?"student":"teacher",S=mode==="student",T=!S;
+    const keep=x=>!(S&&x&&typeof x==="object"&&x.private);
+    const tag=x=>(T&&x&&typeof x==="object"&&x.private)?PRIV:"";
+    const isRecap=d.kind==="recap";
+    const uid=(d.kind||"lesson")+"-"+(isRecap?d.week:d.n||0);
+    const cp=d.progress||{};
+    let head="";
+    if(!opts.chapter){
+      head='<header class="topbar"><div class="in"><span class="logo" aria-label="Smart Solutions">'+logo()+'<b>Smart Solutions</b></span>'+
+        '<span class="ctr">'+(isRecap?'Week <strong>'+esc(d.week)+'</strong> recap':'Lesson <strong>'+String(d.n).padStart(2,"0")+'</strong> / '+String(cp.total||64))+'</span>'+
+        '<span class="grow"></span>'+langToggle("","page")+'</div></header><div class="progress-track"><div class="progress-fill" data-scrollfill></div></div>';
+    }
+    const body=[];
+    if(!opts.chapter){
+      body.push('<div class="hero"><span class="eyebrow">'+esc(isRecap?"Week "+d.week+" recap":(d.level_name||d.track||"Lesson"))+'</span><h1>'+tx(d,"title")+'</h1><div class="meta">'+
+        (d.minutes?'<span>'+esc(d.minutes)+' min read</span>':"")+(T&&d.date?'<span>'+esc(d.date)+'</span>':"")+
+        (T&&(d.streak!=null||d.xp!=null)?'<span class="statpill">'+(d.streak!=null?'<span>Streak '+esc(d.streak)+'</span>':"")+(d.xp!=null?'<span>'+esc(d.xp)+' XP</span>':"")+'</span>':"")+
+        (S?'<span>Student handout</span>':"")+'</div>'+modeBar(mode,opts.locked)+
+        '<div class="hname"><span>Name: ______________________</span><span>Date: ____________</span></div><div class="hero-rule"></div></div>');
+    }
+    if(d.idea)body.push('<aside class="keypoint"><span class="microlabel">'+U("key")+'</span><p>'+tx(d,"idea")+'</p></aside>');
+    if(d.simple)body.push('<aside class="keypoint simple"><span class="microlabel">'+U("simple")+'</span><p>'+tx(d,"simple")+'</p></aside>');
+    if(isRecap&&d.takeaways)body.push('<aside class="keypoint"><span class="microlabel">'+U("take")+'</span><ol class="take">'+lst(d.takeaways,d.takeaways_ur).map(x=>'<li>'+x+'</li>').join("")+'</ol></aside>');
+    (d.blocks||[]).filter(keep).forEach((b,i)=>body.push('<section class="section'+(i===0?" first":"")+'">'+secHead(String(i+1).padStart(2,"0"),tx(b,"h")+tag(b))+
+      '<div class="sec-body">'+(b.p?'<p style="margin:0">'+tx(b,"p")+'</p>':"")+
+      (b.bullets?'<ul>'+lst(b.bullets,b.bullets_ur).map(x=>'<li>'+x+'</li>').join("")+'</ul>':"")+
+      (b.visual?'<div class="vis-wrap">'+visualInner(b.visual)+'</div>'+(b.visual.caption?'<div class="caption">'+tx(b.visual,"caption")+'</div>':""):"")+'</div></section>'));
+    (Array.isArray(d.visuals)?d.visuals:[d.visual]).forEach(v=>body.push(visual(v)));
+    let ex=d.example;
+    if(ex&&S&&ex.private)ex=ex.generic||null;
+    if(ex){
+      const e=ex;
+      body.push('<section class="section">'+secHead("Ex",(e.label?tx(e,"label"):U("ex"))+tag(e),true)+
+        '<div class="example">'+(e.title?'<h3 style="margin:0 0 6px;font-size:17px">'+tx(e,"title")+'</h3>':"")+'<p>'+tx(e,"text")+'</p>'+
+        (T&&e.private&&e.generic?'<p class="note" style="margin-top:12px">Students see instead: '+tx(e.generic,"text")+'</p>':"")+
+        (e.path?'<div class="path-label">'+(e.path_label?tx(e,"path_label"):U("click"))+'</div>'+pathHTML(e.path):"")+
+        (e.steps?'<div style="margin-top:14px">'+stepsHTML(e.steps,false)+'</div>':"")+'</div></section>');
+    }
+    if(d.mistakes&&d.mistakes.length)body.push('<section class="section">'+secHead("!",U("mist"),true)+'<ul class="mistakes">'+lst(d.mistakes,d.mistakes_ur).map(x=>'<li><span>'+x+'</span></li>').join("")+'</ul></section>');
+    if(T&&d.tasks&&d.tasks.length){
+      body.push('<section class="section" data-tasks>'+secHead("Do",U("doit")+(d.task_minutes?' · '+esc(d.task_minutes)+' '+U("min"):""),true)+
+        '<ol class="tasks">'+d.tasks.map((t,i)=>{const o=typeof t==="string"?{t:t,t_ur:d.tasks_ur?d.tasks_ur[i]:null}:t;
+          return '<li><label class="task"><span class="tx"><span>'+tx(o,"t")+tag(o)+'</span>'+(o.path?pathHTML(o.path):"")+'</span><input type="checkbox" data-i="'+i+'" aria-label="Done"></label></li>'}).join("")+
+        '</ol><div class="note">'+(d.task_note?tx(d,"task_note"):U("note"))+'</div></section>');
+    }
+    const sc=(d.selfcheck||[]).filter(keep);
+    if(sc.length)body.push('<section class="section" data-tasks data-key="self">'+secHead("Me",U("self"),true)+
+      '<div class="selfcheck"><ol class="tasks">'+sc.map((t,i)=>{const o=typeof t==="string"?{t:t}:t;
+        return '<li><label class="task"><span class="tx"><span>'+tx(o,"t")+tag(o)+'</span>'+(o.path?pathHTML(o.path):"")+'</span><input type="checkbox" data-i="'+i+'" aria-label="Done"></label></li>'}).join("")+
+      '</ol></div><div class="note">'+U("selfnote")+'</div></section>');
+    const lt=d.livetest;
+    if(lt&&keep(lt))body.push('<section class="section lt">'+secHead("Live",U("live")+(lt.title?': '+tx(lt,"title"):"")+tag(lt),true)+
+      (lt.plan?'<h4>'+U("plan")+'</h4><ol>'+lst(lt.plan,lt.plan_ur).map(x=>'<li>'+x+'</li>').join("")+'</ol>':"")+
+      (lt.measure?'<h4>'+U("measure")+'</h4><ul>'+lst(lt.measure,lt.measure_ur).map(x=>'<li>'+x+'</li>').join("")+'</ul>':"")+
+      ((lt.kill||lt.keep||lt.scale)?'<div class="rules">'+[["kill","kill"],["keep","keepr"],["scale","scale"]].filter(r=>lt[r[0]]).map(r=>'<div class="rule '+r[0]+'"><b>'+U(r[1])+'</b><div>'+tx(lt,r[0])+'</div></div>').join("")+'</div>':"")+
+      '<p class="safe">'+U("livesafe")+'</p></section>');
+    const act=d.activity;
+    if(act)body.push('<section class="section">'+secHead("Act",U("act")+(act.minutes?' · '+esc(act.minutes)+' '+U("min"):""),true)+
+      '<div class="example activity"><h3 style="margin:0 0 6px;font-size:17px">'+tx(act,"title")+'</h3>'+
+      '<ol>'+lst(act.steps,act.steps_ur).map(x=>'<li>'+x+'</li>').join("")+'</ol>'+
+      (T&&act.answer?'<div class="key"><b>'+U("tkey")+':</b> '+tx(act,"answer")+'</div>':"")+'</div></section>');
+    const deep=(d.deep||[]).filter(keep);
+    if(deep.length){
+      body.push('<section class="section">'+secHead("+",U("deep"),true)+
+        '<details class="deep" style="margin-top:14px"><summary>'+U("deep2")+'</summary><div class="body">'+
+        deep.map(x=>(x.h?'<h4>'+tx(x,"h")+tag(x)+'</h4>':"")+'<p>'+tx(x,"p")+'</p>'+(x.visual?visualInner(x.visual):"")).join("")+'</div></details></section>');
+    }
+    body.push(quizHTML(d.quiz,uid,isRecap));
+    if(T&&((d.teach&&d.teach.length)||(d.discuss&&d.discuss.length)))
+      body.push('<section class="section">'+secHead("T",U("tnotes"),true)+'<div class="tnotes">'+
+        (d.teach&&d.teach.length?'<h4>'+U("say")+'</h4><ol class="take">'+lst(d.teach,d.teach_ur).map(x=>'<li>'+x+'</li>').join("")+'</ol>':"")+
+        (d.discuss&&d.discuss.length?'<h4>'+U("ask")+'</h4><ul class="tight">'+lst(d.discuss,d.discuss_ur).map(x=>'<li>'+x+'</li>').join("")+'</ul>':"")+'</div></section>');
+    if(S&&d.discuss&&d.discuss.length)body.push('<section class="section">'+secHead("?",U("talk"),true)+'<div class="sec-body"><ul>'+lst(d.discuss,d.discuss_ur).map(x=>'<li>'+x+'</li>').join("")+'</ul></div></section>');
+    if(d.terms&&d.terms.length){
+      const gl='<div class="glossary">'+d.terms.map(t=>'<div><b>'+esc(t.t)+'</b> · '+tx(t,"d")+'</div>').join("")+'</div>';
+      if(isRecap)body.push('<section class="section">'+secHead("Aa",U("cheat"),true)+gl+'</section>');
+      else body.push('<section class="section" data-terms>'+secHead("Aa",U("terms"),true)+
+          '<span class="microlabel noprint" style="margin-top:12px">'+U("tapt")+'</span><div class="chips noprint">'+
+          d.terms.map((t,i)=>'<button type="button" class="chip" data-i="'+i+'">'+esc(t.t)+'</button>').join("")+'</div><div class="def noprint"></div><div class="printonly">'+gl+'</div></section>');
+    }
+    if(d.sources&&d.sources.length)body.push('<section class="section">'+secHead("Src",U("src"),true)+
+      '<ul class="src">'+d.sources.map(s=>'<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+'</a></li>').join("")+'</ul></section>');
+    if(T&&d.next&&!opts.chapter)body.push('<div class="next"><span class="microlabel">'+U("next")+'</span><p>'+tx(d,"next")+'</p></div>');
+    const root=h('<div class="mode-'+mode+'">'+head+'<main class="'+(opts.chapter?"":"wrap")+'">'+body.join("")+'</main></div>');
+    wire(root,d,uid,mode);
+    applyLang(root,getLang());
+    return root;
+  }
+
+  function wire(root,d,uid,mode){
+    root.querySelectorAll(".lang").forEach(g=>g.addEventListener("click",ev=>{
+      const b=ev.target.closest("button");if(!b)return;const l=b.dataset.l;
+      if(g.dataset.scope==="page"){store.set("at-lang",l);applyLang(document,l)}else applyLang(g.closest(".q"),l);
+    }));
+    root.querySelectorAll("[data-tasks]").forEach(sec=>{
+      const key="at-tasks-"+uid+(sec.dataset.key?"-"+sec.dataset.key:"");const saved=store.get(key)||{};
+      sec.querySelectorAll("input").forEach(cb=>{
+        const i=cb.dataset.i;cb.checked=!!saved[i];cb.closest(".task").classList.toggle("done",cb.checked);
+        cb.addEventListener("change",()=>{saved[i]=cb.checked;store.set(key,saved);cb.closest(".task").classList.toggle("done",cb.checked)});
+      });
+    });
+    // (a) steps
+    root.querySelectorAll(".stepper:not(.static) .st-h").forEach(b=>b.addEventListener("click",()=>{const li=b.parentElement;const o=li.classList.toggle("open");b.setAttribute("aria-expanded",String(o))}));
+    // (b) tree answers
+    root.querySelectorAll(".dnode.a").forEach(b=>b.addEventListener("click",()=>{const o=b.classList.toggle("open");b.setAttribute("aria-expanded",String(o))}));
+    // (c) toggle
+    root.querySelectorAll(".tog").forEach(t=>t.querySelectorAll(".seg2 button").forEach(b=>b.addEventListener("click",()=>{
+      t.querySelectorAll(".seg2 button").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+      t.querySelectorAll(".pane").forEach(p=>p.hidden=!p.classList.contains(b.dataset.p));
+    })));
+    // (c) calculator
+    root.querySelectorAll(".calc").forEach(c=>{
+      const F=FORMULAS[c.dataset.formula];if(!F)return;
+      const v=(d.visuals||[d.visual]).concat((d.blocks||[]).map(b=>b.visual)).find(x=>x&&x.type==="calc"&&x.formula===c.dataset.formula)||{};
+      const sc=v.scale||{min:0,max:100};const fmt=n=>Number(n).toLocaleString("en-US");
+      const upd=()=>{const x={};c.querySelectorAll("input").forEach(i=>{x[i.dataset.id]=+i.value;const s=c.querySelector('[data-show="'+i.dataset.id+'"]');if(s)s.textContent=fmt(i.value)});
+        const r=F.f(x);c.querySelector("[data-out]").textContent=(F.unit===""?fmt(Math.round(r)):r.toFixed(F.dp))+(F.unit==="x"?"x":F.unit);
+        const mk=c.querySelector(".mk");if(mk)mk.style.left=Math.max(0,Math.min(100,100*(r-sc.min)/(sc.max-sc.min)))+"%";
+        const vd=c.querySelector("[data-verdict]");if(vd&&v.verdicts){const hit=v.verdicts.find(w=>r<w.below)||v.verdicts[v.verdicts.length-1];vd.innerHTML=tx(hit,"t");applyLang(vd,getLang())}};
+      c.querySelectorAll("input").forEach(i=>i.addEventListener("input",upd));upd();
+    });
+    // (c) sort
+    root.querySelectorAll(".sort").forEach(s=>{let done=0,right=0;const items=s.querySelectorAll(".it");
+      items.forEach(it=>it.querySelectorAll(".bins button").forEach(b=>b.addEventListener("click",()=>{
+        const ok=+b.dataset.b===+it.dataset.bin;it.querySelectorAll(".bins button").forEach(x=>{x.disabled=true;if(+x.dataset.b===+it.dataset.bin)x.classList.add("right")});
+        if(!ok)b.classList.add("wrong");else right++;it.classList.add("done");done++;
+        if(done===items.length){const t=s.querySelector(".tally");t.innerHTML=L(right+"/"+items.length+" sorted right",right+"/"+items.length+" sahi");applyLang(t,getLang())}
+      })))});
+    // quiz
+    root.querySelectorAll("[data-quiz]").forEach(sec=>{
+      const total=+sec.dataset.total;let answered=0,right=0;const missed=[];
+      sec.querySelectorAll(".q").forEach((q,qi)=>{
+        const a=+q.dataset.a;
+        q.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{
+          const i=+b.dataset.i;q.querySelectorAll(".opt").forEach(x=>x.disabled=true);
+          q.querySelectorAll(".opt")[a].classList.add("right");
+          const why=q.querySelector(".why"),v=why.querySelector(".verdict");
+          if(i===a){right++;why.classList.add("ok");v.innerHTML=U("right")}
+          else{b.classList.add("wrong");missed.push(qi+1);why.classList.add("no");v.innerHTML=U("wrong")}
+          applyLang(v,q.dataset.lang||getLang());why.classList.add("show");answered++;
+          if(answered===total){
+            const s=sec.querySelector(".score");
+            const tag=(d.kind==="recap"?"Week "+d.week:"Day "+d.n)+": "+right+"/"+total+(missed.length?" (missed Q"+missed.join(", Q")+")":"");
+            s.innerHTML=L("You got "+right+"/"+total,"Aap ke "+right+"/"+total+" jawab sahi hain")+(mode==="student"?
+              (missed.length?"<small>"+L("Read the part about Q"+missed.join(", Q")+" again.","Q"+missed.join(", Q")+" wala hissa dobara parhein.")+"</small>":""):
+              "<small>"+L("Reply in chat: ","Chat mein yeh bhej dein: ")+"<b>"+esc(tag)+"</b>"+L(" so I can track it."," taa ke main record rakh sakun.")+"</small>");
+            applyLang(s,getLang());s.classList.add("show");
+          }
+        }));
+      });
+    });
+    root.querySelectorAll("[data-terms]").forEach(sec=>{
+      const def=sec.querySelector(".def");
+      sec.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+        const on=c.classList.contains("on");sec.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
+        if(on){def.classList.remove("show");return}
+        c.classList.add("on");const t=d.terms[+c.dataset.i];def.innerHTML="<b>"+esc(t.t)+"</b>: "+tx(t,"d");applyLang(def,getLang());def.classList.add("show");
+      }));
+    });
+  }
+  // print: everything static and open; the teacher PDF marks answers, the student PDF stays a blank worksheet
+  function preparePrint(scope,mode){
+    scope.querySelectorAll("details.deep,details.chapter").forEach(x=>x.open=true);
+    if(mode==="teacher")scope.querySelectorAll(".q").forEach(q=>{const o=q.querySelectorAll(".opt")[+q.dataset.a];if(o)o.classList.add("right")});
+  }
+  window.AT={render,esc,md,h,applyLang,getLang,getMode,modeLink,store,logo,preparePrint};
+})();
+</script>
+
+<!-- CORE-JS:END -->
+<script>
+(function(){
+  const el=document.getElementById("lesson-data");
+  if(!el||!window.AT)return;
+  let d;try{d=JSON.parse(el.textContent)}catch(e){document.getElementById("app").textContent="Lesson data is missing or broken.";return}
+  const locked=d.locked_mode==="student";
+  const mode=locked?"student":AT.getMode();
+  document.title=(d.kind==="recap"?"Week "+d.week+" recap":(mode==="student"?"Lesson ":"Day ")+d.n)+" · "+d.title+(mode==="student"?" (student handout)":"");
+  const root=AT.render(d,{mode,locked});
+  document.getElementById("app").appendChild(root);
+  window.addEventListener("beforeprint",()=>AT.preparePrint(root,mode));
+  const fill=root.querySelector("[data-scrollfill]");
+  const onScroll=()=>{const doc=document.documentElement;const max=doc.scrollHeight-window.innerHeight;
+    if(fill)fill.style.width=(max>0?Math.min(100,Math.max(0,100*window.scrollY/max)):0)+"%"};
+  window.addEventListener("scroll",onScroll,{passive:true});onScroll();
+})();
+</script>
+</body>
+</html>
