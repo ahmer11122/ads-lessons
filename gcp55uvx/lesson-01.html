@@ -394,26 +394,54 @@ mark{background:var(--lime);border-radius:3px;padding:0 2px}
 }
 
 /* ===== print: A4, quiet, black on white ===== */
-@page{size:A4;margin:16mm 14mm}
+@page{margin:14mm 13mm 15mm}
 @media print{
+  /* base: white paper, readable type, colour fills kept (they are light) */
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  body{background:#fff;font-size:11pt;line-height:1.55}
-  .topbar{position:static;background:none;backdrop-filter:none;border-bottom:1px solid #ccc}
-  .topbar .in{padding:0;height:40px}
-  .wrap,.content{padding:0;max-width:none}
-  .hero{padding-top:16pt}
-  h1{font-size:26pt}
-  .section{margin-top:22pt;padding-top:22pt}
-  .section.first{padding-top:16pt}
-  .sec-head h3{font-size:16pt}.sec-head,.sec-head+*{break-after:avoid}
-  .sec-body{font-size:11pt;line-height:1.6}
-  .progress-track,.lang,.noprint,.modebar,.score,.vhint,.tog .seg2,.sort .tally,.side,.toolbar,.no-print{display:none!important}
-  .printonly{display:block}
-  .section,.example,.keypoint,.q,.stepper>li,.sort .it,.calc,.ctable,.rule,.tnotes{break-inside:avoid}
-  .opt{border-width:1px}
+  html{scroll-behavior:auto}
+  body{background:#fff!important;font-size:10.5pt;line-height:1.5;color:#111}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  /* motion: anything that waits for "seen" or a tap must be fully visible on paper */
+  .stepper>li,.fc .node,.fc .link,.dt li>*,.dt li::before,.dt li::after,
+  .dtree .dt-n,.dtree .dt-n>*,.dtree .dt-n::before,.dtree .dt-n::after,
+  .fl-s,.fl-s>*,.fl-s::before,.fl-s::after,.cmp li,.cmp li>*,.sort .it,.q,.opt{opacity:1!important;transform:none!important;clip-path:none!important;visibility:visible!important}
+  /* header prints once, as a plain line; nothing sticky or fixed */
+  .topbar{position:static!important;background:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-bottom:1px solid #bbb;padding:0}
+  .topbar .in{padding:0;height:auto;min-height:0;padding-bottom:6pt;max-width:none}
+  .wrap,.content{padding:0!important;max-width:none!important;margin:0!important}
+  /* controls that do nothing on paper */
+  .progress-track,.progress-fill,[data-scrollfill],.lang,.noprint,.no-print,.modebar,.score,.vhint,.pg,.fl-bar,.dt-bar,.dt-reset,.dt-ans,.seg2,.chips,.def,
+  .tog .seg2,.sort .tally,.side,.toolbar,.st-h .pm,.dnode .tapme,.dt-tap,.dt-plus,.fl-play,.fl-count{display:none!important}
+  .printonly{display:block!important}
+  /* spacing: tighter than screen so pages are not half empty */
+  .hero{padding-top:10pt!important;padding-bottom:0!important}
+  h1{font-size:22pt;line-height:1.15;margin:6pt 0 4pt}
+  .keypoint{margin:10pt 0!important;padding:10pt 14pt!important}
+  .section{margin-top:8pt!important;padding-top:8pt!important}
+  .section.first{padding-top:8pt!important}
+  .sec-head{margin-bottom:6pt!important}
+  .sec-head h3{font-size:14pt}
+  .sec-body,.st-b{font-size:10.5pt;line-height:1.55}
+  /* keep things whole */
+  .keypoint,.example,.q,.stepper>li,.tasks>li,.mistakes>li,.tnotes,.glossary>*,.caption,.note,.src li,.calc,.ctable tr,.rule,
+  .sort .it,.fl-s,.dt-box,.cmp li,.tog .pane,.shot,.vis-img,figure,img,svg,.activity,.key,.hname{break-inside:avoid;page-break-inside:avoid}
+  /* short sections stay in one piece; long ones (steps, tasks, quiz, tree, flow) may break between items */
+  .section:not(:has(.stepper,.tasks,.q,.dtree,.fl-wrap,.cmp,.sort,.ctable,.src)){break-inside:avoid;page-break-inside:avoid}
+  /* a heading never sits alone at the bottom of a page */
+  h1,h2,h3,h4,h5,.sec-head,.q-top,.qt,.cv,summary{break-after:avoid;page-break-after:avoid}
+  .sec-head+*,.sec-head+*>li:first-child,.q-top+.qt{break-before:avoid}
+  p,li{orphans:3;widows:3}
+  /* open everything that is tap-to-open on screen */
   .st-b,.dnode .rev{display:block!important}
-  .dnode .tapme,.st-h .pm{display:none!important}
+  .stepper>li{margin:4pt 0!important}
+  .tasks>li{padding-top:6pt!important;padding-bottom:6pt!important}
+  .tnotes,.example{padding:10pt 14pt!important}
   .tog .pane{display:block!important;margin-bottom:8px}.tog .pane .plab{display:block;font-weight:700;margin-bottom:6px}
+  details.deep>*{display:block}
+  /* quiz: teacher copy marks the answer, student copy is a clean worksheet */
+  .opt{border-width:1px;min-height:0!important;padding-top:4.5pt!important;padding-bottom:4.5pt!important;margin:4pt 0!important}
+  .q{padding-top:6pt!important;margin-top:6pt!important}
+  .q-top{margin-bottom:2pt!important}
   .sort .why{display:none}
   .mode-teacher .sort .why{display:block}
   .mode-teacher .sort .bins button.ans{background:var(--ok-soft);border-color:var(--ok)}
@@ -421,14 +449,28 @@ mark{background:var(--lime);border-radius:3px;padding:0 2px}
   .mode-student .opt.right,.mode-student .opt.wrong{background:none;border-color:var(--rule)}
   .mode-student .hname{display:flex}
   .mode-teacher .opt.right::after{content:"  ✓ answer";font-weight:700;color:var(--ok)}
-  .book{display:block}
-  details.chapter{break-before:page;border:0}
-  details.chapter .chbody{background:#fff;border:0}
-  .content h2{break-after:avoid}
-  .cover svg{width:80px;height:80px}
-  .fc .node,.fc .link,.dt li>*,.dt li::before,.dt li::after,.stepper>li{opacity:1!important;clip-path:none!important;animation:none!important}
-  .fc .node.cur{box-shadow:none}
-  a{text-decoration:none}
+  /* sources: show the address so the paper copy is still useful */
+  .src a{padding:3pt 0!important;font-size:9.5pt}
+  .src a[href^="http"]::after{content:" · " attr(href);font-size:8pt;color:#555;word-break:break-all}
+  a{text-decoration:none;color:inherit}
+  /* course book: cover page, then each lesson on a new page */
+  .book{display:block!important}
+  .hero .cover svg,.cover svg{width:64px;height:64px}
+  .kpis{break-inside:avoid}
+  details.chapter{break-before:page;page-break-before:always;border:0!important;box-shadow:none!important;margin:0!important}
+  details.chapter>summary{list-style:none;padding:0 0 8pt!important;border-bottom:1px solid #bbb;margin-bottom:6pt}
+  details.chapter>summary::-webkit-details-marker{display:none}
+  details.chapter>summary::after,details.chapter>summary::before{display:none!important}
+  details.chapter .chbody{background:#fff!important;border:0!important;padding:0!important}
+  .content>h2{break-before:page;page-break-before:always;break-after:avoid;margin-top:0}
+  .content>h2+details.chapter{break-before:avoid;page-break-before:avoid}
+  .hide{display:none!important}
+  .next{margin-top:14pt!important;padding-top:10pt!important;break-inside:avoid;break-before:avoid;page-break-before:avoid}
+  /* ink saver: big dark boxes print as outlined boxes (small number badges stay dark) */
+  .is-q,.dnode.q{background:#fff!important;color:var(--ink)!important;border:1.5px solid var(--ink)!important}
+  .is-q .dt-sub,.dnode.q small{color:#444!important}
+  .dt-n.cur>.is-q{box-shadow:none!important}
+  .wrap{padding-bottom:0!important}
 }
 </style>
 
@@ -597,7 +639,8 @@ mark{background:var(--lime);border-radius:3px;padding:0 2px}
   const md=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/\s*(→|-&gt;)\s*/g,'<span class="chev" aria-label="then"></span>');
   const h=(html)=>{const t=document.createElement("template");t.innerHTML=html.trim();return t.content.firstElementChild};
   const store={get:k=>{try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-  const logo=()=>{const t=document.getElementById("ss-logo");return t?t.innerHTML.trim():""};
+  // each copy gets its own gradient/clip ids: a hidden copy (e.g. the book sidebar in print) must not blank the others
+  let logoN=0;const logo=()=>{const t=document.getElementById("ss-logo");if(!t)return "";const k=++logoN;return t.innerHTML.trim().replace(/(id="|url\(#)([\w-]+)/g,(m,a,b)=>a+b+"-"+k)};
 
   // ---- bilingual: English + Roman Urdu side by side, one hidden ----
   const L=(en,ur)=>ur==null||ur===""?en:'<span class="l-en">'+en+'</span><span class="l-ur" hidden>'+ur+'</span>';
