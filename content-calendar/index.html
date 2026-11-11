@@ -276,6 +276,8 @@ const STEPS=['idea','script','voice','render','scheduled'];
 const GN={'meta-ads':'Meta ads reels','case-study':'Case studies',automation:'Automation',course:'Course'};
 const ML={impressions:'Impressions',views:'Views',reach:'Reach',reactions:'Reactions',comments:'Comments',shares:'Shares',clicks:'Clicks',saves:'Saves',engagementRate:'Engagement',averageTimeWatched:'Avg. watch (s)',totalTimeWatched:'Watch time'};
 const pad=n=>String(n).padStart(2,'0');
+const t12=t=>{if(!t)return t;const m=String(t).match(/^(\d{1,2}):(\d{2})/);if(!m)return t;let H=+m[1];const ap=H>=12?'PM':'AM';H=H%12||12;return H+':'+m[2]+' '+ap+String(t).slice(m[0].length);};
+const ts12=s=>String(s||'').replace(/(\d{1,2}:\d{2})(?=\s*PKT)/g,m=>t12(m));
 const ymd=d=>d.getUTCFullYear()+'-'+pad(d.getUTCMonth()+1)+'-'+pad(d.getUTCDate());
 const U=s=>{const a=String(s).split('-').map(Number);return new Date(Date.UTC(a[0],a[1]-1,a[2],12))};
 const add=(d,n)=>new Date(d.getTime()+n*864e5);
@@ -337,8 +339,8 @@ const tag=s=>`<span class="tag t-${s}">${ST[s]||s}</span>`;
 const pd=i=>`<i class="pd ${i.pipe?'all':i.platform}"></i>`;
 
 const chips=()=>Object.keys(PN).map(p=>`<button class="pf" data-pf="${p}" aria-pressed="${!!S.pf[p]}"><i class="pd ${p}"></i><span class="s">${p}</span><span class="l">${PN[p]}</span></button>`).join('');
-const pill=x=>`<span class="pill ${kc(x)}" style="--c:${col(x)}">${x.time?`<em>${esc(x.time)}</em>`:''}<b>${esc(x.title)}</b></span>`;
-const item=x=>`<button class="it ${kc(x)}" data-id="${esc(x.id)}"><time>${x.time||'Plan'}</time><span class="bx" style="--c:${col(x)}"><span class="mt">${pd(x)}${x.pipe?'All platforms':PN[x.platform]}${tag(x.status)}</span><b>${esc(x.title)}</b>${x.caption_gist?`<small>${esc(x.caption_gist)}</small>`:''}</span></button>`;
+const pill=x=>`<span class="pill ${kc(x)}" style="--c:${col(x)}">${x.time?`<em>${esc(t12(x.time))}</em>`:''}<b>${esc(x.title)}</b></span>`;
+const item=x=>`<button class="it ${kc(x)}" data-id="${esc(x.id)}"><time>${t12(x.time)||'Plan'}</time><span class="bx" style="--c:${col(x)}"><span class="mt">${pd(x)}${x.pipe?'All platforms':PN[x.platform]}${tag(x.status)}</span><b>${esc(x.title)}</b>${x.caption_gist?`<small>${esc(x.caption_gist)}</small>`:''}</span></button>`;
 
 function board(solo,T){
   const c=D.counts||{};
@@ -467,20 +469,20 @@ function snapBlock(x){
     if(!c) return `<div class="empty"><b>—</b><span>Day ${d}</span></div>`;
     const s=primary(x,c.metrics);
     const val=s?num(s.value)+(s.key==='engagementRate'?'%':''):'Recorded';
-    return `<div class="${d===7?'d7':''}"><b>${val}</b><span>Day ${d}${s?' · '+s.key:''}</span><em>${esc(c.captured_at||'')}${c.age_days!=null?' · age '+c.age_days+'d':''}</em></div>`;
+    return `<div class="${d===7?'d7':''}"><b>${val}</b><span>Day ${d}${s?' · '+s.key:''}</span><em>${esc(ts12(c.captured_at||''))}${c.age_days!=null?' · age '+c.age_days+'d':''}</em></div>`;
   }).join('');
   return `<h5>Day snapshots</h5><div class="snaps">${cells}</div><p class="fine">A checkpoint is the first Buffer pull on or after that day, kept only as the highest day it has reached. Ranking uses the Day-7 score only.</p>`;
 }
 function latestMetrics(x){
   const m=x.metrics||{},mk=Object.keys(ML).filter(q=>m[q]!=null&&m[q]!=='');
   if(!mk.length) return x.status==='posted'?`<h5>Latest Buffer metrics</h5><p class="fine">No metrics from Buffer at pull time.</p>`:'';
-  return `<h5>Latest Buffer metrics</h5><div class="mg">${mk.map(q=>`<div><b>${num(m[q])}${q==='engagementRate'?'%':''}</b><span>${ML[q]}</span></div>`).join('')}</div>${m.metricsUpdatedAt_pkt?`<p class="fine">Metrics updated ${esc(m.metricsUpdatedAt_pkt)}</p>`:''}`;
+  return `<h5>Latest Buffer metrics</h5><div class="mg">${mk.map(q=>`<div><b>${num(m[q])}${q==='engagementRate'?'%':''}</b><span>${ML[q]}</span></div>`).join('')}</div>${m.metricsUpdatedAt_pkt?`<p class="fine">Metrics updated ${esc(ts12(m.metricsUpdatedAt_pkt))}</p>`:''}`;
 }
 function dcard(x,k){
   const ch=(D.channels||[]).find(c=>c.platform===x.platform),s=STEPS.indexOf(x.status);
   const rows=[!x.pipe&&ch&&['Channel',ch.name],x.file_name&&[x.pipe?'Script file':'Video file',x.file_name],x.keyword_cta&&['Auto-DM keyword',x.keyword_cta]].filter(Boolean);
   const early=x.status==='posted'?statusRow(x):'';
-  return `<article class="dc" style="--c:${col(x)};--i:${k}"><div class="dct"><time>${x.time||'Plan'}</time>${tag(x.status)}${early?' '+early:''}</div><div class="mt">${pd(x)}${x.pipe?(x.platforms||[]).map(p=>PN[p]).join(', '):PN[x.platform]}</div><h3>${esc(x.title)}</h3>${x.caption_gist?`<p class="cap">${esc(x.caption_gist)}</p>`:''}${x.pipe?`<span class="steps">${STEPS.map((t,j)=>`<i class="${j<=s?'on':''}"></i>`).join('')}</span><small>Step ${s+1} of 5</small>`:''}${x.notes?`<p class="note">${esc(x.notes)}</p>`:''}${rows.length?`<dl class="dl">${rows.map(r=>`<div><dt>${r[0]}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl>`:''}${x.status==='posted'?snapBlock(x)+latestMetrics(x):''}</article>`;
+  return `<article class="dc" style="--c:${col(x)};--i:${k}"><div class="dct"><time>${t12(x.time)||'Plan'}</time>${tag(x.status)}${early?' '+early:''}</div><div class="mt">${pd(x)}${x.pipe?(x.platforms||[]).map(p=>PN[p]).join(', '):PN[x.platform]}</div><h3>${esc(x.title)}</h3>${x.caption_gist?`<p class="cap">${esc(x.caption_gist)}</p>`:''}${x.pipe?`<span class="steps">${STEPS.map((t,j)=>`<i class="${j<=s?'on':''}"></i>`).join('')}</span><small>Step ${s+1} of 5</small>`:''}${x.notes?`<p class="note">${esc(x.notes)}</p>`:''}${rows.length?`<dl class="dl">${rows.map(r=>`<div><dt>${r[0]}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl>`:''}${x.status==='posted'?snapBlock(x)+latestMetrics(x):''}</article>`;
 }
 function paintDay(dir){
   const dt=U(S.sel),l=dayItems(S.sel);
@@ -497,7 +499,7 @@ function openDay(){
 function open(id){
   const i=byId.get(id);if(!i)return;
   const ch=(D.channels||[]).find(c=>c.platform===i.platform);
-  const when=i.date?fmt(U(i.date),{weekday:'long',day:'numeric',month:'long'})+(i.time?', '+i.time+' PKT':''):'No date yet';
+  const when=i.date?fmt(U(i.date),{weekday:'long',day:'numeric',month:'long'})+(i.time?', '+t12(i.time)+' PKT':''):'No date yet';
   const kv=[[i.pipe?'Platforms':'Channel',i.pipe?(i.platforms||[]).map(p=>PN[p]).join(', '):(ch?ch.name:PN[i.platform])],[i.status==='posted'?'Posted':'When',when],i.file_name&&[i.pipe?'Script file':'Video file',i.file_name],i.keyword_cta&&['Auto-DM keyword',i.keyword_cta]].filter(Boolean);
   const k=STEPS.indexOf(i.status);
   $('#sheet').innerHTML=`<div class="grab"></div><div class="shtop"><span class="mt">${pd(i)}${i.pipe?'All platforms':PN[i.platform]}</span><button class="x" data-close aria-label="Close">${X}</button></div><h2 id="st">${esc(i.title)}</h2>${tag(i.status)}${i.status==='posted'?' '+statusRow(i):''}`+
@@ -548,7 +550,7 @@ addEventListener('keydown',e=>{
   });
 })();
 const u=(D.meta&&D.meta.generated_at||'').match(/(\d{4}-\d\d-\d\d) (\d\d:\d\d)/);
-$('#upd').innerHTML=u?`<b>Updated</b>${fmt(U(u[1]),{day:'numeric',month:'short'})}, ${u[2]} PKT`:'';
+$('#upd').innerHTML=u?`<b>Updated</b>${fmt(U(u[1]),{day:'numeric',month:'short'})}, ${t12(u[2])} PKT`:'';
 render();
 }
 
