@@ -1,0 +1,1015 @@
+{
+  "posts": {
+    "6ae886a9d3d929aa69cd7053": {
+      "posted_at": "2026-11-02 17:56 PKT",
+      "posted_date": "2026-11-02",
+      "platform": "FB",
+      "title": "Local business page",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "reach": 0,
+            "reactions": 8,
+            "comments": 0,
+            "engagementRate": 22.84,
+            "impressions": 197,
+            "shares": 36,
+            "clicks": 1
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "reach": 0,
+            "reactions": 8,
+            "comments": 0,
+            "engagementRate": 22.84,
+            "impressions": 197,
+            "shares": 36,
+            "clicks": 1
+          }
+        },
+        "30": null
+      }
+    },
+    "6ae89393c5c4672c3e78dfc7": {
+      "posted_at": "2026-11-02 18:44 PKT",
+      "posted_date": "2026-11-02",
+      "platform": "IG",
+      "title": "Local business page",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "views": 25,
+            "reach": 14,
+            "averageTimeWatched": 7.66,
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 21.43,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 3.7
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "views": 25,
+            "reach": 14,
+            "averageTimeWatched": 7.66,
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 21.43,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 3.7
+          }
+        },
+        "30": null
+      }
+    },
+    "6ae8986bc5c4672c3e7b3d49": {
+      "posted_at": "2026-11-02 19:08 PKT",
+      "posted_date": "2026-11-02",
+      "platform": "FB",
+      "title": "Dentist Maps booking",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "reach": 0,
+            "reactions": 9,
+            "comments": 0,
+            "engagementRate": 36.46,
+            "impressions": 96,
+            "shares": 26,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "reach": 0,
+            "reactions": 9,
+            "comments": 0,
+            "engagementRate": 36.46,
+            "impressions": 96,
+            "shares": 26,
+            "clicks": 0
+          }
+        },
+        "30": null
+      }
+    },
+    "6ae8986e416e200342671b8d": {
+      "posted_at": "2026-11-02 19:11 PKT",
+      "posted_date": "2026-11-02",
+      "platform": "IG",
+      "title": "Dentist Maps booking",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "views": 34,
+            "reach": 26,
+            "averageTimeWatched": 2.79,
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 11.54,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 1.86
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 8,
+          "metrics": {
+            "views": 34,
+            "reach": 26,
+            "averageTimeWatched": 2.79,
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 11.54,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 1.86
+          }
+        },
+        "30": null
+      }
+    },
+    "6ae9d1dcbeaa26e1a08d8361": {
+      "posted_at": "2026-11-03 17:22 PKT",
+      "posted_date": "2026-11-03",
+      "platform": "FB",
+      "title": "Brand visibility",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 7,
+          "metrics": {
+            "reach": 0,
+            "reactions": 8,
+            "comments": 0,
+            "engagementRate": 18.38,
+            "impressions": 185,
+            "shares": 26,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 7,
+          "metrics": {
+            "reach": 0,
+            "reactions": 8,
+            "comments": 0,
+            "engagementRate": 18.38,
+            "impressions": 185,
+            "shares": 26,
+            "clicks": 0
+          }
+        },
+        "30": null
+      }
+    },
+    "6ae9d1e0fa8d4ba881ff8a27": {
+      "posted_at": "2026-11-03 17:22 PKT",
+      "posted_date": "2026-11-03",
+      "platform": "IG",
+      "title": "Brand visibility",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 7,
+          "metrics": {
+            "views": 41,
+            "reach": 31,
+            "averageTimeWatched": 3.89,
+            "reactions": 4,
+            "comments": 0,
+            "engagementRate": 12.9,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 2.92
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 7,
+          "metrics": {
+            "views": 41,
+            "reach": 31,
+            "averageTimeWatched": 3.89,
+            "reactions": 4,
+            "comments": 0,
+            "engagementRate": 12.9,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 2.92
+          }
+        },
+        "30": null
+      }
+    },
+    "6aeb1e7c19ea7ee3e9331d91": {
+      "posted_at": "2026-11-04 20:01 PKT",
+      "posted_date": "2026-11-04",
+      "platform": "FB",
+      "title": "Website mehngi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-04 20:03 PKT",
+          "captured_date": "2026-11-04",
+          "age_days": 0,
+          "metrics": {
+            "reach": 0,
+            "reactions": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "impressions": 0,
+            "shares": 0,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6aeb1e8019ea7ee3e9331f82": {
+      "posted_at": "2026-11-04 20:02 PKT",
+      "posted_date": "2026-11-04",
+      "platform": "IG",
+      "title": "Website mehngi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 6,
+          "metrics": {
+            "views": 131,
+            "reach": 116,
+            "averageTimeWatched": 6.75,
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 6.9,
+            "shares": 1,
+            "saves": 1,
+            "totalTimeWatched": 15.52
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 6,
+          "metrics": {
+            "views": 131,
+            "reach": 116,
+            "averageTimeWatched": 6.75,
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 6.9,
+            "shares": 1,
+            "saves": 1,
+            "totalTimeWatched": 15.52
+          }
+        },
+        "7": null,
+        "30": null
+      }
+    },
+    "6aebe913ff03f6944a1c2a82": {
+      "posted_at": "2026-11-05 13:00 PKT",
+      "posted_date": "2026-11-05",
+      "platform": "FB",
+      "title": "Website mehngi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "reach": 0,
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 8.54,
+            "impressions": 82,
+            "shares": 0,
+            "clicks": 1
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "reach": 0,
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 8.54,
+            "impressions": 82,
+            "shares": 0,
+            "clicks": 1
+          }
+        },
+        "7": null,
+        "30": null
+      }
+    },
+    "6aebe918f283c8dd45b4186f": {
+      "posted_at": "2026-11-05 13:02 PKT",
+      "posted_date": "2026-11-05",
+      "platform": "IG",
+      "title": "Website mehngi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "views": 19,
+            "reach": 18,
+            "averageTimeWatched": 2.51,
+            "reactions": 4,
+            "comments": 0,
+            "engagementRate": 22.22,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 1.29
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "views": 19,
+            "reach": 18,
+            "averageTimeWatched": 2.51,
+            "reactions": 4,
+            "comments": 0,
+            "engagementRate": 22.22,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 1.29
+          }
+        },
+        "7": null,
+        "30": null
+      }
+    },
+    "6aeb1e8519ea7ee3e9332225": {
+      "posted_at": "2026-11-05 20:04 PKT",
+      "posted_date": "2026-11-05",
+      "platform": "FB",
+      "title": "Social media easy",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "reach": 0,
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 3.33,
+            "impressions": 180,
+            "shares": 0,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "reach": 0,
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 3.33,
+            "impressions": 180,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
+        "7": null,
+        "30": null
+      }
+    },
+    "6aeb1e8989e513be2929f56a": {
+      "posted_at": "2026-11-05 20:05 PKT",
+      "posted_date": "2026-11-05",
+      "platform": "IG",
+      "title": "Social media easy",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "views": 45,
+            "reach": 39,
+            "averageTimeWatched": 4.77,
+            "reactions": 4,
+            "comments": 0,
+            "engagementRate": 10.26,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 4.61
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 5,
+          "metrics": {
+            "views": 45,
+            "reach": 39,
+            "averageTimeWatched": 4.77,
+            "reactions": 4,
+            "comments": 0,
+            "engagementRate": 10.26,
+            "shares": 0,
+            "saves": 0,
+            "totalTimeWatched": 4.61
+          }
+        },
+        "7": null,
+        "30": null
+      }
+    },
+    "6aef8e7cd6bbae6fa1ad9417": {
+      "posted_at": "2026-11-08 10:00 PKT",
+      "posted_date": "2026-11-08",
+      "platform": "FB",
+      "title": "Instagram board website",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 2,
+          "metrics": {
+            "reach": 0,
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 5,
+            "impressions": 60,
+            "shares": 0,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 2,
+          "metrics": {
+            "reach": 0,
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 5,
+            "impressions": 60,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6aef8e839214322f6815b37e": {
+      "posted_at": "2026-11-08 21:02 PKT",
+      "posted_date": "2026-11-08",
+      "platform": "IG",
+      "title": "Instagram board website",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 2,
+          "metrics": {
+            "views": 158,
+            "reach": 136,
+            "averageTimeWatched": 4.56,
+            "reactions": 9,
+            "comments": 0,
+            "engagementRate": 10.29,
+            "shares": 5,
+            "saves": 0,
+            "totalTimeWatched": 11.25
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 2,
+          "metrics": {
+            "views": 158,
+            "reach": 136,
+            "averageTimeWatched": 4.56,
+            "reactions": 9,
+            "comments": 0,
+            "engagementRate": 10.29,
+            "shares": 5,
+            "saves": 0,
+            "totalTimeWatched": 11.25
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6aef98b99214322f68187dda": {
+      "posted_at": "2026-11-09 09:00 PKT",
+      "posted_date": "2026-11-09",
+      "platform": "FB",
+      "title": "ROAS vs profit",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "reach": 0,
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 1.19,
+            "impressions": 84,
+            "shares": 0,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "reach": 0,
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 1.19,
+            "impressions": 84,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af18215cac9d7525f7c4098": {
+      "posted_at": "2026-11-09 15:32 PKT",
+      "posted_date": "2026-11-09",
+      "platform": "TikTok",
+      "title": "Brand visibility",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 10,
+            "reach": 0,
+            "averageTimeWatched": 0.83,
+            "reactions": 2,
+            "comments": 1,
+            "engagementRate": 40,
+            "shares": 1,
+            "totalTimeWatched": 0.73
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 10,
+            "reach": 0,
+            "averageTimeWatched": 0.83,
+            "reactions": 2,
+            "comments": 1,
+            "engagementRate": 40,
+            "shares": 1,
+            "totalTimeWatched": 0.73
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6aef98c151492b796effb8d3": {
+      "posted_at": "2026-11-09 19:03 PKT",
+      "posted_date": "2026-11-09",
+      "platform": "IG",
+      "title": "ROAS vs profit",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 1188,
+            "reach": 1033,
+            "averageTimeWatched": 13.61,
+            "reactions": 16,
+            "comments": 0,
+            "engagementRate": 2.52,
+            "shares": 4,
+            "saves": 6,
+            "totalTimeWatched": 243.53
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 17:47 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 1188,
+            "reach": 1033,
+            "averageTimeWatched": 13.61,
+            "reactions": 16,
+            "comments": 0,
+            "engagementRate": 2.52,
+            "shares": 4,
+            "saves": 6,
+            "totalTimeWatched": 243.53
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af1820d7522f65ac0ce4315": {
+      "posted_at": "2026-11-09 19:32 PKT",
+      "posted_date": "2026-11-09",
+      "platform": "TikTok",
+      "title": "Dentist Maps booking",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 9,
+            "reach": 0,
+            "averageTimeWatched": 0.61,
+            "reactions": 2,
+            "comments": 1,
+            "engagementRate": 33.33,
+            "shares": 0,
+            "totalTimeWatched": 0.52
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 9,
+            "reach": 0,
+            "averageTimeWatched": 0.61,
+            "reactions": 2,
+            "comments": 1,
+            "engagementRate": 33.33,
+            "shares": 0,
+            "totalTimeWatched": 0.52
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af1820e7522f65ac0ce4362": {
+      "posted_at": "2026-11-09 23:31 PKT",
+      "posted_date": "2026-11-09",
+      "platform": "TikTok",
+      "title": "ROAS vs profit",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 3,
+            "reach": 0,
+            "averageTimeWatched": 0,
+            "reactions": 1,
+            "comments": 1,
+            "engagementRate": 66.67,
+            "shares": 0,
+            "totalTimeWatched": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 1,
+          "metrics": {
+            "views": 3,
+            "reach": 0,
+            "averageTimeWatched": 0,
+            "reactions": 1,
+            "comments": 1,
+            "engagementRate": 66.67,
+            "shares": 0,
+            "totalTimeWatched": 0
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af08dfc51492b796e442d7a": {
+      "posted_at": "2026-11-10 08:01 PKT",
+      "posted_date": "2026-11-10",
+      "platform": "FB",
+      "title": "Instagram kaafi nahi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:58 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 0,
+          "metrics": {
+            "reach": 0,
+            "reactions": 2,
+            "comments": 0,
+            "engagementRate": 1.01,
+            "impressions": 198,
+            "shares": 0,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af18203796ccae266955638": {
+      "posted_at": "2026-11-10 12:02 PKT",
+      "posted_date": "2026-11-10",
+      "platform": "TikTok",
+      "title": "Local business page",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-10 12:14 PKT",
+          "captured_date": "2026-11-10",
+          "age_days": 0,
+          "metrics": {
+            "views": 2,
+            "reach": 0,
+            "averageTimeWatched": 0,
+            "reactions": 1,
+            "comments": 1,
+            "engagementRate": 100,
+            "shares": 0,
+            "totalTimeWatched": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af30453b401dffbbe6ba276": {
+      "posted_at": "2026-11-10 14:54 PKT",
+      "posted_date": "2026-11-10",
+      "platform": "IG",
+      "title": "Instagram Story (no caption)",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-11 06:30 PKT",
+          "captured_date": "2026-11-11",
+          "age_days": 1,
+          "metrics": {
+            "views": 3,
+            "reach": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "reactions": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": {
+          "captured_at": "2026-11-11 06:30 PKT",
+          "captured_date": "2026-11-11",
+          "age_days": 1,
+          "metrics": {
+            "views": 3,
+            "reach": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "reactions": 0
+          }
+        },
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af18218cac9d7525f7c4136": {
+      "posted_at": "2026-11-10 16:04 PKT",
+      "posted_date": "2026-11-10",
+      "platform": "TikTok",
+      "title": "Website mehngi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-09 13:19 PKT",
+          "captured_date": "2026-11-09",
+          "age_days": -1,
+          "metrics": {
+            "views": 0,
+            "reach": 0,
+            "averageTimeWatched": 0,
+            "reactions": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "shares": 0,
+            "totalTimeWatched": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af08dfb51492b796e442d3d": {
+      "posted_at": "2026-11-10 19:04 PKT",
+      "posted_date": "2026-11-10",
+      "platform": "IG",
+      "title": "Instagram kaafi nahi",
+      "snapshots": [],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af18219e29b1359f0ddbdf1": {
+      "posted_at": "2026-11-10 20:06 PKT",
+      "posted_date": "2026-11-10",
+      "platform": "TikTok",
+      "title": "Instagram kaafi nahi",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-09 13:19 PKT",
+          "captured_date": "2026-11-09",
+          "age_days": -1,
+          "metrics": {
+            "views": 0,
+            "reach": 0,
+            "averageTimeWatched": 0,
+            "reactions": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "shares": 0,
+            "totalTimeWatched": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    },
+    "6af08e08d6bbae6fa1f50cef": {
+      "posted_at": "2026-11-11 08:01 PKT",
+      "posted_date": "2026-11-11",
+      "platform": "FB",
+      "title": "Instagram kapra",
+      "snapshots": [
+        {
+          "captured_at": "2026-11-11 08:03 PKT",
+          "captured_date": "2026-11-11",
+          "age_days": 0,
+          "metrics": {
+            "reach": 0,
+            "reactions": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "impressions": 0,
+            "shares": 0,
+            "clicks": 0
+          }
+        }
+      ],
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      }
+    }
+  },
+  "meta": {
+    "timezone": "Asia/Karachi",
+    "updated_at": "2026-11-11 10:01 PKT",
+    "updated_at_iso": "2026-11-11T10:01:56+05:00",
+    "checkpoints": [
+      1,
+      3,
+      7,
+      30
+    ],
+    "source": "Snapshots are real Buffer metrics only. A Day 1/3/7/30 checkpoint is filled by the first snapshot whose age has reached that day, and only as that highest reached checkpoint. Missed earlier windows are left empty. Missing keys were not filled in.",
+    "created_at": "2026-11-11 09:59 PKT",
+    "created_at_iso": "2026-11-11T09:59:31+05:00"
+  }
+}
