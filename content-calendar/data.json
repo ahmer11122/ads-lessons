@@ -1,0 +1,2448 @@
+{
+  "meta": {
+    "generated_at": "2026-11-11 09:20 PKT",
+    "generated_at_iso": "2026-11-11T09:20:48+05:00",
+    "converted_at": "2026-11-11 09:26 PKT",
+    "converted_at_iso": "2026-11-11T09:26:54+05:00",
+    "timezone": "Asia/Karachi",
+    "timezone_label": "Asia/Karachi (PKT, UTC+5)",
+    "organization_id": "6ae3a47e26d3d08c3b7e2a2c",
+    "source": "Buffer is the source of truth. Metrics are real Buffer values only. Missing keys were not filled in."
+  },
+  "channels": [
+    {
+      "platform": "FB",
+      "channel_id": "6ae3a5032f1f5ed64813f63b",
+      "name": "Smart solutions.",
+      "service": "facebook",
+      "type": "page"
+    },
+    {
+      "platform": "IG",
+      "channel_id": "6ae8934fe29c69a171385101",
+      "name": "smartsolutions.01",
+      "service": "instagram",
+      "type": "business"
+    },
+    {
+      "platform": "TikTok",
+      "channel_id": "6af1808e62b70b94b0ccc743",
+      "name": "smartsolutions.01",
+      "service": "tiktok",
+      "type": "account"
+    }
+  ],
+  "counts": {
+    "scheduled_section": 37,
+    "scheduled": 30,
+    "draft_waiting_slot": 7,
+    "scheduled_by_platform": {
+      "FB": 10,
+      "TikTok": 10,
+      "IG": 10
+    },
+    "draft_waiting_slot_by_platform": {
+      "TikTok": 4,
+      "IG": 2,
+      "FB": 1
+    },
+    "pipeline": 20,
+    "posted": 26,
+    "posted_by_platform": {
+      "FB": 10,
+      "IG": 10,
+      "TikTok": 6
+    },
+    "drafts_skipped_no_dueAt": 0,
+    "pipeline_export": 9,
+    "pipeline_breakdown": {
+      "meta_ads": 5,
+      "case_studies": 4,
+      "automation": 5,
+      "course": 6
+    }
+  },
+  "items": [
+    {
+      "id": "6af1ac8adec1287f2aa04c56",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-11",
+      "time": "12:00",
+      "datetime_pkt": "2026-11-11 12:00 PKT",
+      "title": "Design. Code. Deliver",
+      "caption_gist": "Idea aap ka, poora kaam hamara. ✅ Design → Code → Deliver. UI/UX aur brand design, website, Shopify…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ac8adec1287f2aa04c56",
+      "file_name": "01-design-code-deliver-v2.mp4",
+      "media": {
+        "file_name": "01-design-code-deliver-v2.mp4",
+        "drive_id": "1Rn8Lg8LHQMpw279vM4Y2RGwZDEzv5PBM"
+      }
+    },
+    {
+      "id": "6af18220e29b1359f0ddbf57",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-11",
+      "time": "12:00",
+      "datetime_pkt": "2026-11-11 12:00 PKT",
+      "title": "Social media easy",
+      "caption_gist": "Social media = sirf roz ek post? Nahi. Ideas, calendar, design, reels, replies, analytics — poori st…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af18220e29b1359f0ddbf57",
+      "file_name": "ss-s2-social-media-easy.mp4",
+      "media": {
+        "file_name": "ss-s2-social-media-easy.mp4",
+        "drive_id": "1Sp7oWAxuGvivzB9HMQ1a6cZG_fd7086X"
+      }
+    },
+    {
+      "id": "6af1aca49541fd37f93f17d0",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-11",
+      "time": "14:00",
+      "datetime_pkt": "2026-11-11 14:00 PKT",
+      "title": "Design. Code. Deliver",
+      "caption_gist": "Idea aap ka, poora kaam hamara. ✅ Design → Code → Deliver. UI/UX aur brand design, website, Shopify…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1aca49541fd37f93f17d0",
+      "file_name": "01-design-code-deliver-v2.mp4",
+      "media": {
+        "file_name": "01-design-code-deliver-v2.mp4",
+        "drive_id": "1Rn8Lg8LHQMpw279vM4Y2RGwZDEzv5PBM"
+      }
+    },
+    {
+      "id": "6af1acc09541fd37f93f2d71",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-11",
+      "time": "14:00",
+      "datetime_pkt": "2026-11-11 14:00 PKT",
+      "title": "Design. Code. Deliver",
+      "caption_gist": "Design. Code. Deliver. Website, Shopify ya POS, ek team. 🚀 Shuru karein? Comment mein START. #SmartS…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1acc09541fd37f93f2d71",
+      "file_name": "01-design-code-deliver-v2.mp4",
+      "media": {
+        "file_name": "01-design-code-deliver-v2.mp4",
+        "drive_id": "1Rn8Lg8LHQMpw279vM4Y2RGwZDEzv5PBM"
+      }
+    },
+    {
+      "id": "6af1ac8ddec1287f2aa04e49",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-11",
+      "time": "16:00",
+      "datetime_pkt": "2026-11-11 16:00 PKT",
+      "title": "Marketing reel",
+      "caption_gist": "Kaam acha hai, lekin log jaante hi nahi? 👀 Meta ads, shoot, edit aur drone video, taake aap ka busin…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ac8ddec1287f2aa04e49",
+      "file_name": "04-marketing-reel-v2.mp4",
+      "media": {
+        "file_name": "04-marketing-reel-v2.mp4",
+        "drive_id": "1kV4NlwDmgr4xhPXkBOHK6FCv0F8u8Ngr"
+      }
+    },
+    {
+      "id": "6af18224796ccae266955cb7",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-11",
+      "time": "16:00",
+      "datetime_pkt": "2026-11-11 16:00 PKT",
+      "title": "Instagram board website",
+      "caption_gist": "Instagram aap ki dukaan ka board hai—apni website bhi banayein. Website ke liye comment mein CHECK l…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af18224796ccae266955cb7",
+      "file_name": "drive-verified.mp4",
+      "media": {
+        "file_name": "drive-verified.mp4",
+        "drive_id": "1J4TyNMaa3mx5VZtgMp7p1rKFUVl3mlTX"
+      }
+    },
+    {
+      "id": "6af08e08562f2e6de9c4f6e0",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-11",
+      "time": "18:00",
+      "datetime_pkt": "2026-11-11 18:00 PKT",
+      "title": "Instagram kapra",
+      "caption_gist": "Instagram pe kapra bechte hain? Size, color aur stock ke DMs mein ulajhne ke bajaye apni collection…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af08e08562f2e6de9c4f6e0",
+      "file_name": "s4.mp4",
+      "media": {
+        "file_name": "s4.mp4",
+        "drive_id": "1hdWZsGMOYrL4rjBMpg8n9-O7rqKtzL3M"
+      }
+    },
+    {
+      "id": "6af3407ca80c88d576451f0d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-11",
+      "time": "18:00",
+      "datetime_pkt": "2026-11-11 18:00 PKT",
+      "title": "Marketing reel",
+      "caption_gist": "Aap great hain, lekin log jaante nahi? 👀 Meta ads + shoot = sahi log aap tak. Comment mein AD. #Smar…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af3407ca80c88d576451f0d",
+      "file_name": "04-marketing-reel-v2.mp4",
+      "media": {
+        "file_name": "04-marketing-reel-v2.mp4",
+        "drive_id": "1kV4NlwDmgr4xhPXkBOHK6FCv0F8u8Ngr"
+      }
+    },
+    {
+      "id": "6af18225796ccae266955d26",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-11",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-11 20:00 PKT",
+      "title": "Instagram kapra",
+      "caption_gist": "Instagram pe kapra? Size/color/stock DMs ki jagah collection website pe — customer COD order kare. C…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af18225796ccae266955d26",
+      "file_name": "s4.mp4",
+      "media": {
+        "file_name": "s4.mp4",
+        "drive_id": "1hdWZsGMOYrL4rjBMpg8n9-O7rqKtzL3M"
+      }
+    },
+    {
+      "id": "6af1aca7dec1287f2aa05ac8",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-11",
+      "time": "21:00",
+      "datetime_pkt": "2026-11-11 21:00 PKT",
+      "title": "Marketing reel",
+      "caption_gist": "Kaam acha hai, lekin log jaante hi nahi? 👀 Meta ads, shoot, edit aur drone video, taake aap ka busin…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1aca7dec1287f2aa05ac8",
+      "file_name": "04-marketing-reel-v2.mp4",
+      "media": {
+        "file_name": "04-marketing-reel-v2.mp4",
+        "drive_id": "1kV4NlwDmgr4xhPXkBOHK6FCv0F8u8Ngr"
+      }
+    },
+    {
+      "id": "6af08e169214322f685d375d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-12",
+      "time": "09:00",
+      "datetime_pkt": "2026-11-12 09:00 PKT",
+      "title": "Website salesman",
+      "caption_gist": "Aap ki website aap ka online salesman hai. Mobile pe saaf dikhe aur customer ko zaroori jawab mil sa…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af08e169214322f685d375d",
+      "file_name": "salesman.mp4",
+      "media": {
+        "file_name": "salesman.mp4",
+        "drive_id": "1cXZWKP-7JfU0sQEfQKV0oLJWoPSL5g-n"
+      }
+    },
+    {
+      "id": "6af08e16004e4879a7c3615e",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-12",
+      "time": "09:00",
+      "datetime_pkt": "2026-11-12 09:00 PKT",
+      "title": "Website salesman",
+      "caption_gist": "Aap ki website aap ka online salesman hai. Mobile pe saaf dikhe aur customer ko zaroori jawab mil sa…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af08e16004e4879a7c3615e",
+      "file_name": "salesman.mp4",
+      "media": {
+        "file_name": "salesman.mp4",
+        "drive_id": "1cXZWKP-7JfU0sQEfQKV0oLJWoPSL5g-n"
+      }
+    },
+    {
+      "id": "6af34080a80c88d576452140",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-12",
+      "time": "12:00",
+      "datetime_pkt": "2026-11-12 12:00 PKT",
+      "title": "Cursor to Live",
+      "caption_gist": "Design → Prototype → Live. Website jo log yaad rakhein. 🖱️ Comment mein CHECK. #SmartSolutions #WebD…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af34080a80c88d576452140",
+      "file_name": "02-cursor-to-live-v2.mp4",
+      "media": {
+        "file_name": "02-cursor-to-live-v2.mp4",
+        "drive_id": "1B4hYOh0I6WWe2NJsqK-jrbwgDj4XbdMv"
+      }
+    },
+    {
+      "id": "6af1ac91c7aab911b35fa2bc",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-12",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-12 13:00 PKT",
+      "title": "Cursor to Live",
+      "caption_gist": "Sketch se live website tak, har click pehle design hota hai. 🖱️ Design, prototype, phir live: animat…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ac91c7aab911b35fa2bc",
+      "file_name": "02-cursor-to-live-v2.mp4",
+      "media": {
+        "file_name": "02-cursor-to-live-v2.mp4",
+        "drive_id": "1B4hYOh0I6WWe2NJsqK-jrbwgDj4XbdMv"
+      }
+    },
+    {
+      "id": "6af1acab3c5611da27a8efa4",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-12",
+      "time": "14:00",
+      "datetime_pkt": "2026-11-12 14:00 PKT",
+      "title": "Cursor to Live",
+      "caption_gist": "Sketch se live website tak, har click pehle design hota hai. 🖱️ Design, prototype, phir live: animat…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1acab3c5611da27a8efa4",
+      "file_name": "02-cursor-to-live-v2.mp4",
+      "media": {
+        "file_name": "02-cursor-to-live-v2.mp4",
+        "drive_id": "1B4hYOh0I6WWe2NJsqK-jrbwgDj4XbdMv"
+      }
+    },
+    {
+      "id": "6af3407fa9f33a390a4ca090",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-12",
+      "time": "16:00",
+      "datetime_pkt": "2026-11-12 16:00 PKT",
+      "title": "Stop Scrolling",
+      "caption_gist": "POS, website, Shopify, ads, video, branding. Ek team. 🔥 Comment mein START. #SmartSolutions #Digital…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af3407fa9f33a390a4ca090",
+      "file_name": "05-stop-scrolling-v2.mp4",
+      "media": {
+        "file_name": "05-stop-scrolling-v2.mp4",
+        "drive_id": "199x6ewQOt3SNawXBTVW1PRL3I1Dto7FO"
+      }
+    },
+    {
+      "id": "6af1ac95c7aab911b35fa3a9",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-12",
+      "time": "17:00",
+      "datetime_pkt": "2026-11-12 17:00 PKT",
+      "title": "Stop Scrolling",
+      "caption_gist": "Ek team. Poora kaam. 🔥 POS systems, custom websites, Shopify stores, Meta ads, video production, inf…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ac95c7aab911b35fa3a9",
+      "file_name": "05-stop-scrolling-v2.mp4",
+      "media": {
+        "file_name": "05-stop-scrolling-v2.mp4",
+        "drive_id": "199x6ewQOt3SNawXBTVW1PRL3I1Dto7FO"
+      }
+    },
+    {
+      "id": "6af1acaf56a4abd5c291ecd8",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-12",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-12 19:00 PKT",
+      "title": "Stop Scrolling",
+      "caption_gist": "Ek team. Poora kaam. 🔥 POS systems, custom websites, Shopify stores, Meta ads, video production, inf…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1acaf56a4abd5c291ecd8",
+      "file_name": "05-stop-scrolling-v2.mp4",
+      "media": {
+        "file_name": "05-stop-scrolling-v2.mp4",
+        "drive_id": "199x6ewQOt3SNawXBTVW1PRL3I1Dto7FO"
+      }
+    },
+    {
+      "id": "6af182272f1ff83d45282a78",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-12",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-12 20:00 PKT",
+      "title": "Website salesman",
+      "caption_gist": "Website aap ka online salesman hai. Mobile pe saaf dikhe, jawab mil sakein. Salesman upgrade? Commen…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af182272f1ff83d45282a78",
+      "file_name": "salesman.mp4",
+      "media": {
+        "file_name": "salesman.mp4",
+        "drive_id": "1cXZWKP-7JfU0sQEfQKV0oLJWoPSL5g-n"
+      }
+    },
+    {
+      "id": "6af08e20004e4879a7c3625f",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-13",
+      "time": "09:00",
+      "datetime_pkt": "2026-11-13 09:00 PKT",
+      "title": "Custom Shopify store",
+      "caption_gist": "Har Shopify store ek jaisa kyun lage? Apne brand ke mutabiq design, products aur checkout—store live…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af08e20004e4879a7c3625f",
+      "file_name": "s11.mp4",
+      "media": {
+        "file_name": "s11.mp4",
+        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
+      }
+    },
+    {
+      "id": "6af34081e9e4a87f7b4f81ab",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-13",
+      "time": "12:00",
+      "datetime_pkt": "2026-11-13 12:00 PKT",
+      "title": "Frame to Live",
+      "caption_gist": "Boring website? Animated, fast aur mobile-ready banayein. ✨ Comment mein CHECK. #SmartSolutions #Web…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af34081e9e4a87f7b4f81ab",
+      "file_name": "03-frame-to-live-v2.mp4",
+      "media": {
+        "file_name": "03-frame-to-live-v2.mp4",
+        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
+      }
+    },
+    {
+      "id": "6af1ac999541fd37f93f1433",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-13",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-13 13:00 PKT",
+      "title": "Frame to Live",
+      "caption_gist": "Boring website pe visitor rukta nahi. 😴 Animated, fast, mobile-ready aur SEO-ready website. Idea se…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ac999541fd37f93f1433",
+      "file_name": "03-frame-to-live-v2.mp4",
+      "media": {
+        "file_name": "03-frame-to-live-v2.mp4",
+        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
+      }
+    },
+    {
+      "id": "6af1acb2c7aab911b35faf8d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-13 13:00 PKT",
+      "title": "Frame to Live",
+      "caption_gist": "Boring website pe visitor rukta nahi. 😴 Animated, fast, mobile-ready aur SEO-ready website. Idea se…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1acb2c7aab911b35faf8d",
+      "file_name": "03-frame-to-live-v2.mp4",
+      "media": {
+        "file_name": "03-frame-to-live-v2.mp4",
+        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
+      }
+    },
+    {
+      "id": "6af1ef7b6de9b6a6d77d0885",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "16:00",
+      "datetime_pkt": "2026-11-13 16:00 PKT",
+      "title": "Websites That Sell",
+      "caption_gist": "Slow website = visitor gaya. ⏳ Pehle design, phir fast, mobile aur secure website, WhatsApp order bu…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ef7b6de9b6a6d77d0885",
+      "file_name": "06-websites-that-sell-v2.mp4",
+      "media": {
+        "file_name": "06-websites-that-sell-v2.mp4",
+        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
+      }
+    },
+    {
+      "id": "6af3ea89d9a6812579cd5f46",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-13",
+      "time": "16:00",
+      "datetime_pkt": "2026-11-13 16:00 PKT",
+      "title": "Websites That Sell",
+      "caption_gist": "Visitors wait nahi karte. ⏳ Fast, mobile website + WhatsApp order. Comment mein CHECK. #SmartSolutio…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af3ea89d9a6812579cd5f46",
+      "file_name": "06-websites-that-sell-v2.mp4",
+      "media": {
+        "file_name": "06-websites-that-sell-v2.mp4",
+        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
+      }
+    },
+    {
+      "id": "6af1ac9b3c5611da27a8ea77",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-13",
+      "time": "17:00",
+      "datetime_pkt": "2026-11-13 17:00 PKT",
+      "title": "Websites That Sell",
+      "caption_gist": "Slow website = visitor gaya. ⏳ Pehle design, phir fast, mobile aur secure website, WhatsApp order bu…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af1ac9b3c5611da27a8ea77",
+      "file_name": "06-websites-that-sell-v2.mp4",
+      "media": {
+        "file_name": "06-websites-that-sell-v2.mp4",
+        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
+      }
+    },
+    {
+      "id": "6af08e20d6bbae6fa1f511ea",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-13 19:00 PKT",
+      "title": "Custom Shopify store",
+      "caption_gist": "Har Shopify store ek jaisa kyun lage? Apne brand ke mutabiq design, products aur checkout—store live…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af08e20d6bbae6fa1f511ea",
+      "file_name": "s11.mp4",
+      "media": {
+        "file_name": "s11.mp4",
+        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
+      }
+    },
+    {
+      "id": "6af18254cac9d7525f7c5c71",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-13",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-13 20:00 PKT",
+      "title": "Custom Shopify store",
+      "caption_gist": "Har Shopify store ek jaisa kyun? Brand-mutabiq design + checkout, phir chalane ki training. Unique s…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af18254cac9d7525f7c5c71",
+      "file_name": "s11.mp4",
+      "media": {
+        "file_name": "s11.mp4",
+        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
+      }
+    },
+    {
+      "id": "6af2c57f26f9e6aeeaef3a22",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-14",
+      "time": "09:00",
+      "datetime_pkt": "2026-11-14 09:00 PKT",
+      "title": "AI Web Builder",
+      "caption_gist": "Kabhi code nahi kiya? 💻 AI se websites banana seekhein. Sirf batao kya chahiye — 4 hafton mein apni…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af2c57f26f9e6aeeaef3a22",
+      "file_name": "07-ai-web-builder-v2.mp4",
+      "media": {
+        "file_name": "07-ai-web-builder-v2.mp4",
+        "drive_id": "1LFygdh7Lk4aMjjf-IXmUr7rKe61YSAHZ"
+      }
+    },
+    {
+      "id": "6af2c58626f9e6aeeaef3b79",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-14",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-14 13:00 PKT",
+      "title": "Zero to Full-Stack",
+      "caption_gist": "Zero se start, full-stack tak. 🚀 Do courses, ek path: Builder 4 weeks, Developer 6 weeks. 10 weeks,…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af2c58626f9e6aeeaef3b79",
+      "file_name": "08-zero-to-full-stack-v2.mp4",
+      "media": {
+        "file_name": "08-zero-to-full-stack-v2.mp4",
+        "drive_id": "1GbCiO54nlOHx7q02OBJ8TfO-aOvDH-0K"
+      }
+    },
+    {
+      "id": "6af2c58905af22d72612b74a",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-14",
+      "time": "14:00",
+      "datetime_pkt": "2026-11-14 14:00 PKT",
+      "title": "AI Web Builder",
+      "caption_gist": "Kabhi code nahi kiya? 💻 AI se websites banana seekhein. Sirf batao kya chahiye — 4 hafton mein apni…",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af2c58905af22d72612b74a",
+      "file_name": "07-ai-web-builder-v2.mp4",
+      "media": {
+        "file_name": "07-ai-web-builder-v2.mp4",
+        "drive_id": "1LFygdh7Lk4aMjjf-IXmUr7rKe61YSAHZ"
+      }
+    },
+    {
+      "id": "6af2c592e261c09acca82960",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-14",
+      "time": "16:00",
+      "datetime_pkt": "2026-11-14 16:00 PKT",
+      "title": "AI Web Builder",
+      "caption_gist": "Kabhi code nahi kiya? AI se 4 hafton mein website banana seekhein. 💻 Enrol ke liye DM karein. #Smart…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af2c592e261c09acca82960",
+      "file_name": "07-ai-web-builder-v2.mp4",
+      "media": {
+        "file_name": "07-ai-web-builder-v2.mp4",
+        "drive_id": "1LFygdh7Lk4aMjjf-IXmUr7rKe61YSAHZ"
+      }
+    },
+    {
+      "id": "6af2c58a26f9e6aeeaef3f64",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-14",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-14 19:00 PKT",
+      "title": "Zero to Full-Stack",
+      "caption_gist": "Zero se start, full-stack tak. 🚀 Do courses, ek path: Builder 4 weeks, Developer 6 weeks. 10 weeks,…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af2c58a26f9e6aeeaef3f64",
+      "file_name": "08-zero-to-full-stack-v2.mp4",
+      "media": {
+        "file_name": "08-zero-to-full-stack-v2.mp4",
+        "drive_id": "1GbCiO54nlOHx7q02OBJ8TfO-aOvDH-0K"
+      }
+    },
+    {
+      "id": "6af2c59405af22d72612bc2f",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-14",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-14 20:00 PKT",
+      "title": "Zero to Full-Stack",
+      "caption_gist": "Zero se full-stack. Do courses, 10 weeks, 2 live projects. 🚀 Enrol ke liye DM karein. #SmartSolution…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af2c59405af22d72612bc2f",
+      "file_name": "08-zero-to-full-stack-v2.mp4",
+      "media": {
+        "file_name": "08-zero-to-full-stack-v2.mp4",
+        "drive_id": "1GbCiO54nlOHx7q02OBJ8TfO-aOvDH-0K"
+      }
+    },
+    {
+      "id": "6af2c58805af22d72612b72d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-15",
+      "time": "10:00",
+      "datetime_pkt": "2026-11-15 10:00 PKT",
+      "title": "Same AI, Better Prompt",
+      "caption_gist": "AI sab ke paas hai — phir bhi websites ek jaisi kyun? 🤔 Same AI, better prompt. Hum seekhate hain AI…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af2c58805af22d72612b72d",
+      "file_name": "09-same-ai-better-prompt-v2.mp4",
+      "media": {
+        "file_name": "09-same-ai-better-prompt-v2.mp4",
+        "drive_id": "1qurueLHaOlpz-_wA0-DSYGNQoAGnVlab"
+      }
+    },
+    {
+      "id": "6af2c595e261c09acca829b6",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-15",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-15 20:00 PKT",
+      "title": "Same AI, Better Prompt",
+      "caption_gist": "AI sab use karte hain, result ek jaisa. Better prompt = designed look. ✨ Join ke liye DM karein. #Sm…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af2c595e261c09acca829b6",
+      "file_name": "09-same-ai-better-prompt-v2.mp4",
+      "media": {
+        "file_name": "09-same-ai-better-prompt-v2.mp4",
+        "drive_id": "1qurueLHaOlpz-_wA0-DSYGNQoAGnVlab"
+      }
+    },
+    {
+      "id": "6af2c591e261c09acca82940",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-15",
+      "time": "21:00",
+      "datetime_pkt": "2026-11-15 21:00 PKT",
+      "title": "Same AI, Better Prompt",
+      "caption_gist": "AI sab ke paas hai — phir bhi websites ek jaisi kyun? 🤔 Same AI, better prompt. Hum seekhate hain AI…",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af2c591e261c09acca82940",
+      "file_name": "09-same-ai-better-prompt-v2.mp4",
+      "media": {
+        "file_name": "09-same-ai-better-prompt-v2.mp4",
+        "drive_id": "1qurueLHaOlpz-_wA0-DSYGNQoAGnVlab"
+      }
+    },
+    {
+      "id": "6ae886a9d3d929aa69cd7053",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-02",
+      "time": "17:56",
+      "datetime_pkt": "2026-11-02 17:55 PKT",
+      "title": "Local business page",
+      "caption_gist": "Dukaan, salon ya clinic chalate hain? Kaam acha hai, lekin saath wali gali ko pata hi nahi ke aap ha…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6ae886a9d3d929aa69cd7053",
+      "file_name": "catch-01-local-page.mp4",
+      "media": {
+        "file_name": "catch-01-local-page.mp4",
+        "drive_id": "1vRARzh4NBcVNhbosx9n6T2Ugx5qy_L6W"
+      },
+      "sent_at_pkt": "2026-11-02 17:56 PKT",
+      "sent_date": "2026-11-02",
+      "sent_time": "17:56",
+      "scheduled_for_pkt": "2026-11-02 17:55 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 8,
+        "comments": 0,
+        "engagementRate": 22.84,
+        "impressions": 197,
+        "shares": 36,
+        "clicks": 1,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6ae89393c5c4672c3e78dfc7",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-02",
+      "time": "18:44",
+      "datetime_pkt": "2026-11-02 18:43 PKT",
+      "title": "Local business page",
+      "caption_gist": "Dukaan, salon ya clinic chalate hain? Kaam acha hai, lekin saath wali gali ko pata hi nahi ke aap ha…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6ae89393c5c4672c3e78dfc7",
+      "file_name": "catch-01-local-page.mp4",
+      "media": {
+        "file_name": "catch-01-local-page.mp4",
+        "drive_id": "1vRARzh4NBcVNhbosx9n6T2Ugx5qy_L6W"
+      },
+      "sent_at_pkt": "2026-11-02 18:44 PKT",
+      "sent_date": "2026-11-02",
+      "sent_time": "18:44",
+      "scheduled_for_pkt": "2026-11-02 18:43 PKT",
+      "metrics": {
+        "views": 25,
+        "reach": 14,
+        "averageTimeWatched": 7.66,
+        "reactions": 3,
+        "comments": 0,
+        "engagementRate": 21.43,
+        "shares": 0,
+        "saves": 0,
+        "totalTimeWatched": 3.7,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6ae8986bc5c4672c3e7b3d49",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-02",
+      "time": "19:08",
+      "datetime_pkt": "2026-11-02 19:04 PKT",
+      "title": "Dentist Maps booking",
+      "caption_gist": "Aadhi raat, daant mein shadeed dard. Patient ne Google Maps pe likha: dentist near me. Sab se qareeb…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6ae8986bc5c4672c3e7b3d49",
+      "file_name": "catch-02-dentist-maps.mp4",
+      "media": {
+        "file_name": "catch-02-dentist-maps.mp4",
+        "drive_id": "1WdIeHELz62jZi0DNmg46ZgU0lbG6ZZ_h"
+      },
+      "sent_at_pkt": "2026-11-02 19:08 PKT",
+      "sent_date": "2026-11-02",
+      "sent_time": "19:08",
+      "scheduled_for_pkt": "2026-11-02 19:04 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 9,
+        "comments": 0,
+        "engagementRate": 36.46,
+        "impressions": 96,
+        "shares": 26,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6ae8986e416e200342671b8d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-02",
+      "time": "19:11",
+      "datetime_pkt": "2026-11-02 19:04 PKT",
+      "title": "Dentist Maps booking",
+      "caption_gist": "Aadhi raat, daant mein shadeed dard. Patient ne Google Maps pe likha: dentist near me. Sab se qareeb…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6ae8986e416e200342671b8d",
+      "file_name": "catch-02-dentist-maps.mp4",
+      "media": {
+        "file_name": "catch-02-dentist-maps.mp4",
+        "drive_id": "1WdIeHELz62jZi0DNmg46ZgU0lbG6ZZ_h"
+      },
+      "sent_at_pkt": "2026-11-02 19:11 PKT",
+      "sent_date": "2026-11-02",
+      "sent_time": "19:11",
+      "scheduled_for_pkt": "2026-11-02 19:04 PKT",
+      "metrics": {
+        "views": 34,
+        "reach": 26,
+        "averageTimeWatched": 2.79,
+        "reactions": 3,
+        "comments": 0,
+        "engagementRate": 11.54,
+        "shares": 0,
+        "saves": 0,
+        "totalTimeWatched": 1.86,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6ae9d1dcbeaa26e1a08d8361",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-03",
+      "time": "17:22",
+      "datetime_pkt": "2026-11-03 17:21 PKT",
+      "title": "Brand visibility",
+      "caption_gist": "Aap ka business acha hai... lekin kya duniya usay dekh bhi rahi hai? 👀 Smart Solutions mein hum aap…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6ae9d1dcbeaa26e1a08d8361",
+      "file_name": "catch-03-brand-visibility.mp4",
+      "media": {
+        "file_name": "catch-03-brand-visibility.mp4",
+        "drive_id": "1ifefbi-2nxFFk0LKjiue5es3i4URpOtP"
+      },
+      "sent_at_pkt": "2026-11-03 17:22 PKT",
+      "sent_date": "2026-11-03",
+      "sent_time": "17:22",
+      "scheduled_for_pkt": "2026-11-03 17:21 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 8,
+        "comments": 0,
+        "engagementRate": 18.38,
+        "impressions": 185,
+        "shares": 26,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6ae9d1e0fa8d4ba881ff8a27",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-03",
+      "time": "17:22",
+      "datetime_pkt": "2026-11-03 17:21 PKT",
+      "title": "Brand visibility",
+      "caption_gist": "Aap ka business acha hai... lekin kya duniya usay dekh bhi rahi hai? 👀 Smart Solutions mein hum aap…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6ae9d1e0fa8d4ba881ff8a27",
+      "file_name": "catch-03-brand-visibility.mp4",
+      "media": {
+        "file_name": "catch-03-brand-visibility.mp4",
+        "drive_id": "1ifefbi-2nxFFk0LKjiue5es3i4URpOtP"
+      },
+      "sent_at_pkt": "2026-11-03 17:22 PKT",
+      "sent_date": "2026-11-03",
+      "sent_time": "17:22",
+      "scheduled_for_pkt": "2026-11-03 17:21 PKT",
+      "metrics": {
+        "views": 41,
+        "reach": 31,
+        "averageTimeWatched": 3.89,
+        "reactions": 4,
+        "comments": 0,
+        "engagementRate": 12.9,
+        "shares": 0,
+        "saves": 0,
+        "totalTimeWatched": 2.92,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6aeb1e7c19ea7ee3e9331d91",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-04",
+      "time": "20:01",
+      "datetime_pkt": "2026-11-04 20:00 PKT",
+      "title": "Website mehngi",
+      "caption_gist": "Website mehngi lagti hai? Website na hona us se zyada mehnga hai. Customer ko bharosa na mile to woh…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aeb1e7c19ea7ee3e9331d91",
+      "file_name": "ss-s1-website-mehngi.mp4",
+      "media": {
+        "file_name": "ss-s1-website-mehngi.mp4",
+        "drive_id": "1oE7loHFMOAAHdXwT0I5oTYetZ19p0dRQ"
+      },
+      "sent_at_pkt": "2026-11-04 20:01 PKT",
+      "sent_date": "2026-11-04",
+      "sent_time": "20:01",
+      "scheduled_for_pkt": "2026-11-04 20:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "impressions": 0,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-04 20:03 PKT"
+      }
+    },
+    {
+      "id": "6aeb1e8019ea7ee3e9331f82",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-04",
+      "time": "20:02",
+      "datetime_pkt": "2026-11-04 20:00 PKT",
+      "title": "Website mehngi",
+      "caption_gist": "Website mehngi lagti hai? Website na hona us se zyada mehnga hai. Customer ko bharosa na mile to woh…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aeb1e8019ea7ee3e9331f82",
+      "file_name": "ss-s1-website-mehngi.mp4",
+      "media": {
+        "file_name": "ss-s1-website-mehngi.mp4",
+        "drive_id": "1oE7loHFMOAAHdXwT0I5oTYetZ19p0dRQ"
+      },
+      "sent_at_pkt": "2026-11-04 20:02 PKT",
+      "sent_date": "2026-11-04",
+      "sent_time": "20:02",
+      "scheduled_for_pkt": "2026-11-04 20:00 PKT",
+      "metrics": {
+        "views": 131,
+        "reach": 116,
+        "averageTimeWatched": 6.75,
+        "reactions": 6,
+        "comments": 0,
+        "engagementRate": 6.9,
+        "shares": 1,
+        "saves": 1,
+        "totalTimeWatched": 15.52,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6aebe913ff03f6944a1c2a82",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-05",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-05 13:00 PKT",
+      "title": "Website mehngi",
+      "caption_gist": "Website mehngi lagti hai? Website na hona us se zyada mehnga hai. Customer ko bharosa na mile to woh…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aebe913ff03f6944a1c2a82",
+      "file_name": "ss-s1-website-mehngi-v3-hq.mp4",
+      "media": {
+        "file_name": "ss-s1-website-mehngi-v3-hq.mp4",
+        "drive_id": "1cfyd7-5EnLnCt6RjMrTVMyUOEuPcDBr1"
+      },
+      "sent_at_pkt": "2026-11-05 13:00 PKT",
+      "sent_date": "2026-11-05",
+      "sent_time": "13:00",
+      "scheduled_for_pkt": "2026-11-05 13:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 6,
+        "comments": 0,
+        "engagementRate": 8.54,
+        "impressions": 82,
+        "shares": 0,
+        "clicks": 1,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6aebe918f283c8dd45b4186f",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-05",
+      "time": "13:02",
+      "datetime_pkt": "2026-11-05 13:00 PKT",
+      "title": "Website mehngi",
+      "caption_gist": "Website mehngi lagti hai? Website na hona us se zyada mehnga hai. Customer ko bharosa na mile to woh…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aebe918f283c8dd45b4186f",
+      "file_name": "ss-s1-website-mehngi-v3-hq.mp4",
+      "media": {
+        "file_name": "ss-s1-website-mehngi-v3-hq.mp4",
+        "drive_id": "1cfyd7-5EnLnCt6RjMrTVMyUOEuPcDBr1"
+      },
+      "sent_at_pkt": "2026-11-05 13:02 PKT",
+      "sent_date": "2026-11-05",
+      "sent_time": "13:02",
+      "scheduled_for_pkt": "2026-11-05 13:00 PKT",
+      "metrics": {
+        "views": 19,
+        "reach": 18,
+        "averageTimeWatched": 2.51,
+        "reactions": 4,
+        "comments": 0,
+        "engagementRate": 22.22,
+        "shares": 0,
+        "saves": 0,
+        "totalTimeWatched": 1.29,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6aeb1e8519ea7ee3e9332225",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-05",
+      "time": "20:04",
+      "datetime_pkt": "2026-11-05 20:00 PKT",
+      "title": "Social media easy",
+      "caption_gist": "Social media manage karna easy hai? Bas roz ek post daalni hai na? 🤔 Ideas, calendar, caption, desig…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aeb1e8519ea7ee3e9332225",
+      "file_name": "ss-s2-social-media-easy.mp4",
+      "media": {
+        "file_name": "ss-s2-social-media-easy.mp4",
+        "drive_id": "1Sp7oWAxuGvivzB9HMQ1a6cZG_fd7086X"
+      },
+      "sent_at_pkt": "2026-11-05 20:04 PKT",
+      "sent_date": "2026-11-05",
+      "sent_time": "20:04",
+      "scheduled_for_pkt": "2026-11-05 20:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 6,
+        "comments": 0,
+        "engagementRate": 3.33,
+        "impressions": 180,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6aeb1e8989e513be2929f56a",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-05",
+      "time": "20:05",
+      "datetime_pkt": "2026-11-05 20:00 PKT",
+      "title": "Social media easy",
+      "caption_gist": "Social media manage karna easy hai? Bas roz ek post daalni hai na? 🤔 Ideas, calendar, caption, desig…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aeb1e8989e513be2929f56a",
+      "file_name": "ss-s2-social-media-easy.mp4",
+      "media": {
+        "file_name": "ss-s2-social-media-easy.mp4",
+        "drive_id": "1Sp7oWAxuGvivzB9HMQ1a6cZG_fd7086X"
+      },
+      "sent_at_pkt": "2026-11-05 20:05 PKT",
+      "sent_date": "2026-11-05",
+      "sent_time": "20:05",
+      "scheduled_for_pkt": "2026-11-05 20:00 PKT",
+      "metrics": {
+        "views": 45,
+        "reach": 39,
+        "averageTimeWatched": 4.77,
+        "reactions": 4,
+        "comments": 0,
+        "engagementRate": 10.26,
+        "shares": 0,
+        "saves": 0,
+        "totalTimeWatched": 4.61,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6aef8e7cd6bbae6fa1ad9417",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-08",
+      "time": "10:00",
+      "datetime_pkt": "2026-11-08 10:00 PKT",
+      "title": "Instagram board website",
+      "caption_gist": "Instagram aap ki dukaan ka board hai—apni website bhi banayein. Apne business ki website ke liye com…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aef8e7cd6bbae6fa1ad9417",
+      "file_name": "drive-verified.mp4",
+      "media": {
+        "file_name": "drive-verified.mp4",
+        "drive_id": "1J4TyNMaa3mx5VZtgMp7p1rKFUVl3mlTX"
+      },
+      "sent_at_pkt": "2026-11-08 10:00 PKT",
+      "sent_date": "2026-11-08",
+      "sent_time": "10:00",
+      "scheduled_for_pkt": "2026-11-08 10:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 3,
+        "comments": 0,
+        "engagementRate": 5,
+        "impressions": 60,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6aef8e839214322f6815b37e",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-08",
+      "time": "21:02",
+      "datetime_pkt": "2026-11-08 21:00 PKT",
+      "title": "Instagram board website",
+      "caption_gist": "Instagram aap ki dukaan ka board hai—apni website bhi banayein. Apne business ki website ke liye com…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aef8e839214322f6815b37e",
+      "file_name": "drive-verified.mp4",
+      "media": {
+        "file_name": "drive-verified.mp4",
+        "drive_id": "1J4TyNMaa3mx5VZtgMp7p1rKFUVl3mlTX"
+      },
+      "sent_at_pkt": "2026-11-08 21:02 PKT",
+      "sent_date": "2026-11-08",
+      "sent_time": "21:02",
+      "scheduled_for_pkt": "2026-11-08 21:00 PKT",
+      "metrics": {
+        "views": 158,
+        "reach": 136,
+        "averageTimeWatched": 4.56,
+        "reactions": 9,
+        "comments": 0,
+        "engagementRate": 10.29,
+        "shares": 5,
+        "saves": 0,
+        "totalTimeWatched": 11.25,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6aef98b99214322f68187dda",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-09",
+      "time": "09:00",
+      "datetime_pkt": "2026-11-09 09:00 PKT",
+      "title": "ROAS vs profit",
+      "caption_gist": "4× ROAS ka matlab 4× profit nahi hota. Ads ke saath baqi kharche aur apna margin bhi dekhein. Apne a…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aef98b99214322f68187dda",
+      "file_name": "drive-verified.mp4",
+      "media": {
+        "file_name": "drive-verified.mp4",
+        "drive_id": "14Tng4IZCpVebegLgVZSHN-H2xbXjv4D6"
+      },
+      "sent_at_pkt": "2026-11-09 09:00 PKT",
+      "sent_date": "2026-11-09",
+      "sent_time": "09:00",
+      "scheduled_for_pkt": "2026-11-09 09:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 1,
+        "comments": 0,
+        "engagementRate": 1.19,
+        "impressions": 84,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6af18215cac9d7525f7c4098",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-09",
+      "time": "15:32",
+      "datetime_pkt": "2026-11-09 15:30 PKT",
+      "title": "Brand visibility",
+      "caption_gist": "Business acha hai… lekin log dekh bhi rahe hain? Shoot, social media, design, video, Meta Ads aur we…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af18215cac9d7525f7c4098",
+      "file_name": "catch-03-brand-visibility.mp4",
+      "media": {
+        "file_name": "catch-03-brand-visibility.mp4",
+        "drive_id": "1ifefbi-2nxFFk0LKjiue5es3i4URpOtP",
+        "drive_id_source": "matched from verified TikTok/plan records by buffer_post_id (Buffer sent asset was a Buffer S3 copy, not the original Drive URL)"
+      },
+      "sent_at_pkt": "2026-11-09 15:32 PKT",
+      "sent_date": "2026-11-09",
+      "sent_time": "15:32",
+      "scheduled_for_pkt": "2026-11-09 15:30 PKT",
+      "metrics": {
+        "views": 10,
+        "reach": 0,
+        "averageTimeWatched": 0.83,
+        "reactions": 2,
+        "comments": 1,
+        "engagementRate": 40,
+        "shares": 1,
+        "totalTimeWatched": 0.73,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:14 PKT"
+      }
+    },
+    {
+      "id": "6aef98c151492b796effb8d3",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-09",
+      "time": "19:03",
+      "datetime_pkt": "2026-11-09 19:00 PKT",
+      "title": "ROAS vs profit",
+      "caption_gist": "4× ROAS ka matlab 4× profit nahi hota. Ads ke saath baqi kharche aur apna margin bhi dekhein. Apne a…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6aef98c151492b796effb8d3",
+      "file_name": "drive-verified.mp4",
+      "media": {
+        "file_name": "drive-verified.mp4",
+        "drive_id": "14Tng4IZCpVebegLgVZSHN-H2xbXjv4D6"
+      },
+      "sent_at_pkt": "2026-11-09 19:03 PKT",
+      "sent_date": "2026-11-09",
+      "sent_time": "19:03",
+      "scheduled_for_pkt": "2026-11-09 19:00 PKT",
+      "metrics": {
+        "views": 1188,
+        "reach": 1033,
+        "averageTimeWatched": 13.61,
+        "reactions": 16,
+        "comments": 0,
+        "engagementRate": 2.52,
+        "shares": 4,
+        "saves": 6,
+        "totalTimeWatched": 243.53,
+        "metricsUpdatedAt_pkt": "2026-11-10 17:47 PKT"
+      }
+    },
+    {
+      "id": "6af1820d7522f65ac0ce4315",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-09",
+      "time": "19:32",
+      "datetime_pkt": "2026-11-09 19:30 PKT",
+      "title": "Dentist Maps booking",
+      "caption_gist": "Aadhi raat dard — patient ne Maps pe “dentist near me” likha. Clinic band tha, jawab late gaya, pati…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af1820d7522f65ac0ce4315",
+      "file_name": "catch-02-dentist-maps.mp4",
+      "media": {
+        "file_name": "catch-02-dentist-maps.mp4",
+        "drive_id": "1WdIeHELz62jZi0DNmg46ZgU0lbG6ZZ_h",
+        "drive_id_source": "matched from verified TikTok/plan records by buffer_post_id (Buffer sent asset was a Buffer S3 copy, not the original Drive URL)"
+      },
+      "sent_at_pkt": "2026-11-09 19:32 PKT",
+      "sent_date": "2026-11-09",
+      "sent_time": "19:32",
+      "scheduled_for_pkt": "2026-11-09 19:30 PKT",
+      "metrics": {
+        "views": 9,
+        "reach": 0,
+        "averageTimeWatched": 0.61,
+        "reactions": 2,
+        "comments": 1,
+        "engagementRate": 33.33,
+        "shares": 0,
+        "totalTimeWatched": 0.52,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:14 PKT"
+      }
+    },
+    {
+      "id": "6af1820e7522f65ac0ce4362",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-09",
+      "time": "23:31",
+      "datetime_pkt": "2026-11-09 23:30 PKT",
+      "title": "ROAS vs profit",
+      "caption_gist": "4× ROAS ka matlab 4× profit nahi hota. Ads ke saath baqi kharche aur margin bhi dekhein. ROAS/margin…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af1820e7522f65ac0ce4362",
+      "file_name": "drive-verified.mp4",
+      "media": {
+        "file_name": "drive-verified.mp4",
+        "drive_id": "14Tng4IZCpVebegLgVZSHN-H2xbXjv4D6",
+        "drive_id_source": "matched from verified TikTok/plan records by buffer_post_id (Buffer sent asset was a Buffer S3 copy, not the original Drive URL)"
+      },
+      "sent_at_pkt": "2026-11-09 23:31 PKT",
+      "sent_date": "2026-11-09",
+      "sent_time": "23:31",
+      "scheduled_for_pkt": "2026-11-09 23:30 PKT",
+      "metrics": {
+        "views": 3,
+        "reach": 0,
+        "averageTimeWatched": 0,
+        "reactions": 1,
+        "comments": 1,
+        "engagementRate": 66.67,
+        "shares": 0,
+        "totalTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:14 PKT"
+      }
+    },
+    {
+      "id": "6af08dfc51492b796e442d7a",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-10",
+      "time": "08:01",
+      "datetime_pkt": "2026-11-10 08:00 PKT",
+      "title": "Instagram kaafi nahi",
+      "caption_gist": "Instagram page kaafi nahi. Apni website se bharosa banayein, Google par nazar aayein aur inquiries l…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af08dfc51492b796e442d7a",
+      "file_name": "s8.mp4",
+      "media": {
+        "file_name": "s8.mp4",
+        "drive_id": "1Yw3qipKvMd1tqxj4rUTCjo0AU5ZjCFFY"
+      },
+      "sent_at_pkt": "2026-11-10 08:01 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "08:01",
+      "scheduled_for_pkt": "2026-11-10 08:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 2,
+        "comments": 0,
+        "engagementRate": 1.01,
+        "impressions": 198,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:58 PKT"
+      }
+    },
+    {
+      "id": "6af18203796ccae266955638",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-10",
+      "time": "12:02",
+      "datetime_pkt": "2026-11-10 12:00 PKT",
+      "title": "Local business page",
+      "caption_gist": "Dukaan, salon ya clinic chalate hain? Kaam acha hai, lekin saath wali gali ko pata hi nahi? Aaj log…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af18203796ccae266955638",
+      "file_name": "catch-01-local-page.mp4",
+      "media": {
+        "file_name": "catch-01-local-page.mp4",
+        "drive_id": "1vRARzh4NBcVNhbosx9n6T2Ugx5qy_L6W",
+        "drive_id_source": "matched from verified TikTok/plan records by buffer_post_id (Buffer sent asset was a Buffer S3 copy, not the original Drive URL)"
+      },
+      "sent_at_pkt": "2026-11-10 12:02 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "12:02",
+      "scheduled_for_pkt": "2026-11-10 12:00 PKT",
+      "metrics": {
+        "views": 2,
+        "reach": 0,
+        "averageTimeWatched": 0,
+        "reactions": 1,
+        "comments": 1,
+        "engagementRate": 100,
+        "shares": 0,
+        "totalTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 12:14 PKT"
+      }
+    },
+    {
+      "id": "6af30453b401dffbbe6ba276",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-10",
+      "time": "14:54",
+      "datetime_pkt": "2026-11-10 14:54 PKT",
+      "title": "Instagram Story (no caption)",
+      "caption_gist": "",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af30453b401dffbbe6ba276",
+      "file_name": "",
+      "media": {},
+      "sent_at_pkt": "2026-11-10 14:54 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "14:54",
+      "scheduled_for_pkt": "2026-11-10 14:54 PKT",
+      "metrics": {
+        "views": 3,
+        "reach": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "reactions": 0,
+        "metricsUpdatedAt_pkt": "2026-11-11 06:30 PKT"
+      }
+    },
+    {
+      "id": "6af18218cac9d7525f7c4136",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-10",
+      "time": "16:04",
+      "datetime_pkt": "2026-11-10 16:00 PKT",
+      "title": "Website mehngi",
+      "caption_gist": "Website mehngi lagti hai? Na hona us se zyada mehnga pad sakta hai. Bharosa, saaf baat, aasaan order…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af18218cac9d7525f7c4136",
+      "file_name": "ss-s1-website-mehngi-v3-hq.mp4",
+      "media": {
+        "file_name": "ss-s1-website-mehngi-v3-hq.mp4",
+        "drive_id": "1cfyd7-5EnLnCt6RjMrTVMyUOEuPcDBr1",
+        "drive_id_source": "matched from verified TikTok/plan records by buffer_post_id (Buffer sent asset was a Buffer S3 copy, not the original Drive URL)"
+      },
+      "sent_at_pkt": "2026-11-10 16:04 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "16:04",
+      "scheduled_for_pkt": "2026-11-10 16:00 PKT",
+      "metrics": {
+        "views": 0,
+        "reach": 0,
+        "averageTimeWatched": 0,
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "shares": 0,
+        "totalTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-09 13:19 PKT"
+      }
+    },
+    {
+      "id": "6af08dfb51492b796e442d3d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-10",
+      "time": "19:04",
+      "datetime_pkt": "2026-11-10 19:00 PKT",
+      "title": "Instagram kaafi nahi",
+      "caption_gist": "Instagram page kaafi nahi. Apni website se bharosa banayein, Google par nazar aayein aur inquiries l…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af08dfb51492b796e442d3d",
+      "file_name": "s8.mp4",
+      "media": {
+        "file_name": "s8.mp4",
+        "drive_id": "1Yw3qipKvMd1tqxj4rUTCjo0AU5ZjCFFY"
+      },
+      "sent_at_pkt": "2026-11-10 19:04 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "19:04",
+      "scheduled_for_pkt": "2026-11-10 19:00 PKT"
+    },
+    {
+      "id": "6af18219e29b1359f0ddbdf1",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-10",
+      "time": "20:06",
+      "datetime_pkt": "2026-11-10 20:00 PKT",
+      "title": "Instagram kaafi nahi",
+      "caption_gist": "Instagram page kaafi nahi. Website se bharosa, Google par nazar, inquiries aasaan. Website banwani h…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af18219e29b1359f0ddbdf1",
+      "file_name": "s8.mp4",
+      "media": {
+        "file_name": "s8.mp4",
+        "drive_id": "1Yw3qipKvMd1tqxj4rUTCjo0AU5ZjCFFY",
+        "drive_id_source": "matched from verified TikTok/plan records by buffer_post_id (Buffer sent asset was a Buffer S3 copy, not the original Drive URL)"
+      },
+      "sent_at_pkt": "2026-11-10 20:06 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "20:06",
+      "scheduled_for_pkt": "2026-11-10 20:00 PKT",
+      "metrics": {
+        "views": 0,
+        "reach": 0,
+        "averageTimeWatched": 0,
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "shares": 0,
+        "totalTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-09 13:19 PKT"
+      }
+    },
+    {
+      "id": "6af08e08d6bbae6fa1f50cef",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-11",
+      "time": "08:01",
+      "datetime_pkt": "2026-11-11 08:00 PKT",
+      "title": "Instagram kapra",
+      "caption_gist": "Instagram pe kapra bechte hain? Size, color aur stock ke DMs mein ulajhne ke bajaye apni collection…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af08e08d6bbae6fa1f50cef",
+      "file_name": "s4.mp4",
+      "media": {
+        "file_name": "s4.mp4",
+        "drive_id": "1hdWZsGMOYrL4rjBMpg8n9-O7rqKtzL3M"
+      },
+      "sent_at_pkt": "2026-11-11 08:01 PKT",
+      "sent_date": "2026-11-11",
+      "sent_time": "08:01",
+      "scheduled_for_pkt": "2026-11-11 08:00 PKT",
+      "metrics": {
+        "reach": 0,
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "impressions": 0,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-11 08:03 PKT"
+      }
+    }
+  ],
+  "pipeline": [
+    {
+      "id": "R1-LEARN",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "meta-ads",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": "2026-11-16",
+      "time": null,
+      "datetime_pkt": "2026-11-16 PKT",
+      "title": "Learning Phase (STOP EDITING YOUR ADS!)",
+      "caption_gist": "",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "LEARN",
+      "notes": "Voice pack done (Charon). Ahmer is building the HTML. Not in Buffer yet. Slot reserved Nov 16, one of five Meta ads reels Nov 16–20. LEARN auto-DM (learning-phase guide) still needs to be made, go-live on post day.",
+      "unscheduled": false,
+      "file_name": "AHMER-FINAL-SCRIPTS.md",
+      "files": {
+        "script": "AHMER-FINAL-SCRIPTS.md",
+        "voice_pack": "m1-learn-phase",
+        "voice_wav": "voice.wav",
+        "zip": "m1-learn-phase.zip",
+        "combined_zip": "meta-ads-5-voice-packs.zip"
+      }
+    },
+    {
+      "id": "R2-ORDER",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "meta-ads",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": "2026-11-17",
+      "time": null,
+      "datetime_pkt": "2026-11-17 PKT",
+      "title": "Views Aren't Customers (10,000 VIEWS ≠ CUSTOMERS)",
+      "caption_gist": "",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "ORDER",
+      "notes": "Voice pack done. HTML not received yet. Slot reserved Nov 17. ORDER auto-DM (objective guide) still needs to be made.",
+      "unscheduled": false,
+      "file_name": "AHMER-FINAL-SCRIPTS.md",
+      "files": {
+        "script": "AHMER-FINAL-SCRIPTS.md",
+        "voice_pack": "m2-views-orders",
+        "voice_wav": "voice.wav",
+        "zip": "m2-views-orders.zip",
+        "combined_zip": "meta-ads-5-voice-packs.zip"
+      }
+    },
+    {
+      "id": "R3-IDEAS",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "meta-ads",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": "2026-11-18",
+      "time": null,
+      "datetime_pkt": "2026-11-18 PKT",
+      "title": "Creative Variety (5 ADS, BUT SAME CREATIVE?)",
+      "caption_gist": "",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "IDEAS",
+      "notes": "Voice pack done. HTML not received yet. Slot reserved Nov 18. IDEAS auto-DM (5 creative ideas) still needs to be made.",
+      "unscheduled": false,
+      "file_name": "AHMER-FINAL-SCRIPTS.md",
+      "files": {
+        "script": "AHMER-FINAL-SCRIPTS.md",
+        "voice_pack": "m3-creative-variety",
+        "voice_wav": "voice.wav",
+        "zip": "m3-creative-variety.zip",
+        "combined_zip": "meta-ads-5-voice-packs.zip"
+      }
+    },
+    {
+      "id": "R4-CPA",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "meta-ads",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": "2026-11-19",
+      "time": null,
+      "datetime_pkt": "2026-11-19 PKT",
+      "title": "Cheap Click vs Cheap Order (Rs. 5 CLICK vs Rs. 500 ORDER)",
+      "caption_gist": "",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "CPA",
+      "notes": "Voice pack done. HTML not received yet. Slot reserved Nov 19. CPA auto-DM (CPA sheet) still needs to be made.",
+      "unscheduled": false,
+      "file_name": "AHMER-FINAL-SCRIPTS.md",
+      "files": {
+        "script": "AHMER-FINAL-SCRIPTS.md",
+        "voice_pack": "m4-cpa",
+        "voice_wav": "voice.wav",
+        "zip": "m4-cpa.zip",
+        "combined_zip": "meta-ads-5-voice-packs.zip"
+      }
+    },
+    {
+      "id": "R5-FRESH",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "meta-ads",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": "2026-11-20",
+      "time": null,
+      "datetime_pkt": "2026-11-20 PKT",
+      "title": "Ad Fatigue (YOUR AD IS GETTING TIRED!)",
+      "caption_gist": "",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "FRESH",
+      "notes": "Voice pack done. HTML not received yet. Slot reserved Nov 20. FRESH auto-DM (ad-fatigue checklist) still needs to be made.",
+      "unscheduled": false,
+      "file_name": "AHMER-FINAL-SCRIPTS.md",
+      "files": {
+        "script": "AHMER-FINAL-SCRIPTS.md",
+        "voice_pack": "m5-ad-fatigue",
+        "voice_wav": "voice.wav",
+        "zip": "m5-ad-fatigue.zip",
+        "combined_zip": "meta-ads-5-voice-packs.zip"
+      }
+    },
+    {
+      "id": "CS-AD",
+      "kind": "pipeline",
+      "lane": "client-work",
+      "group": "case-study",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Housing society case study",
+      "caption_gist": "",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "AD",
+      "notes": "Voice planned today (Wed 11 Nov 2026) after 1 PM PKT, once the Gemini TTS quota resets. No post day reserved yet (after the Meta ads block). No standalone script file found on the box.",
+      "unscheduled": true,
+      "file_name": "",
+      "files": {}
+    },
+    {
+      "id": "CS-SOFTWARE",
+      "kind": "pipeline",
+      "lane": "client-work",
+      "group": "case-study",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Transport software case study (Z.S Enterprises)",
+      "caption_gist": "",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "SOFTWARE",
+      "notes": "Voice planned today after 1 PM PKT. No post day yet. Naming Z.S Enterprises in the public reel is still awaiting Ahmer's approval. Earlier zs-transport-general / soybean-canola voice packs are separate and not this reel.",
+      "unscheduled": true,
+      "file_name": "SOFTWARE-BREAKDOWN.md",
+      "files": {
+        "research": "SOFTWARE-BREAKDOWN.md"
+      }
+    },
+    {
+      "id": "CS-AI",
+      "kind": "pipeline",
+      "lane": "client-work",
+      "group": "case-study",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Smart POS AI case study",
+      "caption_gist": "",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "AI",
+      "notes": "Voice planned today after 1 PM PKT. No post day yet. POS live URL is still an open question.",
+      "unscheduled": true,
+      "file_name": "SOFTWARE-BREAKDOWN.md",
+      "files": {
+        "research": "SOFTWARE-BREAKDOWN.md"
+      }
+    },
+    {
+      "id": "CS-POS",
+      "kind": "pipeline",
+      "lane": "client-work",
+      "group": "case-study",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Smart POS is more than billing",
+      "caption_gist": "",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "POS",
+      "notes": "Voice planned today after 1 PM PKT. No post day yet. POS live URL is still an open question.",
+      "unscheduled": true,
+      "file_name": "SOFTWARE-BREAKDOWN.md",
+      "files": {
+        "research": "SOFTWARE-BREAKDOWN.md"
+      }
+    },
+    {
+      "id": "S01-WORKFLOWS",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "automation",
+      "series": "automation",
+      "n": 1,
+      "slug": "01-workflows",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Form se Sheet + WhatsApp alert (n8n templates pack)",
+      "caption_gist": "Form bhara... aur sheet khud update ho gayi.",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "WORKFLOWS",
+      "notes": "Voice pack done. HTML and render still pending. Each automation reel needs its own keyword DM on its go-live day. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "awesome-n8n-templates",
+      "file_name": "01-workflows-voice-pack.zip",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json",
+        "voice_pack": "01-workflows-voice-pack.zip",
+        "voice_wav": "voice.wav"
+      }
+    },
+    {
+      "id": "S02-OBJECTIVE",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "course",
+      "series": "course",
+      "n": 2,
+      "slug": "02-ad-objective",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Likes aa rahe, chats nahi? Objective check karein",
+      "caption_gist": "Likes aa rahe hain, WhatsApp khaali hai?",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "COURSE",
+      "notes": "Script only. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S03-WHATSAPP",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "automation",
+      "series": "automation",
+      "n": 3,
+      "slug": "03-whatsapp",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Raat ko bhi WhatsApp auto-reply (Evolution API)",
+      "caption_gist": "Raat do baje message aaya... jawab foran gaya.",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "WHATSAPP",
+      "notes": "Voice pack done. HTML and render still pending. Each automation reel needs its own keyword DM on its go-live day. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "Evolution API",
+      "file_name": "03-whatsapp-voice-pack.zip",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json",
+        "voice_pack": "03-whatsapp-voice-pack.zip",
+        "voice_wav": "voice.wav"
+      }
+    },
+    {
+      "id": "S04-HOOKS",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "course",
+      "series": "course",
+      "n": 4,
+      "slug": "04-hooks",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Pehle 3 second: hook",
+      "caption_gist": "Pehle teen second mein viewer ruk gaya?",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "COURSE",
+      "notes": "Script only. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S05-INBOX",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "automation",
+      "series": "automation",
+      "n": 5,
+      "slug": "05-inbox",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "WhatsApp + Instagram + Facebook, ek inbox (Chatwoot)",
+      "caption_gist": "WhatsApp, Instagram, Facebook... sab chats ek screen par.",
+      "status": "voice",
+      "raw_status": "voice",
+      "keyword_cta": "INBOX",
+      "notes": "Voice pack done. HTML and render still pending. Each automation reel needs its own keyword DM on its go-live day. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "Chatwoot",
+      "file_name": "05-inbox-voice-pack.zip",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json",
+        "voice_pack": "05-inbox-voice-pack.zip",
+        "voice_wav": "voice.wav"
+      }
+    },
+    {
+      "id": "S06-REPLY",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "course",
+      "series": "course",
+      "n": 6,
+      "slug": "06-whatsapp-reply",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Ad ke baad asal kaam: WhatsApp reply",
+      "caption_gist": "Customer ne message kiya, jawab paanch ghante baad?",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "COURSE",
+      "notes": "Script only. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S07-CHATBOT",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "automation",
+      "series": "automation",
+      "n": 7,
+      "slug": "07-chatbot",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Chat jaisa booking form (Typebot)",
+      "caption_gist": "Sawal aaya, bot ne booking le li.",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "CHATBOT",
+      "notes": "Being voiced today (Wed 11 Nov 2026) after 1 PM PKT. Each automation reel needs its own keyword DM on its go-live day. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "Typebot",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S08-GBP",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "course",
+      "series": "course",
+      "n": 8,
+      "slug": "08-google-business-profile",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Google Maps par aap nazar aate hain?",
+      "caption_gist": "Google par salon near me, aur aap nahi?",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "COURSE",
+      "notes": "Script only. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S09-CRM",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "automation",
+      "series": "automation",
+      "n": 9,
+      "slug": "09-crm",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Excel ki jagah saaf CRM (Twenty)",
+      "caption_gist": "Har lead ka record, ek saaf CRM mein.",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "CRM",
+      "notes": "Being voiced today (Wed 11 Nov 2026) after 1 PM PKT. Each automation reel needs its own keyword DM on its go-live day. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "Twenty CRM",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S10-OUTLINE",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "course",
+      "series": "course",
+      "n": 10,
+      "slug": "10-course-outline",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Digital marketing mein kya kya seekhna hai (outline)",
+      "caption_gist": "Digital marketing sirf ads chalana hai?",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "COURSE",
+      "notes": "Script only. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    },
+    {
+      "id": "S11-SKILLS",
+      "kind": "pipeline",
+      "lane": "pipeline",
+      "group": "course",
+      "series": "course",
+      "n": 11,
+      "slug": "11-practical-skills",
+      "platform": null,
+      "platforms": [
+        "FB",
+        "IG",
+        "TikTok"
+      ],
+      "date": null,
+      "time": null,
+      "datetime_pkt": "",
+      "title": "Course ke baad pehla client kaise sambhalein",
+      "caption_gist": "Pehla client mila, ab kya karein?",
+      "status": "script",
+      "raw_status": "script",
+      "keyword_cta": "COURSE",
+      "notes": "Script only. No post day yet — 16–20 Nov stay reserved for the Meta ads reels R1–R5.",
+      "unscheduled": true,
+      "tool": "",
+      "file_name": "FINAL-SCRIPTS.md",
+      "files": {
+        "script": "FINAL-SCRIPTS.md",
+        "scripts_json": "scripts.json"
+      }
+    }
+  ],
+  "notes": [
+    "Buffer is the source of truth for scheduled, draft-waiting-slot, and posted items. plan.json and plan-07-09.json dates (Nov 14–22) are outdated after the 11 Nov 09:08–09:10 PKT reschedule; live times are Nov 11–15.",
+    "Pulled live from Buffer (read-only) for org 6ae3a47e26d3d08c3b7e2a2c. The org has exactly three connected channels: Facebook 6ae3a5032f1f5ed64813f63b (Smart solutions.), Instagram 6ae8934fe29c69a171385101 (smartsolutions.01), TikTok 6af1808e62b70b94b0ccc743 (smartsolutions.01). No YouTube or other channels.",
+    "Buffer allows a maximum of 10 scheduled posts per channel. At this pull, FB/IG/TikTok are each 10/10 scheduled. 7 drafts have customScheduled dueAt values and wait for a free slot (status draft-waiting-slot). Today's posts free enough slots; the daily 'Buffer waiting-posts top-up' around 21:00 PKT is meant to convert those 7 at their own dueAt.",
+    "Today's Facebook Instagram kapra reel already went out at 08:01 PKT (post 6af08e08d6bbae6fa1f50cef) and is listed under posted, not scheduled.",
+    "Posted covers Buffer sent posts with dueAt/sentAt on or after 2026-10-28 00:00 PKT (last 14 days). This pull returned 26 sent posts and hasNextPage=false, so the list is complete for that window. The earliest sent post in the window is 2 Nov, not 28 Oct.",
+    "Metrics are real values returned by Buffer with includeMetrics=true. Zeros are included when Buffer returned them. Missing metric keys were not invented. Buffer notes that metrics can lag the network by up to about 24 hours; see metricsUpdatedAt_pkt on each posted item.",
+    "Local MP4 paths are best-effort matches from Drive file IDs in plan.json, plan-07-09.json, unique-reels.json and the on-disk library. A path is only set if that file exists. Some Drive IDs (especially older uploads) may point to a later re-export of the same reel.",
+    "Nov 16–20 are reserved for the 5 Meta ads reels (R1 LEARN → R5 FRESH), one calendar day, on FB+IG+TikTok. Exact clock times are not booked in Buffer yet. Voice packs m1–m5 are done; Ahmer is building the HTML. Auto-DM resources (LEARN/ORDER/IDEAS/CPA/FRESH) are still unbuilt and should go live on each reel's post day.",
+    "The 4 case-study reels (housing society AD, transport SOFTWARE, Smart POS AI, Smart POS POS) are status=script. Voice is planned today after 13:00 PKT when the Gemini TTS free-tier quota resets. No post day is reserved yet. No standalone script files for these four were found on the box; transport/POS research is in case-studies/SOFTWARE-BREAKDOWN.md. Open questions: POS live URL, and whether Z.S Enterprises can be named.",
+    "Old scripts archived on 9 Nov 2026 (archive-old-scripts-nov9) are excluded. Older voiced packs (SWI Chinese/forex, E-series, leftover E2 female, ZS transport general/soybean packs, series-nov9 automation packs, dm-course-series) are not in the current posting plan and are not listed in pipeline.",
+    "TikTok A/B hashtag test runs 10–24 Nov 2026 (max 5 tags). Version B adds #creatorsearchinsights and #tobesuccessfulatanything. Decision after 24 Nov: B wins only if its median views are more than 30% higher and it gets more Hashtag or Search traffic. See HASHTAG-RULE.md and ab-log.csv.",
+    "All times in this export are Asia/Karachi (PKT, UTC+5).",
+    "After a TikTok post is sent, Buffer often stores a Buffer S3 copy instead of the original Drive URL. For the 6 sent TikTok posts in this window, Drive file IDs and local MP4 paths were backfilled from verified-tiktok-schedule.json / unique-reels.json using the Buffer post ID. See media.drive_id_source on those items.",
+    "Posted includes one Instagram Story with no caption, sent 10 Nov 2026 at 14:54 PKT (post 6af30453b401dffbbe6ba276): 3 views, reach 0. It is not one of the scheduled feed reels. Instagram kaafi nahi (IG, sent 10 Nov 19:04 PKT, post 6af08dfb51492b796e442d3d) had no metric values from Buffer at pull time.",
+    "Many Facebook sent posts returned reach 0 and no views field. Those zeros and omissions are what Buffer returned, not estimates. Instagram feed reels generally have views, reach and averageTimeWatched."
+  ]
+}
