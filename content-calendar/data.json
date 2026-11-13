@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-11-12 21:32 PKT",
-    "generated_at_iso": "2026-11-12T21:32:58+05:00",
-    "converted_at": "2026-11-12 21:33 PKT",
-    "converted_at_iso": "2026-11-12T21:33:03+05:00",
+    "generated_at": "2026-11-13 21:37 PKT",
+    "generated_at_iso": "2026-11-13T21:37:26+05:00",
+    "converted_at": "2026-11-13 21:37 PKT",
+    "converted_at_iso": "2026-11-13T21:37:26+05:00",
     "timezone": "Asia/Karachi",
     "timezone_label": "Asia/Karachi (PKT, UTC+5)",
     "organization_id": "6ae3a47e26d3d08c3b7e2a2c",
@@ -34,21 +34,25 @@
     }
   ],
   "counts": {
-    "scheduled_section": 30,
+    "scheduled_section": 39,
     "scheduled": 30,
-    "draft_waiting_slot": 0,
+    "draft_waiting_slot": 9,
     "scheduled_by_platform": {
       "FB": 10,
-      "TikTok": 10,
-      "IG": 10
+      "IG": 10,
+      "TikTok": 10
     },
-    "draft_waiting_slot_by_platform": {},
+    "draft_waiting_slot_by_platform": {
+      "FB": 3,
+      "IG": 3,
+      "TikTok": 3
+    },
     "pipeline": 20,
-    "posted": 45,
+    "posted": 56,
     "posted_by_platform": {
-      "TikTok": 14,
-      "IG": 16,
-      "FB": 15
+      "TikTok": 18,
+      "IG": 20,
+      "FB": 18
     },
     "drafts_skipped_no_dueAt": 0,
     "pipeline_export": 9,
@@ -60,204 +64,6 @@
     }
   },
   "items": [
-    {
-      "id": "6af08e20004e4879a7c3625f",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "FB",
-      "platforms": [
-        "FB"
-      ],
-      "date": "2026-11-13",
-      "time": "09:00",
-      "datetime_pkt": "2026-11-13 09:00 PKT",
-      "title": "Custom Shopify store",
-      "caption_gist": "Har Shopify store ek jaisa kyun lage? Apne brand ke mutabiq design, products aur checkout—store live…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af08e20004e4879a7c3625f",
-      "file_name": "s11.mp4",
-      "media": {
-        "file_name": "s11.mp4",
-        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
-      }
-    },
-    {
-      "id": "6af34081e9e4a87f7b4f81ab",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "TikTok",
-      "platforms": [
-        "TikTok"
-      ],
-      "date": "2026-11-13",
-      "time": "12:00",
-      "datetime_pkt": "2026-11-13 12:00 PKT",
-      "title": "Frame to Live",
-      "caption_gist": "Boring website? Animated, fast aur mobile-ready banayein. ✨ Comment mein CHECK. #SmartSolutions #Web…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af34081e9e4a87f7b4f81ab",
-      "file_name": "03-frame-to-live-v2.mp4",
-      "media": {
-        "file_name": "03-frame-to-live-v2.mp4",
-        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
-      }
-    },
-    {
-      "id": "6af1acb2c7aab911b35faf8d",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "IG",
-      "platforms": [
-        "IG"
-      ],
-      "date": "2026-11-13",
-      "time": "13:00",
-      "datetime_pkt": "2026-11-13 13:00 PKT",
-      "title": "Frame to Live",
-      "caption_gist": "Boring website pe visitor rukta nahi. 😴 Animated, fast, mobile-ready aur SEO-ready website. Idea se…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af1acb2c7aab911b35faf8d",
-      "file_name": "03-frame-to-live-v2.mp4",
-      "media": {
-        "file_name": "03-frame-to-live-v2.mp4",
-        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
-      }
-    },
-    {
-      "id": "6af1ac999541fd37f93f1433",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "FB",
-      "platforms": [
-        "FB"
-      ],
-      "date": "2026-11-13",
-      "time": "13:00",
-      "datetime_pkt": "2026-11-13 13:00 PKT",
-      "title": "Frame to Live",
-      "caption_gist": "Boring website pe visitor rukta nahi. 😴 Animated, fast, mobile-ready aur SEO-ready website. Idea se…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af1ac999541fd37f93f1433",
-      "file_name": "03-frame-to-live-v2.mp4",
-      "media": {
-        "file_name": "03-frame-to-live-v2.mp4",
-        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
-      }
-    },
-    {
-      "id": "6af3ea89d9a6812579cd5f46",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "TikTok",
-      "platforms": [
-        "TikTok"
-      ],
-      "date": "2026-11-13",
-      "time": "16:00",
-      "datetime_pkt": "2026-11-13 16:00 PKT",
-      "title": "Websites That Sell",
-      "caption_gist": "Visitors wait nahi karte. ⏳ Fast, mobile website + WhatsApp order. Comment mein CHECK. #SmartSolutio…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af3ea89d9a6812579cd5f46",
-      "file_name": "06-websites-that-sell-v2.mp4",
-      "media": {
-        "file_name": "06-websites-that-sell-v2.mp4",
-        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
-      }
-    },
-    {
-      "id": "6af1ef7b6de9b6a6d77d0885",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "IG",
-      "platforms": [
-        "IG"
-      ],
-      "date": "2026-11-13",
-      "time": "16:00",
-      "datetime_pkt": "2026-11-13 16:00 PKT",
-      "title": "Websites That Sell",
-      "caption_gist": "Slow website = visitor gaya. ⏳ Pehle design, phir fast, mobile aur secure website, WhatsApp order bu…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af1ef7b6de9b6a6d77d0885",
-      "file_name": "06-websites-that-sell-v2.mp4",
-      "media": {
-        "file_name": "06-websites-that-sell-v2.mp4",
-        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
-      }
-    },
-    {
-      "id": "6af1ac9b3c5611da27a8ea77",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "FB",
-      "platforms": [
-        "FB"
-      ],
-      "date": "2026-11-13",
-      "time": "17:00",
-      "datetime_pkt": "2026-11-13 17:00 PKT",
-      "title": "Websites That Sell",
-      "caption_gist": "Slow website = visitor gaya. ⏳ Pehle design, phir fast, mobile aur secure website, WhatsApp order bu…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af1ac9b3c5611da27a8ea77",
-      "file_name": "06-websites-that-sell-v2.mp4",
-      "media": {
-        "file_name": "06-websites-that-sell-v2.mp4",
-        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
-      }
-    },
-    {
-      "id": "6af08e20d6bbae6fa1f511ea",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "IG",
-      "platforms": [
-        "IG"
-      ],
-      "date": "2026-11-13",
-      "time": "19:00",
-      "datetime_pkt": "2026-11-13 19:00 PKT",
-      "title": "Custom Shopify store",
-      "caption_gist": "Har Shopify store ek jaisa kyun lage? Apne brand ke mutabiq design, products aur checkout—store live…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af08e20d6bbae6fa1f511ea",
-      "file_name": "s11.mp4",
-      "media": {
-        "file_name": "s11.mp4",
-        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
-      }
-    },
-    {
-      "id": "6af18254cac9d7525f7c5c71",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "TikTok",
-      "platforms": [
-        "TikTok"
-      ],
-      "date": "2026-11-13",
-      "time": "20:00",
-      "datetime_pkt": "2026-11-13 20:00 PKT",
-      "title": "Custom Shopify store",
-      "caption_gist": "Har Shopify store ek jaisa kyun? Brand-mutabiq design + checkout, phir chalane ki training. Unique s…",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af18254cac9d7525f7c5c71",
-      "file_name": "s11.mp4",
-      "media": {
-        "file_name": "s11.mp4",
-        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
-      }
-    },
     {
       "id": "6af2c57f26f9e6aeeaef3a22",
       "kind": "post",
@@ -709,6 +515,828 @@
       }
     },
     {
+      "id": "6af6ca04ac315c828ef573b9",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-20",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-20 13:00 PKT",
+      "title": "M5 FRESH ad fatigue",
+      "caption_gist": "Kal tak jo ad orders la raha tha, aaj usi ad ki cost double? 📉  Isay kehte hain Ad Fatigue. Jab same",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af6ca04ac315c828ef573b9",
+      "file_name": "",
+      "media": {
+        "drive_id": "1N1aHi3vxiXUFGWUduiFwpfqiNn-HewIe"
+      }
+    },
+    {
+      "id": "6af6ca0c1d6346d52a67ebc7",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-20",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-20 19:00 PKT",
+      "title": "M5 FRESH ad fatigue",
+      "caption_gist": "Kal tak jo ad orders la raha tha, aaj usi ad ki cost double? 📉  Isay kehte hain Ad Fatigue. Jab same",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af6ca0c1d6346d52a67ebc7",
+      "file_name": "",
+      "media": {
+        "drive_id": "1N1aHi3vxiXUFGWUduiFwpfqiNn-HewIe"
+      }
+    },
+    {
+      "id": "6af6ca10d63384b8e43156a3",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-20",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-20 20:00 PKT",
+      "title": "M5 FRESH ad fatigue",
+      "caption_gist": "Same ad, same audience, baar baar? Cost double ho sakti hai. Fresh creative test karo, Frequency che",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af6ca10d63384b8e43156a3",
+      "file_name": "",
+      "media": {
+        "drive_id": "1N1aHi3vxiXUFGWUduiFwpfqiNn-HewIe"
+      }
+    },
+    {
+      "id": "6af70e361cbca7cd9c39f3f6",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-21",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-21 13:00 PKT",
+      "title": "Housing society 80 DMs",
+      "caption_gist": "Sirf Rs 12,500 ke ad budget se, ek housing society ko 80 direct messages aaye! 📩  Yeh ek real Septem",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70e361cbca7cd9c39f3f6",
+      "file_name": "",
+      "media": {
+        "drive_id": "1x3g8sOAeuBcnXa7odXMxKrlp0erUM-GJ"
+      }
+    },
+    {
+      "id": "6af70e3822fdd0eb2ed90d99",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-21",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-21 19:00 PKT",
+      "title": "Housing society 80 DMs",
+      "caption_gist": "Sirf Rs 12,500 ke ad budget se, ek housing society ko 80 direct messages aaye! 📩  Yeh ek real Septem",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af70e3822fdd0eb2ed90d99",
+      "file_name": "",
+      "media": {
+        "drive_id": "1x3g8sOAeuBcnXa7odXMxKrlp0erUM-GJ"
+      }
+    },
+    {
+      "id": "6af70e391cbca7cd9c39f46a",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-21",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-21 20:00 PKT",
+      "title": "Housing society 80 DMs",
+      "caption_gist": "Sirf Rs 12,500 ke ad budget se, ek housing society ko 80 direct messages aaye! Comment karein AD 👇  ",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af70e391cbca7cd9c39f46a",
+      "file_name": "",
+      "media": {
+        "drive_id": "1x3g8sOAeuBcnXa7odXMxKrlp0erUM-GJ"
+      }
+    },
+    {
+      "id": "6af70da84f78da1d8ba3b84e",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-22",
+      "time": "10:00",
+      "datetime_pkt": "2026-11-22 10:00 PKT",
+      "title": "Chatbot Typebot booking",
+      "caption_gist": "Sawal aaya, bot ne booking le li. 🤖  Log roz same sawal poochte hain: price kya hai, time kya hai. T",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af70da84f78da1d8ba3b84e",
+      "file_name": "",
+      "media": {
+        "drive_id": "1OnyNC2cb9TigEe0QZmRo-AyknY-W4Wr4"
+      }
+    },
+    {
+      "id": "6af70daaf2fe4518f4ca669a",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-22",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-22 20:00 PKT",
+      "title": "Chatbot Typebot booking",
+      "caption_gist": "Sawal aaya, bot ne booking le li. Typebot se booking khud.  Comment karein CHATBOT 👇  #SmartSolution",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af70daaf2fe4518f4ca669a",
+      "file_name": "",
+      "media": {
+        "drive_id": "1OnyNC2cb9TigEe0QZmRo-AyknY-W4Wr4"
+      }
+    },
+    {
+      "id": "6af70daa1cbca7cd9c39c549",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-22",
+      "time": "21:00",
+      "datetime_pkt": "2026-11-22 21:00 PKT",
+      "title": "Chatbot Typebot booking",
+      "caption_gist": "Sawal aaya, bot ne booking le li. 🤖  Log roz same sawal poochte hain: price kya hai, time kya hai. T",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af70daa1cbca7cd9c39c549",
+      "file_name": "",
+      "media": {
+        "drive_id": "1OnyNC2cb9TigEe0QZmRo-AyknY-W4Wr4"
+      }
+    },
+    {
+      "id": "6af70dac4f78da1d8ba3bb97",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-23",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-23 13:00 PKT",
+      "title": "CRM Twenty leads",
+      "caption_gist": "Har lead ka record, ek saaf CRM mein. 📋  Leads Excel mein, kuch WhatsApp mein, kuch diary mein — fol",
+      "status": "scheduled",
+      "raw_status": "scheduled",
+      "buffer_post_id": "6af70dac4f78da1d8ba3bb97",
+      "file_name": "",
+      "media": {
+        "drive_id": "1bzHOMVw5dLBtnaTc0KiBJoLo-8OvQAQS"
+      }
+    },
+    {
+      "id": "6af70dbc4c4c3b5e926219e1",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-23",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-23 19:00 PKT",
+      "title": "CRM Twenty leads",
+      "caption_gist": "Har lead ka record, ek saaf CRM mein. 📋  Leads Excel mein, kuch WhatsApp mein, kuch diary mein — fol",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70dbc4c4c3b5e926219e1",
+      "file_name": "",
+      "media": {
+        "drive_id": "1bzHOMVw5dLBtnaTc0KiBJoLo-8OvQAQS"
+      }
+    },
+    {
+      "id": "6af70dbc49bae9df2d09da7f",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-23",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-23 20:00 PKT",
+      "title": "CRM Twenty leads",
+      "caption_gist": "Leads Excel, WhatsApp, diary mein? Twenty, open-source CRM.  Comment karein CRM 👇  #SmartSolutions #",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70dbc49bae9df2d09da7f",
+      "file_name": "",
+      "media": {
+        "drive_id": "1bzHOMVw5dLBtnaTc0KiBJoLo-8OvQAQS"
+      }
+    },
+    {
+      "id": "6af70ef34f78da1d8ba4264f",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-24",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-24 13:00 PKT",
+      "title": "Workflows n8n pack",
+      "caption_gist": "Form bhara, sheet khud update ho gayi. ⚡  Zyada tar dukaanon mein har lead haath se copy hoti hai. n",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70ef34f78da1d8ba4264f",
+      "file_name": "",
+      "media": {
+        "drive_id": "1PIKHQZeEIBYbE-LF3OWcHmuTaAPnGkBN"
+      }
+    },
+    {
+      "id": "6af70ef51cbca7cd9c3a3931",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-24",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-24 19:00 PKT",
+      "title": "Workflows n8n pack",
+      "caption_gist": "Form bhara, sheet khud update ho gayi. ⚡  Zyada tar dukaanon mein har lead haath se copy hoti hai. n",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70ef51cbca7cd9c3a3931",
+      "file_name": "",
+      "media": {
+        "drive_id": "1PIKHQZeEIBYbE-LF3OWcHmuTaAPnGkBN"
+      }
+    },
+    {
+      "id": "6af70ef6f2fe4518f4cad568",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-24",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-24 20:00 PKT",
+      "title": "Workflows n8n pack",
+      "caption_gist": "Form bhara, sheet khud update, WhatsApp par alert. 280+ n8n workflows.  Comment karein WORKFLOWS 👇  ",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70ef6f2fe4518f4cad568",
+      "file_name": "",
+      "media": {
+        "drive_id": "1PIKHQZeEIBYbE-LF3OWcHmuTaAPnGkBN"
+      }
+    },
+    {
+      "id": "6af70ef84f78da1d8ba427f7",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-25",
+      "time": "13:00",
+      "datetime_pkt": "2026-11-25 13:00 PKT",
+      "title": "Inbox Chatwoot",
+      "caption_gist": "WhatsApp, Instagram, Facebook... sab chats ek screen par. 📥  Teen apps, teen inbox — ek mein reply k",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70ef84f78da1d8ba427f7",
+      "file_name": "",
+      "media": {
+        "drive_id": "1WYux3p57kU1nyF285l1sZtpSJJ8vBT65"
+      }
+    },
+    {
+      "id": "6af70efaf2fe4518f4cad6e2",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-25",
+      "time": "19:00",
+      "datetime_pkt": "2026-11-25 19:00 PKT",
+      "title": "Inbox Chatwoot",
+      "caption_gist": "WhatsApp, Instagram, Facebook... sab chats ek screen par. 📥  Teen apps, teen inbox — ek mein reply k",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70efaf2fe4518f4cad6e2",
+      "file_name": "",
+      "media": {
+        "drive_id": "1WYux3p57kU1nyF285l1sZtpSJJ8vBT65"
+      }
+    },
+    {
+      "id": "6af70efa1cbca7cd9c3a3b64",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-25",
+      "time": "20:00",
+      "datetime_pkt": "2026-11-25 20:00 PKT",
+      "title": "Inbox Chatwoot",
+      "caption_gist": "WhatsApp, Instagram, Facebook: sab chats ek screen par. Chatwoot, open-source inbox.  Comment karein",
+      "status": "draft",
+      "raw_status": "draft-waiting-slot",
+      "buffer_post_id": "6af70efa1cbca7cd9c3a3b64",
+      "file_name": "",
+      "media": {
+        "drive_id": "1WYux3p57kU1nyF285l1sZtpSJJ8vBT65"
+      }
+    },
+    {
+      "id": "6af18254cac9d7525f7c5c71",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-13",
+      "time": "20:06",
+      "datetime_pkt": "2026-11-13 20:00 PKT",
+      "title": "Custom Shopify store",
+      "caption_gist": "Har Shopify store ek jaisa kyun? Brand-mutabiq design + checkout, phir chalane ki training. Unique s…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af18254cac9d7525f7c5c71",
+      "file_name": "s11.mp4",
+      "media": {
+        "file_name": "s11.mp4",
+        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
+      },
+      "sent_at_pkt": "2026-11-13 20:06 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "20:06",
+      "scheduled_for_pkt": "2026-11-13 20:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "views": 0,
+        "shares": 0,
+        "reach": 0,
+        "totalTimeWatched": 0,
+        "averageTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-09 13:20 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af08e20d6bbae6fa1f511ea",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "19:05",
+      "datetime_pkt": "2026-11-13 19:00 PKT",
+      "title": "Custom Shopify store",
+      "caption_gist": "Har Shopify store ek jaisa kyun lage? Apne brand ke mutabiq design, products aur checkout—store live…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af08e20d6bbae6fa1f511ea",
+      "file_name": "s11.mp4",
+      "media": {
+        "file_name": "s11.mp4",
+        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
+      },
+      "sent_at_pkt": "2026-11-13 19:05 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "19:05",
+      "scheduled_for_pkt": "2026-11-13 19:00 PKT",
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af1ac9b3c5611da27a8ea77",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-13",
+      "time": "17:03",
+      "datetime_pkt": "2026-11-13 17:00 PKT",
+      "title": "Websites That Sell",
+      "caption_gist": "Slow website = visitor gaya. ⏳ Pehle design, phir fast, mobile aur secure website, WhatsApp order bu…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af1ac9b3c5611da27a8ea77",
+      "file_name": "06-websites-that-sell-v2.mp4",
+      "media": {
+        "file_name": "06-websites-that-sell-v2.mp4",
+        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
+      },
+      "sent_at_pkt": "2026-11-13 17:03 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "17:03",
+      "scheduled_for_pkt": "2026-11-13 17:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "impressions": 0,
+        "reach": 0,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:04 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af6fd8513829d19685e28aa",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "16:17",
+      "datetime_pkt": "2026-11-13 16:17 PKT",
+      "title": "",
+      "caption_gist": "",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af6fd8513829d19685e28aa",
+      "file_name": "",
+      "media": {
+        "drive_id": "5e9851"
+      },
+      "sent_at_pkt": "2026-11-13 16:17 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "16:17",
+      "scheduled_for_pkt": "2026-11-13 16:17 PKT",
+      "metrics": {
+        "views": 5,
+        "reach": 5,
+        "comments": 0,
+        "engagementRate": 0,
+        "reactions": 0,
+        "metricsUpdatedAt_pkt": "2026-11-13 20:57 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af1ef7b6de9b6a6d77d0885",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "16:05",
+      "datetime_pkt": "2026-11-13 16:00 PKT",
+      "title": "Websites That Sell",
+      "caption_gist": "Slow website = visitor gaya. ⏳ Pehle design, phir fast, mobile aur secure website, WhatsApp order bu…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af1ef7b6de9b6a6d77d0885",
+      "file_name": "06-websites-that-sell-v2.mp4",
+      "media": {
+        "file_name": "06-websites-that-sell-v2.mp4",
+        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
+      },
+      "sent_at_pkt": "2026-11-13 16:05 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "16:05",
+      "scheduled_for_pkt": "2026-11-13 16:00 PKT",
+      "metrics": {
+        "reactions": 3,
+        "comments": 0,
+        "engagementRate": 200,
+        "views": 3,
+        "shares": 1,
+        "saves": 0,
+        "totalTimeWatched": 0.97,
+        "averageTimeWatched": 14.61,
+        "reach": 3,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af3ea89d9a6812579cd5f46",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-13",
+      "time": "16:03",
+      "datetime_pkt": "2026-11-13 16:00 PKT",
+      "title": "Websites That Sell",
+      "caption_gist": "Visitors wait nahi karte. ⏳ Fast, mobile website + WhatsApp order. Comment mein CHECK. #SmartSolutio…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af3ea89d9a6812579cd5f46",
+      "file_name": "06-websites-that-sell-v2.mp4",
+      "media": {
+        "file_name": "06-websites-that-sell-v2.mp4",
+        "drive_id": "1PWjlXK8bn51FyXd_H3qz3HStygwiufcx"
+      },
+      "sent_at_pkt": "2026-11-13 16:03 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "16:03",
+      "scheduled_for_pkt": "2026-11-13 16:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "views": 0,
+        "shares": 0,
+        "reach": 0,
+        "totalTimeWatched": 0,
+        "averageTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-11 09:09 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af1acb2c7aab911b35faf8d",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-13",
+      "time": "13:03",
+      "datetime_pkt": "2026-11-13 13:00 PKT",
+      "title": "Frame to Live",
+      "caption_gist": "Boring website pe visitor rukta nahi. 😴 Animated, fast, mobile-ready aur SEO-ready website. Idea se…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af1acb2c7aab911b35faf8d",
+      "file_name": "03-frame-to-live-v2.mp4",
+      "media": {
+        "file_name": "03-frame-to-live-v2.mp4",
+        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
+      },
+      "sent_at_pkt": "2026-11-13 13:03 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "13:03",
+      "scheduled_for_pkt": "2026-11-13 13:00 PKT",
+      "metrics": {
+        "reactions": 5,
+        "comments": 2,
+        "engagementRate": 22,
+        "views": 70,
+        "shares": 0,
+        "saves": 1,
+        "totalTimeWatched": 4.08,
+        "averageTimeWatched": 4.3,
+        "reach": 50,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af1ac999541fd37f93f1433",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-13",
+      "time": "13:02",
+      "datetime_pkt": "2026-11-13 13:00 PKT",
+      "title": "Frame to Live",
+      "caption_gist": "Boring website pe visitor rukta nahi. 😴 Animated, fast, mobile-ready aur SEO-ready website. Idea se…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af1ac999541fd37f93f1433",
+      "file_name": "03-frame-to-live-v2.mp4",
+      "media": {
+        "file_name": "03-frame-to-live-v2.mp4",
+        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
+      },
+      "sent_at_pkt": "2026-11-13 13:02 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "13:02",
+      "scheduled_for_pkt": "2026-11-13 13:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "impressions": 0,
+        "reach": 0,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-13 13:03 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af34081e9e4a87f7b4f81ab",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-13",
+      "time": "12:02",
+      "datetime_pkt": "2026-11-13 12:00 PKT",
+      "title": "Frame to Live",
+      "caption_gist": "Boring website? Animated, fast aur mobile-ready banayein. ✨ Comment mein CHECK. #SmartSolutions #Web…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af34081e9e4a87f7b4f81ab",
+      "file_name": "03-frame-to-live-v2.mp4",
+      "media": {
+        "file_name": "03-frame-to-live-v2.mp4",
+        "drive_id": "18J5UKbvGxPnFeuppYawyxDaFTY78Rxv8"
+      },
+      "sent_at_pkt": "2026-11-13 12:02 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "12:02",
+      "scheduled_for_pkt": "2026-11-13 12:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "views": 0,
+        "shares": 0,
+        "reach": 0,
+        "totalTimeWatched": 0,
+        "averageTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-10 21:04 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af08e20004e4879a7c3625f",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-13",
+      "time": "09:01",
+      "datetime_pkt": "2026-11-13 09:00 PKT",
+      "title": "Custom Shopify store",
+      "caption_gist": "Har Shopify store ek jaisa kyun lage? Apne brand ke mutabiq design, products aur checkout—store live…",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af08e20004e4879a7c3625f",
+      "file_name": "s11.mp4",
+      "media": {
+        "file_name": "s11.mp4",
+        "drive_id": "1_3ldO1KAFDkuIbZD13gAIrq67x2w2-CM"
+      },
+      "sent_at_pkt": "2026-11-13 09:01 PKT",
+      "sent_date": "2026-11-13",
+      "sent_time": "09:01",
+      "scheduled_for_pkt": "2026-11-13 09:00 PKT",
+      "metrics": {
+        "reactions": 1,
+        "comments": 0,
+        "engagementRate": 100,
+        "impressions": 1,
+        "reach": 0,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
       "id": "6af182272f1ff83d45282a78",
       "kind": "post",
       "lane": "calendar",
@@ -734,20 +1362,34 @@
       "sent_time": "20:07",
       "scheduled_for_pkt": "2026-11-12 20:00 PKT",
       "metrics": {
-        "reactions": 0,
+        "reactions": 3,
         "comments": 0,
-        "engagementRate": 0,
-        "views": 0,
+        "engagementRate": 9.68,
+        "views": 31,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 0,
-        "averageTimeWatched": 0,
-        "metricsUpdatedAt_pkt": "2026-11-09 13:19 PKT"
+        "totalTimeWatched": 2.27,
+        "averageTimeWatched": 3.8,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 9.68,
+            "views": 31,
+            "shares": 0,
+            "reach": 0,
+            "totalTimeWatched": 2.27,
+            "averageTimeWatched": 3.8
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -779,10 +1421,37 @@
       "sent_date": "2026-11-12",
       "sent_time": "19:06",
       "scheduled_for_pkt": "2026-11-12 19:00 PKT",
-      "age_days": 0,
+      "metrics": {
+        "reactions": 7,
+        "comments": 2,
+        "engagementRate": 33.33,
+        "views": 56,
+        "shares": 5,
+        "saves": 0,
+        "totalTimeWatched": 3.64,
+        "averageTimeWatched": 3.9,
+        "reach": 48,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
+      },
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 17:48 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 7,
+            "comments": 2,
+            "engagementRate": 33.33,
+            "views": 56,
+            "shares": 5,
+            "saves": 0,
+            "totalTimeWatched": 3.64,
+            "averageTimeWatched": 3.9,
+            "reach": 48
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -818,16 +1487,29 @@
         "reactions": 0,
         "comments": 0,
         "engagementRate": 0,
-        "impressions": 0,
-        "reach": 0,
+        "impressions": 15,
+        "reach": 15,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:04 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 09:59 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 0,
+            "comments": 0,
+            "engagementRate": 0,
+            "impressions": 15,
+            "reach": 15,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -860,20 +1542,34 @@
       "sent_time": "16:03",
       "scheduled_for_pkt": "2026-11-12 16:00 PKT",
       "metrics": {
-        "reactions": 0,
-        "comments": 0,
-        "engagementRate": 0,
-        "views": 0,
+        "reactions": 2,
+        "comments": 1,
+        "engagementRate": 10.71,
+        "views": 28,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 0,
-        "averageTimeWatched": 0,
-        "metricsUpdatedAt_pkt": "2026-11-10 21:04 PKT"
+        "totalTimeWatched": 0.87,
+        "averageTimeWatched": 1.58,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 2,
+            "comments": 1,
+            "engagementRate": 10.71,
+            "views": 28,
+            "shares": 0,
+            "reach": 0,
+            "totalTimeWatched": 0.87,
+            "averageTimeWatched": 1.58
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -906,21 +1602,36 @@
       "sent_time": "14:05",
       "scheduled_for_pkt": "2026-11-12 14:00 PKT",
       "metrics": {
-        "reactions": 2,
-        "comments": 0,
-        "engagementRate": 5,
-        "views": 118,
-        "shares": 0,
+        "reactions": 6,
+        "comments": 2,
+        "engagementRate": 28.04,
+        "views": 133,
+        "shares": 17,
         "saves": 3,
-        "totalTimeWatched": 6.36,
-        "averageTimeWatched": 3.64,
-        "reach": 100,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 7.74,
+        "averageTimeWatched": 3.84,
+        "reach": 107,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 17:48 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 6,
+            "comments": 2,
+            "engagementRate": 28.04,
+            "views": 133,
+            "shares": 17,
+            "saves": 3,
+            "totalTimeWatched": 7.74,
+            "averageTimeWatched": 3.84,
+            "reach": 107
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -953,19 +1664,32 @@
       "sent_time": "13:01",
       "scheduled_for_pkt": "2026-11-12 13:00 PKT",
       "metrics": {
-        "reactions": 0,
+        "reactions": 1,
         "comments": 0,
-        "engagementRate": 0,
-        "impressions": 0,
-        "reach": 0,
+        "engagementRate": 7.14,
+        "impressions": 14,
+        "reach": 13,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 13:03 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 09:59 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 7.14,
+            "impressions": 14,
+            "reach": 13,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -998,20 +1722,34 @@
       "sent_time": "12:01",
       "scheduled_for_pkt": "2026-11-12 12:00 PKT",
       "metrics": {
-        "reactions": 0,
+        "reactions": 9,
         "comments": 0,
-        "engagementRate": 0,
-        "views": 0,
+        "engagementRate": 5.39,
+        "views": 167,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 0,
-        "averageTimeWatched": 0,
-        "metricsUpdatedAt_pkt": "2026-11-10 21:04 PKT"
+        "totalTimeWatched": 9.35,
+        "averageTimeWatched": 3.07,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 9,
+            "comments": 0,
+            "engagementRate": 5.39,
+            "views": 167,
+            "shares": 0,
+            "reach": 0,
+            "totalTimeWatched": 9.35,
+            "averageTimeWatched": 3.07
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -1044,21 +1782,36 @@
       "sent_time": "09:02",
       "scheduled_for_pkt": "2026-11-12 09:00 PKT",
       "metrics": {
-        "reactions": 4,
-        "comments": 0,
-        "engagementRate": 4,
-        "views": 147,
-        "shares": 0,
+        "reactions": 6,
+        "comments": 2,
+        "engagementRate": 10.49,
+        "views": 167,
+        "shares": 4,
         "saves": 1,
-        "totalTimeWatched": 16.66,
-        "averageTimeWatched": 7.52,
-        "reach": 125,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 19.43,
+        "averageTimeWatched": 7.33,
+        "reach": 143,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 17:48 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 6,
+            "comments": 2,
+            "engagementRate": 10.49,
+            "views": 167,
+            "shares": 4,
+            "saves": 1,
+            "totalTimeWatched": 19.43,
+            "averageTimeWatched": 7.33,
+            "reach": 143
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -1091,19 +1844,32 @@
       "sent_time": "09:01",
       "scheduled_for_pkt": "2026-11-12 09:00 PKT",
       "metrics": {
-        "reactions": 0,
+        "reactions": 1,
         "comments": 0,
-        "engagementRate": 0,
-        "impressions": 14,
-        "reach": 11,
+        "engagementRate": 1.28,
+        "impressions": 78,
+        "reach": 76,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-13 09:59 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 1.28,
+            "impressions": 78,
+            "reach": 76,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -1136,18 +1902,18 @@
       "sent_time": "21:06",
       "scheduled_for_pkt": "2026-11-11 21:00 PKT",
       "metrics": {
-        "reactions": 3,
-        "comments": 0,
-        "engagementRate": 6.17,
-        "views": 104,
+        "reactions": 5,
+        "comments": 2,
+        "engagementRate": 12.36,
+        "views": 114,
         "shares": 0,
         "saves": 2,
-        "totalTimeWatched": 5.25,
-        "averageTimeWatched": 3.35,
-        "reach": 81,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 5.88,
+        "averageTimeWatched": 3.27,
+        "reach": 89,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1198,17 +1964,17 @@
       "sent_time": "20:10",
       "scheduled_for_pkt": "2026-11-11 20:00 PKT",
       "metrics": {
-        "reactions": 3,
+        "reactions": 7,
         "comments": 0,
-        "engagementRate": 2.75,
-        "views": 109,
+        "engagementRate": 2.58,
+        "views": 271,
         "shares": 0,
-        "reach": 0,
-        "totalTimeWatched": 6.07,
-        "averageTimeWatched": 3.09,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "reach": 79,
+        "totalTimeWatched": 18.35,
+        "averageTimeWatched": 3.6,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1258,17 +2024,17 @@
       "sent_time": "18:16",
       "scheduled_for_pkt": "2026-11-11 18:00 PKT",
       "metrics": {
-        "reactions": 1,
+        "reactions": 2,
         "comments": 0,
-        "engagementRate": 0.95,
-        "views": 105,
+        "engagementRate": 1.42,
+        "views": 141,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 5.03,
-        "averageTimeWatched": 2.73,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 7.58,
+        "averageTimeWatched": 2.86,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1318,18 +2084,18 @@
       "sent_time": "18:07",
       "scheduled_for_pkt": "2026-11-11 18:00 PKT",
       "metrics": {
-        "reactions": 2,
+        "reactions": 4,
         "comments": 0,
-        "engagementRate": 1.72,
-        "views": 128,
+        "engagementRate": 5.04,
+        "views": 133,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 12.6,
-        "averageTimeWatched": 6.25,
-        "reach": 116,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 12.87,
+        "averageTimeWatched": 5.94,
+        "reach": 119,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1380,17 +2146,17 @@
       "sent_time": "16:04",
       "scheduled_for_pkt": "2026-11-11 16:00 PKT",
       "metrics": {
-        "reactions": 9,
+        "reactions": 16,
         "comments": 1,
-        "engagementRate": 5.52,
-        "views": 181,
+        "engagementRate": 6.42,
+        "views": 265,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 10.77,
-        "averageTimeWatched": 3.28,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 22.93,
+        "averageTimeWatched": 4.48,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1442,14 +2208,14 @@
       "metrics": {
         "reactions": 1,
         "comments": 0,
-        "engagementRate": 4.76,
-        "impressions": 21,
+        "engagementRate": 4.55,
+        "impressions": 22,
         "reach": 19,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1498,18 +2264,18 @@
       "sent_time": "14:03",
       "scheduled_for_pkt": "2026-11-11 14:00 PKT",
       "metrics": {
-        "reactions": 3,
+        "reactions": 5,
         "comments": 0,
-        "engagementRate": 5.26,
-        "views": 67,
+        "engagementRate": 11.86,
+        "views": 70,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 3.37,
-        "averageTimeWatched": 3.02,
-        "reach": 57,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 3.5,
+        "averageTimeWatched": 2.8,
+        "reach": 59,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1560,17 +2326,17 @@
       "sent_time": "14:03",
       "scheduled_for_pkt": "2026-11-11 14:00 PKT",
       "metrics": {
-        "reactions": 6,
+        "reactions": 7,
         "comments": 1,
-        "engagementRate": 6.09,
-        "views": 115,
+        "engagementRate": 4.76,
+        "views": 168,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 3.15,
-        "averageTimeWatched": 1.46,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 4.6,
+        "averageTimeWatched": 1.44,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1620,17 +2386,17 @@
       "sent_time": "12:01",
       "scheduled_for_pkt": "2026-11-11 12:00 PKT",
       "metrics": {
-        "reactions": 11,
+        "reactions": 13,
         "comments": 2,
-        "engagementRate": 4.84,
-        "views": 289,
+        "engagementRate": 4.75,
+        "views": 337,
         "shares": 1,
         "reach": 0,
-        "totalTimeWatched": 13.02,
-        "averageTimeWatched": 2.38,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 17.35,
+        "averageTimeWatched": 2.64,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1687,9 +2453,9 @@
         "reach": 13,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1745,9 +2511,9 @@
         "reach": 12,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1802,12 +2568,12 @@
         "engagementRate": 3.26,
         "views": 215,
         "shares": 0,
-        "reach": 0,
-        "totalTimeWatched": 10.5,
-        "averageTimeWatched": 2.63,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "reach": 214,
+        "totalTimeWatched": 10.97,
+        "averageTimeWatched": 2.67,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1825,7 +2591,21 @@
             "averageTimeWatched": 1.52
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 6,
+            "comments": 1,
+            "engagementRate": 3.26,
+            "views": 215,
+            "shares": 0,
+            "reach": 214,
+            "totalTimeWatched": 10.97,
+            "averageTimeWatched": 2.67
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1857,18 +2637,18 @@
       "sent_time": "19:04",
       "scheduled_for_pkt": "2026-11-10 19:00 PKT",
       "metrics": {
-        "reactions": 6,
-        "comments": 0,
-        "engagementRate": 4.92,
-        "views": 137,
-        "shares": 0,
+        "reactions": 8,
+        "comments": 2,
+        "engagementRate": 12.1,
+        "views": 141,
+        "shares": 3,
         "saves": 0,
-        "totalTimeWatched": 11.85,
-        "averageTimeWatched": 5.19,
-        "reach": 122,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 12.25,
+        "averageTimeWatched": 5.07,
+        "reach": 124,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1887,7 +2667,22 @@
             "reach": 121
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-13 17:48 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 8,
+            "comments": 2,
+            "engagementRate": 12.1,
+            "views": 141,
+            "shares": 3,
+            "saves": 0,
+            "totalTimeWatched": 12.25,
+            "averageTimeWatched": 5.07,
+            "reach": 124
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1926,11 +2721,11 @@
         "views": 1,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 0.1,
-        "averageTimeWatched": 6.08,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 0.97,
+        "averageTimeWatched": 7.26,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1948,7 +2743,78 @@
             "averageTimeWatched": 6.08
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 100,
+            "views": 1,
+            "shares": 0,
+            "reach": 0,
+            "totalTimeWatched": 0.97,
+            "averageTimeWatched": 7.26
+          }
+        },
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af5fc4fc1508805ed0f8077",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-10",
+      "time": "15:06",
+      "datetime_pkt": "2026-11-10 15:06 PKT",
+      "title": "#creatorsearchinsights #tobesu",
+      "caption_gist": "#creatorsearchinsights #tobesuccessfulatanything  Business acha hai… lekin log dekh bhi rahe hain? S",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af5fc4fc1508805ed0f8077",
+      "file_name": "",
+      "media": {},
+      "sent_at_pkt": "2026-11-10 15:06 PKT",
+      "sent_date": "2026-11-10",
+      "sent_time": "15:06",
+      "scheduled_for_pkt": "2026-11-10 15:06 PKT",
+      "metrics": {
+        "reactions": 6,
+        "comments": 0,
+        "engagementRate": 3.06,
+        "views": 196,
+        "shares": 0,
+        "reach": 195,
+        "totalTimeWatched": 13.05,
+        "averageTimeWatched": 3.2,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
+      },
+      "age_days": 3,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 3.06,
+            "views": 196,
+            "shares": 0,
+            "reach": 195,
+            "totalTimeWatched": 13.05,
+            "averageTimeWatched": 3.2
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1984,7 +2850,7 @@
         "reactions": 0,
         "metricsUpdatedAt_pkt": "2026-11-11 14:44 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2038,11 +2904,11 @@
         "views": 16,
         "shares": 1,
         "reach": 6,
-        "totalTimeWatched": 2.73,
-        "averageTimeWatched": 8.68,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 2.88,
+        "averageTimeWatched": 7.23,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2060,7 +2926,21 @@
             "averageTimeWatched": 8.68
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-13 09:17 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 5,
+            "comments": 2,
+            "engagementRate": 50,
+            "views": 16,
+            "shares": 1,
+            "reach": 6,
+            "totalTimeWatched": 2.88,
+            "averageTimeWatched": 7.23
+          }
+        },
         "7": null,
         "30": null
       },
@@ -2099,9 +2979,9 @@
         "reach": 201,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2118,7 +2998,20 @@
             "clicks": 0
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-13 09:59 PKT",
+          "captured_date": "2026-11-13",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 5,
+            "comments": 0,
+            "engagementRate": 2.23,
+            "impressions": 224,
+            "reach": 201,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "7": null,
         "30": null
       },
@@ -2157,11 +3050,11 @@
         "views": 6,
         "shares": 0,
         "reach": 4,
-        "totalTimeWatched": 1.02,
-        "averageTimeWatched": 7.7,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "totalTimeWatched": 1.2,
+        "averageTimeWatched": 5.6,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2228,15 +3121,15 @@
       "metrics": {
         "reactions": 5,
         "comments": 1,
-        "engagementRate": 50,
-        "views": 12,
+        "engagementRate": 46.15,
+        "views": 13,
         "shares": 0,
-        "reach": 1,
-        "totalTimeWatched": 1.32,
-        "averageTimeWatched": 1.34,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:16 PKT"
+        "reach": 5,
+        "totalTimeWatched": 1.63,
+        "averageTimeWatched": 1.54,
+        "metricsUpdatedAt_pkt": "2026-11-13 09:17 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2300,18 +3193,18 @@
       "sent_time": "19:03",
       "scheduled_for_pkt": "2026-11-09 19:00 PKT",
       "metrics": {
-        "reactions": 18,
-        "comments": 0,
-        "engagementRate": 2.87,
-        "views": 1243,
-        "shares": 6,
+        "reactions": 20,
+        "comments": 2,
+        "engagementRate": 6.43,
+        "views": 1256,
+        "shares": 38,
         "saves": 7,
-        "totalTimeWatched": 254.05,
-        "averageTimeWatched": 13.55,
-        "reach": 1080,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 255.55,
+        "averageTimeWatched": 13.47,
+        "reach": 1089,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2388,7 +3281,7 @@
         "averageTimeWatched": 0.83,
         "metricsUpdatedAt_pkt": "2026-11-10 12:14 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2445,9 +3338,9 @@
         "reach": 75,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2509,18 +3402,18 @@
       "sent_time": "21:02",
       "scheduled_for_pkt": "2026-11-08 21:00 PKT",
       "metrics": {
-        "reactions": 10,
-        "comments": 0,
-        "engagementRate": 11.43,
-        "views": 167,
+        "reactions": 11,
+        "comments": 2,
+        "engagementRate": 14.89,
+        "views": 170,
         "shares": 6,
         "saves": 0,
-        "totalTimeWatched": 13.03,
-        "averageTimeWatched": 4.8,
-        "reach": 140,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 14.56,
+        "averageTimeWatched": 5.14,
+        "reach": 141,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2593,9 +3486,9 @@
         "reach": 53,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2657,18 +3550,18 @@
       "sent_time": "20:05",
       "scheduled_for_pkt": "2026-11-05 20:00 PKT",
       "metrics": {
-        "reactions": 5,
+        "reactions": 6,
         "comments": 0,
-        "engagementRate": 12.2,
-        "views": 46,
+        "engagementRate": 19.05,
+        "views": 49,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 4.92,
-        "averageTimeWatched": 4.4,
-        "reach": 41,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 5.06,
+        "averageTimeWatched": 4.16,
+        "reach": 42,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -2747,9 +3640,9 @@
         "reach": 159,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -2817,18 +3710,18 @@
       "sent_time": "13:02",
       "scheduled_for_pkt": "2026-11-05 13:00 PKT",
       "metrics": {
-        "reactions": 5,
+        "reactions": 6,
         "comments": 0,
-        "engagementRate": 25,
-        "views": 21,
+        "engagementRate": 38.1,
+        "views": 24,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 2,
-        "averageTimeWatched": 3.07,
-        "reach": 20,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 2.13,
+        "averageTimeWatched": 2.84,
+        "reach": 21,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -2907,9 +3800,9 @@
         "reach": 63,
         "shares": 0,
         "clicks": 1,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -2977,18 +3870,18 @@
       "sent_time": "20:02",
       "scheduled_for_pkt": "2026-11-04 20:00 PKT",
       "metrics": {
-        "reactions": 7,
+        "reactions": 8,
         "comments": 0,
-        "engagementRate": 8.4,
-        "views": 135,
+        "engagementRate": 10.83,
+        "views": 139,
         "shares": 2,
         "saves": 1,
-        "totalTimeWatched": 16.23,
-        "averageTimeWatched": 6.67,
-        "reach": 119,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 16.32,
+        "averageTimeWatched": 6.48,
+        "reach": 120,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3069,7 +3962,7 @@
         "clicks": 0,
         "metricsUpdatedAt_pkt": "2026-11-04 20:03 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3112,9 +4005,9 @@
         "reach": 127,
         "shares": 26,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3169,18 +4062,18 @@
       "sent_time": "17:22",
       "scheduled_for_pkt": "2026-11-03 17:21 PKT",
       "metrics": {
-        "reactions": 5,
+        "reactions": 6,
         "comments": 0,
-        "engagementRate": 14.29,
-        "views": 47,
-        "shares": 0,
+        "engagementRate": 25,
+        "views": 51,
+        "shares": 1,
         "saves": 0,
-        "totalTimeWatched": 4.44,
-        "averageTimeWatched": 5.03,
-        "reach": 35,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 5.36,
+        "averageTimeWatched": 5.45,
+        "reach": 36,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3237,18 +4130,18 @@
       "sent_time": "19:11",
       "scheduled_for_pkt": "2026-11-02 19:04 PKT",
       "metrics": {
-        "reactions": 4,
+        "reactions": 5,
         "comments": 0,
-        "engagementRate": 13.33,
-        "views": 37,
+        "engagementRate": 22.58,
+        "views": 42,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 2.04,
-        "averageTimeWatched": 2.72,
-        "reach": 30,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 2.15,
+        "averageTimeWatched": 2.58,
+        "reach": 31,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 10,
+      "age_days": 11,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3312,9 +4205,9 @@
         "reach": 43,
         "shares": 26,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 10,
+      "age_days": 11,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3369,18 +4262,18 @@
       "sent_time": "18:44",
       "scheduled_for_pkt": "2026-11-02 18:43 PKT",
       "metrics": {
-        "reactions": 4,
+        "reactions": 5,
         "comments": 0,
-        "engagementRate": 22.22,
-        "views": 31,
+        "engagementRate": 36.84,
+        "views": 35,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 4.28,
-        "averageTimeWatched": 7.13,
-        "reach": 18,
-        "metricsUpdatedAt_pkt": "2026-11-12 17:48 PKT"
+        "totalTimeWatched": 4.39,
+        "averageTimeWatched": 6.28,
+        "reach": 19,
+        "metricsUpdatedAt_pkt": "2026-11-13 17:48 PKT"
       },
-      "age_days": 10,
+      "age_days": 11,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -3444,9 +4337,9 @@
         "reach": 122,
         "shares": 36,
         "clicks": 1,
-        "metricsUpdatedAt_pkt": "2026-11-12 10:59 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-13 09:59 PKT"
       },
-      "age_days": 10,
+      "age_days": 11,
       "too_early": false,
       "checkpoints": {
         "1": null,
