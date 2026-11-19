@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-11-18 21:44 PKT",
-    "generated_at_iso": "2026-11-18T21:44:55+05:00",
-    "converted_at": "2026-11-18 21:45 PKT",
-    "converted_at_iso": "2026-11-18T21:45:03+05:00",
+    "generated_at": "2026-11-19 21:45 PKT",
+    "generated_at_iso": "2026-11-19T21:45:13+05:00",
+    "converted_at": "2026-11-19 21:47 PKT",
+    "converted_at_iso": "2026-11-19T21:47:29+05:00",
     "timezone": "Asia/Karachi",
     "timezone_label": "Asia/Karachi (PKT, UTC+5)",
     "organization_id": "6ae3a47e26d3d08c3b7e2a2c",
@@ -34,21 +34,21 @@
     }
   ],
   "counts": {
-    "scheduled_section": 24,
-    "scheduled": 24,
+    "scheduled_section": 21,
+    "scheduled": 21,
     "draft_waiting_slot": 0,
     "scheduled_by_platform": {
-      "FB": 8,
-      "IG": 8,
-      "TikTok": 8
+      "FB": 7,
+      "IG": 7,
+      "TikTok": 7
     },
     "draft_waiting_slot_by_platform": {},
     "pipeline": 20,
-    "posted": 77,
+    "posted": 80,
     "posted_by_platform": {
-      "TikTok": 25,
-      "IG": 27,
-      "FB": 25
+      "TikTok": 26,
+      "IG": 28,
+      "FB": 26
     },
     "drafts_skipped_no_dueAt": 0,
     "pipeline_export": 9,
@@ -60,69 +60,6 @@
     }
   },
   "items": [
-    {
-      "id": "6af45ebf994e61f76a172d76",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "FB",
-      "platforms": [
-        "FB"
-      ],
-      "date": "2026-11-19",
-      "time": "13:00",
-      "datetime_pkt": "2026-11-19 13:00 PKT",
-      "title": "M4 CPA cheap click vs order",
-      "caption_gist": "Rs 5 ka click ya Rs 500 ka order? Aap ke business ke liye zyada important kya hai? 🤔  Ad A: Rs 5 cli",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af45ebf994e61f76a172d76",
-      "file_name": "",
-      "media": {
-        "drive_id": "1dWHIjr1Xc30W-5E3NV0cFDek3vAEenvz"
-      }
-    },
-    {
-      "id": "6af45ec2e0bb54c4a7ef59f9",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "IG",
-      "platforms": [
-        "IG"
-      ],
-      "date": "2026-11-19",
-      "time": "19:00",
-      "datetime_pkt": "2026-11-19 19:00 PKT",
-      "title": "M4 CPA cheap click vs order",
-      "caption_gist": "Rs 5 ka click ya Rs 500 ka order? Aap ke business ke liye zyada important kya hai? 🤔  Ad A: Rs 5 cli",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af45ec2e0bb54c4a7ef59f9",
-      "file_name": "",
-      "media": {
-        "drive_id": "1dWHIjr1Xc30W-5E3NV0cFDek3vAEenvz"
-      }
-    },
-    {
-      "id": "6af45ec55bbfd45b33b167a6",
-      "kind": "post",
-      "lane": "calendar",
-      "platform": "TikTok",
-      "platforms": [
-        "TikTok"
-      ],
-      "date": "2026-11-19",
-      "time": "20:00",
-      "datetime_pkt": "2026-11-19 20:00 PKT",
-      "title": "M4 CPA cheap click vs order",
-      "caption_gist": "Sasta click ≠ sasta order. CPA dekho, actual results dekho. Comment CPA 👇  #SmartSolutions #MetaAds ",
-      "status": "scheduled",
-      "raw_status": "scheduled",
-      "buffer_post_id": "6af45ec55bbfd45b33b167a6",
-      "file_name": "",
-      "media": {
-        "drive_id": "1dWHIjr1Xc30W-5E3NV0cFDek3vAEenvz"
-      }
-    },
     {
       "id": "6af6ca04ac315c828ef573b9",
       "kind": "post",
@@ -565,6 +502,129 @@
       }
     },
     {
+      "id": "6af45ec55bbfd45b33b167a6",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "date": "2026-11-19",
+      "time": "20:09",
+      "datetime_pkt": "2026-11-19 20:00 PKT",
+      "title": "M4 CPA cheap click vs order",
+      "caption_gist": "Sasta click ≠ sasta order. CPA dekho, actual results dekho. Comment CPA 👇  #SmartSolutions #MetaAds ",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af45ec55bbfd45b33b167a6",
+      "file_name": "",
+      "media": {
+        "drive_id": "1dWHIjr1Xc30W-5E3NV0cFDek3vAEenvz"
+      },
+      "sent_at_pkt": "2026-11-19 20:09 PKT",
+      "sent_date": "2026-11-19",
+      "sent_time": "20:09",
+      "scheduled_for_pkt": "2026-11-19 20:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "views": 0,
+        "shares": 0,
+        "reach": 0,
+        "totalTimeWatched": 0,
+        "averageTimeWatched": 0,
+        "metricsUpdatedAt_pkt": "2026-11-11 17:25 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af45ec2e0bb54c4a7ef59f9",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "IG",
+      "platforms": [
+        "IG"
+      ],
+      "date": "2026-11-19",
+      "time": "19:08",
+      "datetime_pkt": "2026-11-19 19:00 PKT",
+      "title": "M4 CPA cheap click vs order",
+      "caption_gist": "Rs 5 ka click ya Rs 500 ka order? Aap ke business ke liye zyada important kya hai? 🤔  Ad A: Rs 5 cli",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af45ec2e0bb54c4a7ef59f9",
+      "file_name": "",
+      "media": {
+        "drive_id": "1dWHIjr1Xc30W-5E3NV0cFDek3vAEenvz"
+      },
+      "sent_at_pkt": "2026-11-19 19:08 PKT",
+      "sent_date": "2026-11-19",
+      "sent_time": "19:08",
+      "scheduled_for_pkt": "2026-11-19 19:00 PKT",
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
+      "id": "6af45ebf994e61f76a172d76",
+      "kind": "post",
+      "lane": "calendar",
+      "platform": "FB",
+      "platforms": [
+        "FB"
+      ],
+      "date": "2026-11-19",
+      "time": "13:02",
+      "datetime_pkt": "2026-11-19 13:00 PKT",
+      "title": "M4 CPA cheap click vs order",
+      "caption_gist": "Rs 5 ka click ya Rs 500 ka order? Aap ke business ke liye zyada important kya hai? 🤔  Ad A: Rs 5 cli",
+      "status": "posted",
+      "raw_status": "sent",
+      "buffer_post_id": "6af45ebf994e61f76a172d76",
+      "file_name": "",
+      "media": {
+        "drive_id": "1dWHIjr1Xc30W-5E3NV0cFDek3vAEenvz"
+      },
+      "sent_at_pkt": "2026-11-19 13:02 PKT",
+      "sent_date": "2026-11-19",
+      "sent_time": "13:02",
+      "scheduled_for_pkt": "2026-11-19 13:00 PKT",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "engagementRate": 0,
+        "impressions": 0,
+        "reach": 0,
+        "shares": 0,
+        "clicks": 0,
+        "metricsUpdatedAt_pkt": "2026-11-19 13:04 PKT"
+      },
+      "age_days": 0,
+      "too_early": true,
+      "checkpoints": {
+        "1": null,
+        "3": null,
+        "7": null,
+        "30": null
+      },
+      "day7": null
+    },
+    {
       "id": "6af45ea6e0bb54c4a7ef504d",
       "kind": "post",
       "lane": "calendar",
@@ -589,20 +649,34 @@
       "sent_time": "20:08",
       "scheduled_for_pkt": "2026-11-18 20:00 PKT",
       "metrics": {
-        "reactions": 0,
+        "reactions": 15,
         "comments": 0,
-        "engagementRate": 0,
-        "views": 0,
+        "engagementRate": 6.82,
+        "views": 220,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 0,
-        "averageTimeWatched": 0,
-        "metricsUpdatedAt_pkt": "2026-11-11 17:25 PKT"
+        "totalTimeWatched": 18.28,
+        "averageTimeWatched": 4.69,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-19 03:23 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 15,
+            "comments": 0,
+            "engagementRate": 6.82,
+            "views": 220,
+            "shares": 0,
+            "reach": 0,
+            "totalTimeWatched": 18.28,
+            "averageTimeWatched": 4.69
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -633,10 +707,37 @@
       "sent_date": "2026-11-18",
       "sent_time": "19:08",
       "scheduled_for_pkt": "2026-11-18 19:00 PKT",
-      "age_days": 0,
+      "metrics": {
+        "reactions": 5,
+        "comments": 0,
+        "engagementRate": 8.26,
+        "views": 123,
+        "shares": 0,
+        "saves": 2,
+        "totalTimeWatched": 11.37,
+        "averageTimeWatched": 5.68,
+        "reach": 109,
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
+      },
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-19 17:49 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 5,
+            "comments": 0,
+            "engagementRate": 8.26,
+            "views": 123,
+            "shares": 0,
+            "saves": 2,
+            "totalTimeWatched": 11.37,
+            "averageTimeWatched": 5.68,
+            "reach": 109
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -668,19 +769,32 @@
       "sent_time": "13:02",
       "scheduled_for_pkt": "2026-11-18 13:00 PKT",
       "metrics": {
-        "reactions": 0,
+        "reactions": 1,
         "comments": 0,
-        "engagementRate": 0,
-        "impressions": 0,
-        "reach": 0,
+        "engagementRate": 3.03,
+        "impressions": 33,
+        "reach": 32,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 13:03 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 0,
+      "age_days": 1,
       "too_early": true,
       "checkpoints": {
-        "1": null,
+        "1": {
+          "captured_at": "2026-11-19 04:00 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 1,
+          "metrics": {
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 3.03,
+            "impressions": 33,
+            "reach": 32,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "3": null,
         "7": null,
         "30": null
@@ -712,17 +826,17 @@
       "sent_time": "20:11",
       "scheduled_for_pkt": "2026-11-17 20:00 PKT",
       "metrics": {
-        "reactions": 3,
+        "reactions": 9,
         "comments": 0,
-        "engagementRate": 4.55,
-        "views": 66,
+        "engagementRate": 3.98,
+        "views": 226,
         "shares": 0,
         "reach": 0,
-        "totalTimeWatched": 3.22,
-        "averageTimeWatched": 2.94,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "totalTimeWatched": 16.65,
+        "averageTimeWatched": 3.77,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -773,16 +887,16 @@
       "metrics": {
         "reactions": 4,
         "comments": 0,
-        "engagementRate": 14.89,
-        "views": 125,
+        "engagementRate": 12.84,
+        "views": 143,
         "shares": 6,
         "saves": 0,
-        "totalTimeWatched": 11.21,
-        "averageTimeWatched": 6.66,
-        "reach": 94,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "totalTimeWatched": 11.57,
+        "averageTimeWatched": 5.89,
+        "reach": 109,
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -834,14 +948,14 @@
       "metrics": {
         "reactions": 2,
         "comments": 0,
-        "engagementRate": 7.84,
-        "impressions": 51,
-        "reach": 45,
+        "engagementRate": 7.55,
+        "impressions": 53,
+        "reach": 47,
         "shares": 0,
         "clicks": 2,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 1,
+      "age_days": 2,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -889,17 +1003,17 @@
       "sent_time": "20:07",
       "scheduled_for_pkt": "2026-11-16 20:00 PKT",
       "metrics": {
-        "reactions": 18,
+        "reactions": 19,
         "comments": 2,
-        "engagementRate": 4.45,
-        "views": 472,
+        "engagementRate": 4.55,
+        "views": 484,
         "shares": 1,
-        "reach": 0,
-        "totalTimeWatched": 40.17,
-        "averageTimeWatched": 4.91,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 127,
+        "totalTimeWatched": 44.05,
+        "averageTimeWatched": 5.04,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -917,7 +1031,21 @@
             "averageTimeWatched": 4.3
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-19 03:23 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 19,
+            "comments": 2,
+            "engagementRate": 4.55,
+            "views": 484,
+            "shares": 1,
+            "reach": 127,
+            "totalTimeWatched": 44.05,
+            "averageTimeWatched": 5.04
+          }
+        },
         "7": null,
         "30": null
       },
@@ -950,16 +1078,16 @@
       "metrics": {
         "reactions": 6,
         "comments": 0,
-        "engagementRate": 7.25,
-        "views": 172,
+        "engagementRate": 7.14,
+        "views": 174,
         "shares": 0,
         "saves": 1,
-        "totalTimeWatched": 10.91,
-        "averageTimeWatched": 4.09,
-        "reach": 138,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "totalTimeWatched": 10.95,
+        "averageTimeWatched": 4.06,
+        "reach": 140,
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -978,7 +1106,22 @@
             "reach": 133
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-19 17:49 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 6,
+            "comments": 0,
+            "engagementRate": 7.14,
+            "views": 174,
+            "shares": 0,
+            "saves": 1,
+            "totalTimeWatched": 10.95,
+            "averageTimeWatched": 4.06,
+            "reach": 140
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1016,9 +1159,9 @@
         "reach": 220,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1035,7 +1178,20 @@
             "clicks": 0
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-19 04:00 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 1.32,
+            "impressions": 228,
+            "reach": 220,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1064,17 +1220,17 @@
       "sent_time": "08:19",
       "scheduled_for_pkt": "2026-11-16 08:17 PKT",
       "metrics": {
-        "reactions": 30,
+        "reactions": 31,
         "comments": 4,
-        "engagementRate": 6.3,
-        "views": 603,
+        "engagementRate": 6.32,
+        "views": 617,
         "shares": 4,
-        "reach": 0,
-        "totalTimeWatched": 105.9,
-        "averageTimeWatched": 9,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 563,
+        "totalTimeWatched": 111.12,
+        "averageTimeWatched": 9.08,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1092,7 +1248,21 @@
             "averageTimeWatched": 8.78
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-19 03:23 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 31,
+            "comments": 4,
+            "engagementRate": 6.32,
+            "views": 617,
+            "shares": 4,
+            "reach": 563,
+            "totalTimeWatched": 111.12,
+            "averageTimeWatched": 9.08
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1132,9 +1302,9 @@
         "totalTimeWatched": 31.13,
         "averageTimeWatched": 8.73,
         "reach": 192,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1153,7 +1323,22 @@
             "reach": 189
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-19 17:49 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 5,
+            "comments": 2,
+            "engagementRate": 8.85,
+            "views": 231,
+            "shares": 1,
+            "saves": 4,
+            "totalTimeWatched": 31.13,
+            "averageTimeWatched": 8.73,
+            "reach": 192
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1191,9 +1376,9 @@
         "reach": 172,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 2,
+      "age_days": 3,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1210,7 +1395,20 @@
             "clicks": 0
           }
         },
-        "3": null,
+        "3": {
+          "captured_at": "2026-11-19 04:00 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 3,
+          "metrics": {
+            "reactions": 3,
+            "comments": 0,
+            "engagementRate": 1.62,
+            "impressions": 185,
+            "reach": 172,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "7": null,
         "30": null
       },
@@ -1251,9 +1449,9 @@
         "totalTimeWatched": 5.22,
         "averageTimeWatched": 2.24,
         "reach": 134,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1319,17 +1517,17 @@
       "sent_time": "20:06",
       "scheduled_for_pkt": "2026-11-15 20:00 PKT",
       "metrics": {
-        "reactions": 16,
+        "reactions": 17,
         "comments": 2,
-        "engagementRate": 7.2,
-        "views": 264,
+        "engagementRate": 7.46,
+        "views": 268,
         "shares": 1,
-        "reach": 67,
-        "totalTimeWatched": 11.15,
-        "averageTimeWatched": 2.44,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 245,
+        "totalTimeWatched": 11.32,
+        "averageTimeWatched": 2.43,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1395,14 +1593,14 @@
       "metrics": {
         "reactions": 2,
         "comments": 0,
-        "engagementRate": 6.25,
-        "impressions": 32,
-        "reach": 23,
+        "engagementRate": 6.06,
+        "impressions": 33,
+        "reach": 24,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 3,
+      "age_days": 4,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -1464,17 +1662,17 @@
       "sent_time": "20:07",
       "scheduled_for_pkt": "2026-11-14 20:00 PKT",
       "metrics": {
-        "reactions": 4,
+        "reactions": 5,
         "comments": 1,
-        "engagementRate": 38.46,
-        "views": 13,
+        "engagementRate": 40,
+        "views": 15,
         "shares": 0,
-        "reach": 5,
-        "totalTimeWatched": 1.12,
-        "averageTimeWatched": 2.69,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 7,
+        "totalTimeWatched": 1.2,
+        "averageTimeWatched": 2.67,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1533,9 +1731,9 @@
         "totalTimeWatched": 3.8,
         "averageTimeWatched": 3.26,
         "reach": 55,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1586,17 +1784,17 @@
       "sent_time": "16:03",
       "scheduled_for_pkt": "2026-11-14 16:00 PKT",
       "metrics": {
-        "reactions": 4,
+        "reactions": 5,
         "comments": 1,
-        "engagementRate": 45.45,
-        "views": 11,
+        "engagementRate": 46.15,
+        "views": 13,
         "shares": 0,
-        "reach": 6,
-        "totalTimeWatched": 0.63,
-        "averageTimeWatched": 2.14,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 8,
+        "totalTimeWatched": 0.7,
+        "averageTimeWatched": 2.13,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1649,15 +1847,15 @@
         "reactions": 2,
         "comments": 0,
         "engagementRate": 9.76,
-        "views": 51,
+        "views": 52,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 3.24,
-        "averageTimeWatched": 3.47,
+        "totalTimeWatched": 3.28,
+        "averageTimeWatched": 3.45,
         "reach": 41,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1715,9 +1913,9 @@
         "reach": 20,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1773,9 +1971,9 @@
         "reach": 24,
         "shares": 0,
         "clicks": 1,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 4,
+      "age_days": 5,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1824,17 +2022,17 @@
       "sent_time": "20:06",
       "scheduled_for_pkt": "2026-11-13 20:00 PKT",
       "metrics": {
-        "reactions": 15,
+        "reactions": 16,
         "comments": 1,
-        "engagementRate": 4.59,
-        "views": 370,
+        "engagementRate": 4.84,
+        "views": 372,
         "shares": 1,
-        "reach": 335,
-        "totalTimeWatched": 32.43,
-        "averageTimeWatched": 5.12,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 338,
+        "totalTimeWatched": 32.73,
+        "averageTimeWatched": 5.13,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1890,12 +2088,12 @@
         "views": 227,
         "shares": 0,
         "saves": 3,
-        "totalTimeWatched": 33.82,
-        "averageTimeWatched": 9.39,
+        "totalTimeWatched": 33.86,
+        "averageTimeWatched": 9.36,
         "reach": 183,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -1953,9 +2151,9 @@
         "reach": 32,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2010,7 +2208,7 @@
         "reactions": 1,
         "metricsUpdatedAt_pkt": "2026-11-14 16:07 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": {
@@ -2066,9 +2264,9 @@
         "totalTimeWatched": 2.91,
         "averageTimeWatched": 6.72,
         "reach": 13,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2119,17 +2317,17 @@
       "sent_time": "16:03",
       "scheduled_for_pkt": "2026-11-13 16:00 PKT",
       "metrics": {
-        "reactions": 4,
+        "reactions": 5,
         "comments": 0,
-        "engagementRate": 36.36,
-        "views": 11,
+        "engagementRate": 35.71,
+        "views": 14,
         "shares": 0,
-        "reach": 5,
-        "totalTimeWatched": 0.78,
-        "averageTimeWatched": 2.24,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 7,
+        "totalTimeWatched": 0.85,
+        "averageTimeWatched": 2.14,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2188,9 +2386,9 @@
         "totalTimeWatched": 7.99,
         "averageTimeWatched": 3.8,
         "reach": 103,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2248,9 +2446,9 @@
         "reach": 34,
         "shares": 0,
         "clicks": 1,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2299,17 +2497,17 @@
       "sent_time": "12:02",
       "scheduled_for_pkt": "2026-11-13 12:00 PKT",
       "metrics": {
-        "reactions": 5,
+        "reactions": 6,
         "comments": 1,
-        "engagementRate": 3.97,
-        "views": 151,
+        "engagementRate": 4.49,
+        "views": 156,
         "shares": 0,
-        "reach": 141,
-        "totalTimeWatched": 5.28,
+        "reach": 143,
+        "totalTimeWatched": 5.45,
         "averageTimeWatched": 2.02,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2366,9 +2564,9 @@
         "reach": 39,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 5,
+      "age_days": 6,
       "too_early": true,
       "checkpoints": {
         "1": null,
@@ -2417,18 +2615,18 @@
       "sent_time": "20:07",
       "scheduled_for_pkt": "2026-11-12 20:00 PKT",
       "metrics": {
-        "reactions": 8,
+        "reactions": 9,
         "comments": 0,
-        "engagementRate": 14.04,
-        "views": 57,
+        "engagementRate": 14.29,
+        "views": 63,
         "shares": 0,
-        "reach": 39,
-        "totalTimeWatched": 3.35,
-        "averageTimeWatched": 2.89,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 41,
+        "totalTimeWatched": 3.45,
+        "averageTimeWatched": 2.72,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 09:17 PKT",
@@ -2460,10 +2658,30 @@
             "averageTimeWatched": 2.57
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 03:23 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 9,
+            "comments": 0,
+            "engagementRate": 14.29,
+            "views": 63,
+            "shares": 0,
+            "reach": 41,
+            "totalTimeWatched": 3.45,
+            "averageTimeWatched": 2.72
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "views",
+        "value": 63,
+        "captured_at": "2026-11-19 03:23 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af1acaf56a4abd5c291ecd8",
@@ -2500,10 +2718,10 @@
         "totalTimeWatched": 4.73,
         "averageTimeWatched": 3.68,
         "reach": 59,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 17:48 PKT",
@@ -2537,10 +2755,31 @@
             "reach": 59
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 17:49 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 9,
+            "comments": 2,
+            "engagementRate": 33.9,
+            "views": 70,
+            "shares": 5,
+            "saves": 0,
+            "totalTimeWatched": 4.73,
+            "averageTimeWatched": 3.68,
+            "reach": 59
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "views",
+        "value": 70,
+        "captured_at": "2026-11-19 17:49 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af1ac95c7aab911b35fa3a9",
@@ -2575,10 +2814,10 @@
         "reach": 17,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 09:59 PKT",
@@ -2608,10 +2847,29 @@
             "clicks": 0
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 04:00 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 1,
+            "comments": 0,
+            "engagementRate": 5.56,
+            "impressions": 18,
+            "reach": 17,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "impressions",
+        "value": 18,
+        "captured_at": "2026-11-19 04:00 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af3407fa9f33a390a4ca090",
@@ -2639,18 +2897,18 @@
       "sent_time": "16:03",
       "scheduled_for_pkt": "2026-11-12 16:00 PKT",
       "metrics": {
-        "reactions": 7,
+        "reactions": 8,
         "comments": 1,
-        "engagementRate": 21.05,
-        "views": 38,
+        "engagementRate": 21.95,
+        "views": 41,
         "shares": 0,
-        "reach": 33,
-        "totalTimeWatched": 1.37,
-        "averageTimeWatched": 1.61,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 35,
+        "totalTimeWatched": 1.45,
+        "averageTimeWatched": 1.62,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 09:17 PKT",
@@ -2682,10 +2940,30 @@
             "averageTimeWatched": 1.62
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 03:23 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 8,
+            "comments": 1,
+            "engagementRate": 21.95,
+            "views": 41,
+            "shares": 0,
+            "reach": 35,
+            "totalTimeWatched": 1.45,
+            "averageTimeWatched": 1.62
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "views",
+        "value": 41,
+        "captured_at": "2026-11-19 03:23 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af1acab3c5611da27a8efa4",
@@ -2722,10 +3000,10 @@
         "totalTimeWatched": 8.11,
         "averageTimeWatched": 3.71,
         "reach": 111,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 17:48 PKT",
@@ -2759,10 +3037,31 @@
             "reach": 110
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 17:49 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 7,
+            "comments": 2,
+            "engagementRate": 29.73,
+            "views": 137,
+            "shares": 17,
+            "saves": 3,
+            "totalTimeWatched": 8.11,
+            "averageTimeWatched": 3.71,
+            "reach": 111
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "views",
+        "value": 137,
+        "captured_at": "2026-11-19 17:49 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af1ac91c7aab911b35fa2bc",
@@ -2797,10 +3096,10 @@
         "reach": 15,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 09:59 PKT",
@@ -2830,10 +3129,29 @@
             "clicks": 0
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 04:00 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 2,
+            "comments": 0,
+            "engagementRate": 11.76,
+            "impressions": 17,
+            "reach": 15,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "impressions",
+        "value": 17,
+        "captured_at": "2026-11-19 04:00 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af34080a80c88d576452140",
@@ -2861,18 +3179,18 @@
       "sent_time": "12:01",
       "scheduled_for_pkt": "2026-11-12 12:00 PKT",
       "metrics": {
-        "reactions": 16,
+        "reactions": 17,
         "comments": 0,
-        "engagementRate": 7.84,
-        "views": 204,
+        "engagementRate": 8.21,
+        "views": 207,
         "shares": 0,
-        "reach": 194,
-        "totalTimeWatched": 11.45,
-        "averageTimeWatched": 2.97,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 197,
+        "totalTimeWatched": 11.52,
+        "averageTimeWatched": 2.96,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 09:17 PKT",
@@ -2904,10 +3222,30 @@
             "averageTimeWatched": 2.99
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 03:23 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 17,
+            "comments": 0,
+            "engagementRate": 8.21,
+            "views": 207,
+            "shares": 0,
+            "reach": 197,
+            "totalTimeWatched": 11.52,
+            "averageTimeWatched": 2.96
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "views",
+        "value": 207,
+        "captured_at": "2026-11-19 03:23 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af08e16004e4879a7c3615e",
@@ -2944,10 +3282,10 @@
         "totalTimeWatched": 21.93,
         "averageTimeWatched": 7.56,
         "reach": 146,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 17:48 PKT",
@@ -2981,10 +3319,31 @@
             "reach": 146
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 17:49 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 6,
+            "comments": 2,
+            "engagementRate": 11.64,
+            "views": 182,
+            "shares": 4,
+            "saves": 1,
+            "totalTimeWatched": 21.93,
+            "averageTimeWatched": 7.56,
+            "reach": 146
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "views",
+        "value": 182,
+        "captured_at": "2026-11-19 17:49 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af08e169214322f685d375d",
@@ -3019,10 +3378,10 @@
         "reach": 76,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 6,
-      "too_early": true,
+      "age_days": 7,
+      "too_early": false,
       "checkpoints": {
         "1": {
           "captured_at": "2026-11-13 09:59 PKT",
@@ -3052,10 +3411,29 @@
             "clicks": 0
           }
         },
-        "7": null,
+        "7": {
+          "captured_at": "2026-11-19 04:00 PKT",
+          "captured_date": "2026-11-19",
+          "age_days": 7,
+          "metrics": {
+            "reactions": 2,
+            "comments": 0,
+            "engagementRate": 2.5,
+            "impressions": 80,
+            "reach": 76,
+            "shares": 0,
+            "clicks": 0
+          }
+        },
         "30": null
       },
-      "day7": null
+      "day7": {
+        "key": "impressions",
+        "value": 80,
+        "captured_at": "2026-11-19 04:00 PKT",
+        "captured_date": "2026-11-19",
+        "age_days": 7
+      }
     },
     {
       "id": "6af1aca7dec1287f2aa05ac8",
@@ -3092,9 +3470,9 @@
         "totalTimeWatched": 6.95,
         "averageTimeWatched": 3.57,
         "reach": 92,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3181,17 +3559,17 @@
       "sent_time": "20:10",
       "scheduled_for_pkt": "2026-11-11 20:00 PKT",
       "metrics": {
-        "reactions": 11,
+        "reactions": 12,
         "comments": 1,
-        "engagementRate": 4.33,
-        "views": 277,
+        "engagementRate": 4.66,
+        "views": 279,
         "shares": 0,
-        "reach": 274,
-        "totalTimeWatched": 18.95,
-        "averageTimeWatched": 3.54,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 277,
+        "totalTimeWatched": 19.03,
+        "averageTimeWatched": 3.53,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3275,17 +3653,17 @@
       "sent_time": "18:16",
       "scheduled_for_pkt": "2026-11-11 18:00 PKT",
       "metrics": {
-        "reactions": 6,
+        "reactions": 7,
         "comments": 0,
-        "engagementRate": 4.05,
-        "views": 148,
+        "engagementRate": 4.67,
+        "views": 150,
         "shares": 0,
-        "reach": 141,
-        "totalTimeWatched": 8.07,
-        "averageTimeWatched": 2.8,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 143,
+        "totalTimeWatched": 8.13,
+        "averageTimeWatched": 2.79,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3372,15 +3750,15 @@
         "reactions": 4,
         "comments": 0,
         "engagementRate": 6.4,
-        "views": 140,
+        "views": 141,
         "shares": 0,
         "saves": 0,
-        "totalTimeWatched": 13.05,
-        "averageTimeWatched": 5.67,
+        "totalTimeWatched": 13.08,
+        "averageTimeWatched": 5.65,
         "reach": 125,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3467,17 +3845,17 @@
       "sent_time": "16:04",
       "scheduled_for_pkt": "2026-11-11 16:00 PKT",
       "metrics": {
-        "reactions": 19,
+        "reactions": 20,
         "comments": 3,
-        "engagementRate": 7.97,
-        "views": 276,
+        "engagementRate": 8.3,
+        "views": 277,
         "shares": 0,
-        "reach": 273,
-        "totalTimeWatched": 25.28,
-        "averageTimeWatched": 4.56,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 276,
+        "totalTimeWatched": 25.33,
+        "averageTimeWatched": 4.55,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3568,9 +3946,9 @@
         "reach": 20,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3660,9 +4038,9 @@
         "totalTimeWatched": 3.75,
         "averageTimeWatched": 2.74,
         "reach": 63,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3749,17 +4127,17 @@
       "sent_time": "14:03",
       "scheduled_for_pkt": "2026-11-11 14:00 PKT",
       "metrics": {
-        "reactions": 11,
+        "reactions": 12,
         "comments": 1,
-        "engagementRate": 6.74,
-        "views": 178,
+        "engagementRate": 7.22,
+        "views": 180,
         "shares": 0,
         "reach": 173,
-        "totalTimeWatched": 4.97,
-        "averageTimeWatched": 1.44,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "totalTimeWatched": 5,
+        "averageTimeWatched": 1.45,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3843,17 +4221,17 @@
       "sent_time": "12:01",
       "scheduled_for_pkt": "2026-11-11 12:00 PKT",
       "metrics": {
-        "reactions": 17,
+        "reactions": 18,
         "comments": 4,
-        "engagementRate": 6.13,
-        "views": 359,
+        "engagementRate": 6.34,
+        "views": 363,
         "shares": 1,
-        "reach": 341,
+        "reach": 344,
         "totalTimeWatched": 19.18,
         "averageTimeWatched": 2.64,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -3937,16 +4315,16 @@
       "sent_time": "12:01",
       "scheduled_for_pkt": "2026-11-11 12:00 PKT",
       "metrics": {
-        "reactions": 3,
+        "reactions": 4,
         "comments": 0,
-        "engagementRate": 13.64,
-        "impressions": 22,
+        "engagementRate": 17.39,
+        "impressions": 23,
         "reach": 15,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4034,9 +4412,9 @@
         "reach": 12,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 7,
+      "age_days": 8,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4118,17 +4496,17 @@
       "sent_time": "20:06",
       "scheduled_for_pkt": "2026-11-10 20:00 PKT",
       "metrics": {
-        "reactions": 9,
+        "reactions": 10,
         "comments": 1,
-        "engagementRate": 4.5,
-        "views": 222,
+        "engagementRate": 4.93,
+        "views": 223,
         "shares": 0,
-        "reach": 219,
-        "totalTimeWatched": 11.13,
-        "averageTimeWatched": 2.62,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 221,
+        "totalTimeWatched": 9.2,
+        "averageTimeWatched": 2.14,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4221,9 +4599,9 @@
         "totalTimeWatched": 12.39,
         "averageTimeWatched": 4.96,
         "reach": 128,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4311,17 +4689,17 @@
       "sent_time": "16:04",
       "scheduled_for_pkt": "2026-11-10 16:00 PKT",
       "metrics": {
-        "reactions": 5,
+        "reactions": 6,
         "comments": 0,
-        "engagementRate": 55.56,
-        "views": 9,
+        "engagementRate": 60,
+        "views": 10,
         "shares": 0,
-        "reach": 5,
-        "totalTimeWatched": 1.18,
-        "averageTimeWatched": 3.99,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 9,
+        "totalTimeWatched": 0.27,
+        "averageTimeWatched": 0.89,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4402,17 +4780,17 @@
       "sent_time": "15:06",
       "scheduled_for_pkt": "2026-11-10 15:06 PKT",
       "metrics": {
-        "reactions": 10,
+        "reactions": 11,
         "comments": 2,
-        "engagementRate": 5.66,
-        "views": 212,
+        "engagementRate": 6.1,
+        "views": 213,
         "shares": 0,
-        "reach": 203,
-        "totalTimeWatched": 15.65,
-        "averageTimeWatched": 3.24,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 208,
+        "totalTimeWatched": 11.7,
+        "averageTimeWatched": 2.46,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -4486,7 +4864,7 @@
         "reactions": 0,
         "metricsUpdatedAt_pkt": "2026-11-11 14:44 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4534,17 +4912,17 @@
       "sent_time": "12:02",
       "scheduled_for_pkt": "2026-11-10 12:00 PKT",
       "metrics": {
-        "reactions": 9,
+        "reactions": 10,
         "comments": 2,
-        "engagementRate": 48,
-        "views": 25,
+        "engagementRate": 50,
+        "views": 26,
         "shares": 1,
-        "reach": 10,
-        "totalTimeWatched": 3.93,
-        "averageTimeWatched": 6.58,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 12,
+        "totalTimeWatched": 2.45,
+        "averageTimeWatched": 4.32,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4628,16 +5006,16 @@
       "sent_time": "08:01",
       "scheduled_for_pkt": "2026-11-10 08:00 PKT",
       "metrics": {
-        "reactions": 6,
+        "reactions": 7,
         "comments": 0,
-        "engagementRate": 2.65,
-        "impressions": 226,
+        "engagementRate": 3.07,
+        "impressions": 228,
         "reach": 201,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 8,
+      "age_days": 9,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4719,17 +5097,17 @@
       "sent_time": "23:31",
       "scheduled_for_pkt": "2026-11-09 23:30 PKT",
       "metrics": {
-        "reactions": 8,
+        "reactions": 9,
         "comments": 1,
-        "engagementRate": 60,
-        "views": 15,
+        "engagementRate": 62.5,
+        "views": 16,
         "shares": 0,
-        "reach": 9,
-        "totalTimeWatched": 0.87,
-        "averageTimeWatched": 2.6,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 11,
+        "totalTimeWatched": 0.92,
+        "averageTimeWatched": 2.39,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4814,17 +5192,17 @@
       "sent_time": "19:32",
       "scheduled_for_pkt": "2026-11-09 19:30 PKT",
       "metrics": {
-        "reactions": 8,
+        "reactions": 9,
         "comments": 1,
-        "engagementRate": 45,
-        "views": 20,
+        "engagementRate": 47.62,
+        "views": 21,
         "shares": 0,
-        "reach": 8,
-        "totalTimeWatched": 0.83,
-        "averageTimeWatched": 0.71,
-        "metricsUpdatedAt_pkt": "2026-11-18 04:22 PKT"
+        "reach": 9,
+        "totalTimeWatched": 0.93,
+        "averageTimeWatched": 0.78,
+        "metricsUpdatedAt_pkt": "2026-11-19 03:23 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -4914,12 +5292,12 @@
         "views": 1270,
         "shares": 38,
         "saves": 7,
-        "totalTimeWatched": 259.67,
-        "averageTimeWatched": 13.44,
+        "totalTimeWatched": 259.72,
+        "averageTimeWatched": 13.42,
         "reach": 1098,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -5017,7 +5395,7 @@
         "averageTimeWatched": 0.83,
         "metricsUpdatedAt_pkt": "2026-11-10 12:14 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -5074,9 +5452,9 @@
         "reach": 75,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 9,
+      "age_days": 10,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -5166,9 +5544,9 @@
         "totalTimeWatched": 14.84,
         "averageTimeWatched": 5.09,
         "reach": 145,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 10,
+      "age_days": 11,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -5262,9 +5640,9 @@
         "reach": 53,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 10,
+      "age_days": 11,
       "too_early": false,
       "checkpoints": {
         "1": {
@@ -5354,9 +5732,9 @@
         "totalTimeWatched": 5.15,
         "averageTimeWatched": 4.06,
         "reach": 44,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 13,
+      "age_days": 14,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5435,9 +5813,9 @@
         "reach": 159,
         "shares": 0,
         "clicks": 0,
-        "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 04:00 PKT"
       },
-      "age_days": 13,
+      "age_days": 14,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5514,9 +5892,9 @@
         "totalTimeWatched": 2.28,
         "averageTimeWatched": 2.91,
         "reach": 23,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 13,
+      "age_days": 14,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5597,7 +5975,7 @@
         "clicks": 1,
         "metricsUpdatedAt_pkt": "2026-11-18 05:00 PKT"
       },
-      "age_days": 13,
+      "age_days": 14,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5667,16 +6045,16 @@
       "metrics": {
         "reactions": 10,
         "comments": 0,
-        "engagementRate": 13.93,
-        "views": 141,
+        "engagementRate": 13.82,
+        "views": 142,
         "shares": 2,
         "saves": 1,
-        "totalTimeWatched": 16.48,
-        "averageTimeWatched": 6.42,
-        "reach": 122,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "totalTimeWatched": 16.51,
+        "averageTimeWatched": 6.39,
+        "reach": 123,
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 14,
+      "age_days": 15,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5757,7 +6135,7 @@
         "clicks": 0,
         "metricsUpdatedAt_pkt": "2026-11-04 20:03 PKT"
       },
-      "age_days": 14,
+      "age_days": 15,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5802,7 +6180,7 @@
         "clicks": 0,
         "metricsUpdatedAt_pkt": "2026-11-16 06:59 PKT"
       },
-      "age_days": 15,
+      "age_days": 16,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5866,9 +6244,9 @@
         "totalTimeWatched": 5.71,
         "averageTimeWatched": 5.53,
         "reach": 39,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 15,
+      "age_days": 16,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -5934,9 +6312,9 @@
         "totalTimeWatched": 2.91,
         "averageTimeWatched": 3.29,
         "reach": 34,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 16,
+      "age_days": 17,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -6002,7 +6380,7 @@
         "clicks": 0,
         "metricsUpdatedAt_pkt": "2026-11-16 06:59 PKT"
       },
-      "age_days": 16,
+      "age_days": 17,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -6066,9 +6444,9 @@
         "totalTimeWatched": 4.73,
         "averageTimeWatched": 6.17,
         "reach": 22,
-        "metricsUpdatedAt_pkt": "2026-11-18 17:49 PKT"
+        "metricsUpdatedAt_pkt": "2026-11-19 17:49 PKT"
       },
-      "age_days": 16,
+      "age_days": 17,
       "too_early": false,
       "checkpoints": {
         "1": null,
@@ -6134,7 +6512,7 @@
         "clicks": 1,
         "metricsUpdatedAt_pkt": "2026-11-15 07:59 PKT"
       },
-      "age_days": 16,
+      "age_days": 17,
       "too_early": false,
       "checkpoints": {
         "1": null,
